@@ -1,0 +1,18 @@
+@use '../core/breakpoints';
+
+$_object-fit: (
+    'object-contain': 'contain',
+    'object-cover': 'cover',
+    'object-fill': 'fill',
+    'object-none': 'none',
+    'object-scale-down': 'scale-down',
+);
+
+@each $name, $value in $_object-fit {
+    .#{$name} {
+        object-fit: #{$value};
+    }
+    @include breakpoints.bp('#{$name}') {
+        object-fit: #{$value};
+    }
+}

@@ -3226,5 +3226,150 @@
     isolation: auto;
   }
 }
+.object-contain {
+  object-fit: contain;
+}
+
+@media (min-width: 640px) {
+  .sm:object-contain {
+    object-fit: contain;
+  }
+}
+@media (min-width: 768px) {
+  .md:object-contain {
+    object-fit: contain;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:object-contain {
+    object-fit: contain;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:object-contain {
+    object-fit: contain;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:object-contain {
+    object-fit: contain;
+  }
+}
+.object-cover {
+  object-fit: cover;
+}
+
+@media (min-width: 640px) {
+  .sm:object-cover {
+    object-fit: cover;
+  }
+}
+@media (min-width: 768px) {
+  .md:object-cover {
+    object-fit: cover;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:object-cover {
+    object-fit: cover;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:object-cover {
+    object-fit: cover;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:object-cover {
+    object-fit: cover;
+  }
+}
+.object-fill {
+  object-fit: fill;
+}
+
+@media (min-width: 640px) {
+  .sm:object-fill {
+    object-fit: fill;
+  }
+}
+@media (min-width: 768px) {
+  .md:object-fill {
+    object-fit: fill;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:object-fill {
+    object-fit: fill;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:object-fill {
+    object-fit: fill;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:object-fill {
+    object-fit: fill;
+  }
+}
+.object-none {
+  object-fit: none;
+}
+
+@media (min-width: 640px) {
+  .sm:object-none {
+    object-fit: none;
+  }
+}
+@media (min-width: 768px) {
+  .md:object-none {
+    object-fit: none;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:object-none {
+    object-fit: none;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:object-none {
+    object-fit: none;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:object-none {
+    object-fit: none;
+  }
+}
+.object-scale-down {
+  object-fit: scale-down;
+}
+
+@media (min-width: 640px) {
+  .sm:object-scale-down {
+    object-fit: scale-down;
+  }
+}
+@media (min-width: 768px) {
+  .md:object-scale-down {
+    object-fit: scale-down;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:object-scale-down {
+    object-fit: scale-down;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:object-scale-down {
+    object-fit: scale-down;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:object-scale-down {
+    object-fit: scale-down;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
