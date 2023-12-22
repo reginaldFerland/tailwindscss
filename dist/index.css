@@ -3168,5 +3168,63 @@
     float: none;
   }
 }
+.isolate {
+  isolation: isolate;
+}
+
+@media (min-width: 640px) {
+  .sm:isolate {
+    isolation: isolate;
+  }
+}
+@media (min-width: 768px) {
+  .md:isolate {
+    isolation: isolate;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:isolate {
+    isolation: isolate;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:isolate {
+    isolation: isolate;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:isolate {
+    isolation: isolate;
+  }
+}
+.isolation-auto {
+  isolation: auto;
+}
+
+@media (min-width: 640px) {
+  .sm:isolation-auto {
+    isolation: auto;
+  }
+}
+@media (min-width: 768px) {
+  .md:isolation-auto {
+    isolation: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:isolation-auto {
+    isolation: auto;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:isolation-auto {
+    isolation: auto;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:isolation-auto {
+    isolation: auto;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
