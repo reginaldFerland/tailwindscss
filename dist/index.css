@@ -3661,122 +3661,6 @@
     overflow: auto;
   }
 }
-.overflow-hidden {
-  overflow: hidden;
-}
-
-@media (min-width: 640px) {
-  .sm:overflow-hidden {
-    overflow: hidden;
-  }
-}
-@media (min-width: 768px) {
-  .md:overflow-hidden {
-    overflow: hidden;
-  }
-}
-@media (min-width: 1024px) {
-  .lg:overflow-hidden {
-    overflow: hidden;
-  }
-}
-@media (min-width: 1280px) {
-  .xl:overflow-hidden {
-    overflow: hidden;
-  }
-}
-@media (min-width: 1536px) {
-  .xxl:overflow-hidden {
-    overflow: hidden;
-  }
-}
-.overflow-visible {
-  overflow: visible;
-}
-
-@media (min-width: 640px) {
-  .sm:overflow-visible {
-    overflow: visible;
-  }
-}
-@media (min-width: 768px) {
-  .md:overflow-visible {
-    overflow: visible;
-  }
-}
-@media (min-width: 1024px) {
-  .lg:overflow-visible {
-    overflow: visible;
-  }
-}
-@media (min-width: 1280px) {
-  .xl:overflow-visible {
-    overflow: visible;
-  }
-}
-@media (min-width: 1536px) {
-  .xxl:overflow-visible {
-    overflow: visible;
-  }
-}
-.overflow-clip {
-  overflow: clip;
-}
-
-@media (min-width: 640px) {
-  .sm:overflow-clip {
-    overflow: clip;
-  }
-}
-@media (min-width: 768px) {
-  .md:overflow-clip {
-    overflow: clip;
-  }
-}
-@media (min-width: 1024px) {
-  .lg:overflow-clip {
-    overflow: clip;
-  }
-}
-@media (min-width: 1280px) {
-  .xl:overflow-clip {
-    overflow: clip;
-  }
-}
-@media (min-width: 1536px) {
-  .xxl:overflow-clip {
-    overflow: clip;
-  }
-}
-.overflow-scroll {
-  overflow: scroll;
-}
-
-@media (min-width: 640px) {
-  .sm:overflow-scroll {
-    overflow: scroll;
-  }
-}
-@media (min-width: 768px) {
-  .md:overflow-scroll {
-    overflow: scroll;
-  }
-}
-@media (min-width: 1024px) {
-  .lg:overflow-scroll {
-    overflow: scroll;
-  }
-}
-@media (min-width: 1280px) {
-  .xl:overflow-scroll {
-    overflow: scroll;
-  }
-}
-@media (min-width: 1536px) {
-  .xxl:overflow-scroll {
-    overflow: scroll;
-  }
-}
 .overflow-x-auto {
   overflow-x: auto;
 }
@@ -3804,122 +3688,6 @@
 @media (min-width: 1536px) {
   .xxl:overflow-x-auto {
     overflow-x: auto;
-  }
-}
-.overflow-x-hidden {
-  overflow-x: hidden;
-}
-
-@media (min-width: 640px) {
-  .sm:overflow-x-hidden {
-    overflow-x: hidden;
-  }
-}
-@media (min-width: 768px) {
-  .md:overflow-x-hidden {
-    overflow-x: hidden;
-  }
-}
-@media (min-width: 1024px) {
-  .lg:overflow-x-hidden {
-    overflow-x: hidden;
-  }
-}
-@media (min-width: 1280px) {
-  .xl:overflow-x-hidden {
-    overflow-x: hidden;
-  }
-}
-@media (min-width: 1536px) {
-  .xxl:overflow-x-hidden {
-    overflow-x: hidden;
-  }
-}
-.overflow-x-visible {
-  overflow-x: visible;
-}
-
-@media (min-width: 640px) {
-  .sm:overflow-x-visible {
-    overflow-x: visible;
-  }
-}
-@media (min-width: 768px) {
-  .md:overflow-x-visible {
-    overflow-x: visible;
-  }
-}
-@media (min-width: 1024px) {
-  .lg:overflow-x-visible {
-    overflow-x: visible;
-  }
-}
-@media (min-width: 1280px) {
-  .xl:overflow-x-visible {
-    overflow-x: visible;
-  }
-}
-@media (min-width: 1536px) {
-  .xxl:overflow-x-visible {
-    overflow-x: visible;
-  }
-}
-.overflow-x-clip {
-  overflow-x: clip;
-}
-
-@media (min-width: 640px) {
-  .sm:overflow-x-clip {
-    overflow-x: clip;
-  }
-}
-@media (min-width: 768px) {
-  .md:overflow-x-clip {
-    overflow-x: clip;
-  }
-}
-@media (min-width: 1024px) {
-  .lg:overflow-x-clip {
-    overflow-x: clip;
-  }
-}
-@media (min-width: 1280px) {
-  .xl:overflow-x-clip {
-    overflow-x: clip;
-  }
-}
-@media (min-width: 1536px) {
-  .xxl:overflow-x-clip {
-    overflow-x: clip;
-  }
-}
-.overflow-x-scroll {
-  overflow-x: scroll;
-}
-
-@media (min-width: 640px) {
-  .sm:overflow-x-scroll {
-    overflow-x: scroll;
-  }
-}
-@media (min-width: 768px) {
-  .md:overflow-x-scroll {
-    overflow-x: scroll;
-  }
-}
-@media (min-width: 1024px) {
-  .lg:overflow-x-scroll {
-    overflow-x: scroll;
-  }
-}
-@media (min-width: 1280px) {
-  .xl:overflow-x-scroll {
-    overflow-x: scroll;
-  }
-}
-@media (min-width: 1536px) {
-  .xxl:overflow-x-scroll {
-    overflow-x: scroll;
   }
 }
 .overflow-y-auto {
@@ -3951,6 +3719,64 @@
     overflow-y: auto;
   }
 }
+.overflow-hidden {
+  overflow: hidden;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-hidden {
+    overflow: hidden;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-hidden {
+    overflow: hidden;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-hidden {
+    overflow: hidden;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-hidden {
+    overflow: hidden;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-hidden {
+    overflow: hidden;
+  }
+}
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+}
 .overflow-y-hidden {
   overflow-y: hidden;
 }
@@ -3978,6 +3804,64 @@
 @media (min-width: 1536px) {
   .xxl:overflow-y-hidden {
     overflow-y: hidden;
+  }
+}
+.overflow-visible {
+  overflow: visible;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-visible {
+    overflow: visible;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-visible {
+    overflow: visible;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-visible {
+    overflow: visible;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-visible {
+    overflow: visible;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-visible {
+    overflow: visible;
+  }
+}
+.overflow-x-visible {
+  overflow-x: visible;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-x-visible {
+    overflow-x: visible;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-x-visible {
+    overflow-x: visible;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-x-visible {
+    overflow-x: visible;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-x-visible {
+    overflow-x: visible;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-x-visible {
+    overflow-x: visible;
   }
 }
 .overflow-y-visible {
@@ -4009,6 +3893,64 @@
     overflow-y: visible;
   }
 }
+.overflow-clip {
+  overflow: clip;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-clip {
+    overflow: clip;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-clip {
+    overflow: clip;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-clip {
+    overflow: clip;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-clip {
+    overflow: clip;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-clip {
+    overflow: clip;
+  }
+}
+.overflow-x-clip {
+  overflow-x: clip;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-x-clip {
+    overflow-x: clip;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-x-clip {
+    overflow-x: clip;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-x-clip {
+    overflow-x: clip;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-x-clip {
+    overflow-x: clip;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-x-clip {
+    overflow-x: clip;
+  }
+}
 .overflow-y-clip {
   overflow-y: clip;
 }
@@ -4038,6 +3980,64 @@
     overflow-y: clip;
   }
 }
+.overflow-scroll {
+  overflow: scroll;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-scroll {
+    overflow: scroll;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-scroll {
+    overflow: scroll;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-scroll {
+    overflow: scroll;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-scroll {
+    overflow: scroll;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-scroll {
+    overflow: scroll;
+  }
+}
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+}
 .overflow-y-scroll {
   overflow-y: scroll;
 }
@@ -4065,6 +4065,528 @@
 @media (min-width: 1536px) {
   .xxl:overflow-y-scroll {
     overflow-y: scroll;
+  }
+}
+.overscroll-auto {
+  overscroll-behavior: auto;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-auto {
+    overscroll-behavior: auto;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-auto {
+    overscroll-behavior: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-auto {
+    overscroll-behavior: auto;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-auto {
+    overscroll-behavior: auto;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-auto {
+    overscroll-behavior: auto;
+  }
+}
+.overscroll-x-auto {
+  overscroll-behavior-x: auto;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-x-auto {
+    overscroll-behavior-x: auto;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-x-auto {
+    overscroll-behavior-x: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-x-auto {
+    overscroll-behavior-x: auto;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-x-auto {
+    overscroll-behavior-x: auto;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-x-auto {
+    overscroll-behavior-x: auto;
+  }
+}
+.overscroll-y-auto {
+  overscroll-behavior-y: auto;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-y-auto {
+    overscroll-behavior-y: auto;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-y-auto {
+    overscroll-behavior-y: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-y-auto {
+    overscroll-behavior-y: auto;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-y-auto {
+    overscroll-behavior-y: auto;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-y-auto {
+    overscroll-behavior-y: auto;
+  }
+}
+.overscroll-contain {
+  overscroll-behavior: contain;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-contain {
+    overscroll-behavior: contain;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-contain {
+    overscroll-behavior: contain;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-contain {
+    overscroll-behavior: contain;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-contain {
+    overscroll-behavior: contain;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-contain {
+    overscroll-behavior: contain;
+  }
+}
+.overscroll-x-contain {
+  overscroll-behavior-x: contain;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-x-contain {
+    overscroll-behavior-x: contain;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-x-contain {
+    overscroll-behavior-x: contain;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-x-contain {
+    overscroll-behavior-x: contain;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-x-contain {
+    overscroll-behavior-x: contain;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-x-contain {
+    overscroll-behavior-x: contain;
+  }
+}
+.overscroll-y-contain {
+  overscroll-behavior-y: contain;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-y-contain {
+    overscroll-behavior-y: contain;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-y-contain {
+    overscroll-behavior-y: contain;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-y-contain {
+    overscroll-behavior-y: contain;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-y-contain {
+    overscroll-behavior-y: contain;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-y-contain {
+    overscroll-behavior-y: contain;
+  }
+}
+.overscroll-none {
+  overscroll-behavior: none;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-none {
+    overscroll-behavior: none;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-none {
+    overscroll-behavior: none;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-none {
+    overscroll-behavior: none;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-none {
+    overscroll-behavior: none;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-none {
+    overscroll-behavior: none;
+  }
+}
+.overscroll-x-none {
+  overscroll-behavior-x: none;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-x-none {
+    overscroll-behavior-x: none;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-x-none {
+    overscroll-behavior-x: none;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-x-none {
+    overscroll-behavior-x: none;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-x-none {
+    overscroll-behavior-x: none;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-x-none {
+    overscroll-behavior-x: none;
+  }
+}
+.overscroll-y-none {
+  overscroll-behavior-y: none;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-y-none {
+    overscroll-behavior-y: none;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-y-none {
+    overscroll-behavior-y: none;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-y-none {
+    overscroll-behavior-y: none;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-y-none {
+    overscroll-behavior-y: none;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-y-none {
+    overscroll-behavior-y: none;
+  }
+}
+.overscroll-initial {
+  overscroll-behavior: initial;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-initial {
+    overscroll-behavior: initial;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-initial {
+    overscroll-behavior: initial;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-initial {
+    overscroll-behavior: initial;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-initial {
+    overscroll-behavior: initial;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-initial {
+    overscroll-behavior: initial;
+  }
+}
+.overscroll-x-initial {
+  overscroll-behavior-x: initial;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-x-initial {
+    overscroll-behavior-x: initial;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-x-initial {
+    overscroll-behavior-x: initial;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-x-initial {
+    overscroll-behavior-x: initial;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-x-initial {
+    overscroll-behavior-x: initial;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-x-initial {
+    overscroll-behavior-x: initial;
+  }
+}
+.overscroll-y-initial {
+  overscroll-behavior-y: initial;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-y-initial {
+    overscroll-behavior-y: initial;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-y-initial {
+    overscroll-behavior-y: initial;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-y-initial {
+    overscroll-behavior-y: initial;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-y-initial {
+    overscroll-behavior-y: initial;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-y-initial {
+    overscroll-behavior-y: initial;
+  }
+}
+.overscroll-inherit {
+  overscroll-behavior: inherit;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-inherit {
+    overscroll-behavior: inherit;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-inherit {
+    overscroll-behavior: inherit;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-inherit {
+    overscroll-behavior: inherit;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-inherit {
+    overscroll-behavior: inherit;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-inherit {
+    overscroll-behavior: inherit;
+  }
+}
+.overscroll-x-inherit {
+  overscroll-behavior-x: inherit;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-x-inherit {
+    overscroll-behavior-x: inherit;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-x-inherit {
+    overscroll-behavior-x: inherit;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-x-inherit {
+    overscroll-behavior-x: inherit;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-x-inherit {
+    overscroll-behavior-x: inherit;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-x-inherit {
+    overscroll-behavior-x: inherit;
+  }
+}
+.overscroll-y-inherit {
+  overscroll-behavior-y: inherit;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-y-inherit {
+    overscroll-behavior-y: inherit;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-y-inherit {
+    overscroll-behavior-y: inherit;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-y-inherit {
+    overscroll-behavior-y: inherit;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-y-inherit {
+    overscroll-behavior-y: inherit;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-y-inherit {
+    overscroll-behavior-y: inherit;
+  }
+}
+.overscroll-unset {
+  overscroll-behavior: unset;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-unset {
+    overscroll-behavior: unset;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-unset {
+    overscroll-behavior: unset;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-unset {
+    overscroll-behavior: unset;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-unset {
+    overscroll-behavior: unset;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-unset {
+    overscroll-behavior: unset;
+  }
+}
+.overscroll-x-unset {
+  overscroll-behavior-x: unset;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-x-unset {
+    overscroll-behavior-x: unset;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-x-unset {
+    overscroll-behavior-x: unset;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-x-unset {
+    overscroll-behavior-x: unset;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-x-unset {
+    overscroll-behavior-x: unset;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-x-unset {
+    overscroll-behavior-x: unset;
+  }
+}
+.overscroll-y-unset {
+  overscroll-behavior-y: unset;
+}
+
+@media (min-width: 640px) {
+  .sm:overscroll-y-unset {
+    overscroll-behavior-y: unset;
+  }
+}
+@media (min-width: 768px) {
+  .md:overscroll-y-unset {
+    overscroll-behavior-y: unset;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overscroll-y-unset {
+    overscroll-behavior-y: unset;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overscroll-y-unset {
+    overscroll-behavior-y: unset;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overscroll-y-unset {
+    overscroll-behavior-y: unset;
   }
 }
 
