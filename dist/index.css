@@ -3632,5 +3632,440 @@
     object-position: top;
   }
 }
+.overflow-auto {
+  overflow: auto;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-auto {
+    overflow: auto;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-auto {
+    overflow: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-auto {
+    overflow: auto;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-auto {
+    overflow: auto;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-auto {
+    overflow: auto;
+  }
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-hidden {
+    overflow: hidden;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-hidden {
+    overflow: hidden;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-hidden {
+    overflow: hidden;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-hidden {
+    overflow: hidden;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-hidden {
+    overflow: hidden;
+  }
+}
+.overflow-visible {
+  overflow: visible;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-visible {
+    overflow: visible;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-visible {
+    overflow: visible;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-visible {
+    overflow: visible;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-visible {
+    overflow: visible;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-visible {
+    overflow: visible;
+  }
+}
+.overflow-clip {
+  overflow: clip;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-clip {
+    overflow: clip;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-clip {
+    overflow: clip;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-clip {
+    overflow: clip;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-clip {
+    overflow: clip;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-clip {
+    overflow: clip;
+  }
+}
+.overflow-scroll {
+  overflow: scroll;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-scroll {
+    overflow: scroll;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-scroll {
+    overflow: scroll;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-scroll {
+    overflow: scroll;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-scroll {
+    overflow: scroll;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-scroll {
+    overflow: scroll;
+  }
+}
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-x-auto {
+    overflow-x: auto;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-x-auto {
+    overflow-x: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-x-auto {
+    overflow-x: auto;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-x-auto {
+    overflow-x: auto;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-x-auto {
+    overflow-x: auto;
+  }
+}
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+}
+.overflow-x-visible {
+  overflow-x: visible;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-x-visible {
+    overflow-x: visible;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-x-visible {
+    overflow-x: visible;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-x-visible {
+    overflow-x: visible;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-x-visible {
+    overflow-x: visible;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-x-visible {
+    overflow-x: visible;
+  }
+}
+.overflow-x-clip {
+  overflow-x: clip;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-x-clip {
+    overflow-x: clip;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-x-clip {
+    overflow-x: clip;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-x-clip {
+    overflow-x: clip;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-x-clip {
+    overflow-x: clip;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-x-clip {
+    overflow-x: clip;
+  }
+}
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+}
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-y-auto {
+    overflow-y: auto;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-y-auto {
+    overflow-y: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-y-auto {
+    overflow-y: auto;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-y-auto {
+    overflow-y: auto;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-y-auto {
+    overflow-y: auto;
+  }
+}
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+}
+.overflow-y-visible {
+  overflow-y: visible;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-y-visible {
+    overflow-y: visible;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-y-visible {
+    overflow-y: visible;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-y-visible {
+    overflow-y: visible;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-y-visible {
+    overflow-y: visible;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-y-visible {
+    overflow-y: visible;
+  }
+}
+.overflow-y-clip {
+  overflow-y: clip;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-y-clip {
+    overflow-y: clip;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-y-clip {
+    overflow-y: clip;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-y-clip {
+    overflow-y: clip;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-y-clip {
+    overflow-y: clip;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-y-clip {
+    overflow-y: clip;
+  }
+}
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+@media (min-width: 640px) {
+  .sm:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+}
+@media (min-width: 768px) {
+  .md:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,52 @@
+@use '../core/breakpoints';
+
+$_overflow: (
+    'auto': 'auto',
+    'hidden': 'hidden',
+    'visible': 'visible',
+    'clip': 'clip',
+    'scroll': 'scroll',
+);
+
+$_overflow-x: (
+    'auto': 'auto',
+    'hidden': 'hidden',
+    'visible': 'visible',
+    'clip': 'clip',
+    'scroll': 'scroll',
+);
+
+$_overflow-y: (
+    'auto': 'auto',
+    'hidden': 'hidden',
+    'visible': 'visible',
+    'clip': 'clip',
+    'scroll': 'scroll',
+);
+
+@each $name, $value in $_overflow {
+    .overflow-#{$name} {
+        overflow: #{$value};
+    }
+    @include breakpoints.bp('overflow-#{$name}') {
+        overflow: #{$value};
+    }
+}
+
+@each $name, $value in $_overflow-x {
+    .overflow-x-#{$name} {
+        overflow-x: #{$value};
+    }
+    @include breakpoints.bp('overflow-x-#{$name}') {
+        overflow-x: #{$value};
+    }
+}
+
+@each $name, $value in $_overflow-y {
+    .overflow-y-#{$name} {
+        overflow-y: #{$value};
+    }
+    @include breakpoints.bp('overflow-y-#{$name}') {
+        overflow-y: #{$value};
+    }
+}
