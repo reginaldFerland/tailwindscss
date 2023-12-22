@@ -85,6 +85,383 @@
     aspect-ratio: 16 / 9;
   }
 }
+.break-after-auto {
+  break-after: auto;
+}
+
+@media (min-width: 640px) {
+  .sm:break-after-auto {
+    break-after: auto;
+  }
+}
+@media (min-width: 768px) {
+  .md:break-after-auto {
+    break-after: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:break-after-auto {
+    break-after: auto;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:break-after-auto {
+    break-after: auto;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:break-after-auto {
+    break-after: auto;
+  }
+}
+.break-after-avoid {
+  break-after: avoid;
+}
+
+@media (min-width: 640px) {
+  .sm:break-after-avoid {
+    break-after: avoid;
+  }
+}
+@media (min-width: 768px) {
+  .md:break-after-avoid {
+    break-after: avoid;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:break-after-avoid {
+    break-after: avoid;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:break-after-avoid {
+    break-after: avoid;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:break-after-avoid {
+    break-after: avoid;
+  }
+}
+.break-after-all {
+  break-after: all;
+}
+
+@media (min-width: 640px) {
+  .sm:break-after-all {
+    break-after: all;
+  }
+}
+@media (min-width: 768px) {
+  .md:break-after-all {
+    break-after: all;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:break-after-all {
+    break-after: all;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:break-after-all {
+    break-after: all;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:break-after-all {
+    break-after: all;
+  }
+}
+.break-after-avoid-column {
+  break-after: avoid-column;
+}
+
+@media (min-width: 640px) {
+  .sm:break-after-avoid-column {
+    break-after: avoid-column;
+  }
+}
+@media (min-width: 768px) {
+  .md:break-after-avoid-column {
+    break-after: avoid-column;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:break-after-avoid-column {
+    break-after: avoid-column;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:break-after-avoid-column {
+    break-after: avoid-column;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:break-after-avoid-column {
+    break-after: avoid-column;
+  }
+}
+.break-after-avoid-page {
+  break-after: avoid-page;
+}
+
+@media (min-width: 640px) {
+  .sm:break-after-avoid-page {
+    break-after: avoid-page;
+  }
+}
+@media (min-width: 768px) {
+  .md:break-after-avoid-page {
+    break-after: avoid-page;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:break-after-avoid-page {
+    break-after: avoid-page;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:break-after-avoid-page {
+    break-after: avoid-page;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:break-after-avoid-page {
+    break-after: avoid-page;
+  }
+}
+.break-after-avoid-region {
+  break-after: avoid-region;
+}
+
+@media (min-width: 640px) {
+  .sm:break-after-avoid-region {
+    break-after: avoid-region;
+  }
+}
+@media (min-width: 768px) {
+  .md:break-after-avoid-region {
+    break-after: avoid-region;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:break-after-avoid-region {
+    break-after: avoid-region;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:break-after-avoid-region {
+    break-after: avoid-region;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:break-after-avoid-region {
+    break-after: avoid-region;
+  }
+}
+.break-after-column {
+  break-after: column;
+}
+
+@media (min-width: 640px) {
+  .sm:break-after-column {
+    break-after: column;
+  }
+}
+@media (min-width: 768px) {
+  .md:break-after-column {
+    break-after: column;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:break-after-column {
+    break-after: column;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:break-after-column {
+    break-after: column;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:break-after-column {
+    break-after: column;
+  }
+}
+.break-after-page {
+  break-after: page;
+}
+
+@media (min-width: 640px) {
+  .sm:break-after-page {
+    break-after: page;
+  }
+}
+@media (min-width: 768px) {
+  .md:break-after-page {
+    break-after: page;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:break-after-page {
+    break-after: page;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:break-after-page {
+    break-after: page;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:break-after-page {
+    break-after: page;
+  }
+}
+.break-after-recto {
+  break-after: recto;
+}
+
+@media (min-width: 640px) {
+  .sm:break-after-recto {
+    break-after: recto;
+  }
+}
+@media (min-width: 768px) {
+  .md:break-after-recto {
+    break-after: recto;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:break-after-recto {
+    break-after: recto;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:break-after-recto {
+    break-after: recto;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:break-after-recto {
+    break-after: recto;
+  }
+}
+.break-after-region {
+  break-after: region;
+}
+
+@media (min-width: 640px) {
+  .sm:break-after-region {
+    break-after: region;
+  }
+}
+@media (min-width: 768px) {
+  .md:break-after-region {
+    break-after: region;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:break-after-region {
+    break-after: region;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:break-after-region {
+    break-after: region;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:break-after-region {
+    break-after: region;
+  }
+}
+.break-after-left {
+  break-after: left;
+}
+
+@media (min-width: 640px) {
+  .sm:break-after-left {
+    break-after: left;
+  }
+}
+@media (min-width: 768px) {
+  .md:break-after-left {
+    break-after: left;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:break-after-left {
+    break-after: left;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:break-after-left {
+    break-after: left;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:break-after-left {
+    break-after: left;
+  }
+}
+.break-after-right {
+  break-after: right;
+}
+
+@media (min-width: 640px) {
+  .sm:break-after-right {
+    break-after: right;
+  }
+}
+@media (min-width: 768px) {
+  .md:break-after-right {
+    break-after: right;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:break-after-right {
+    break-after: right;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:break-after-right {
+    break-after: right;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:break-after-right {
+    break-after: right;
+  }
+}
+.break-after-verso {
+  break-after: verso;
+}
+
+@media (min-width: 640px) {
+  .sm:break-after-verso {
+    break-after: verso;
+  }
+}
+@media (min-width: 768px) {
+  .md:break-after-verso {
+    break-after: verso;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:break-after-verso {
+    break-after: verso;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:break-after-verso {
+    break-after: verso;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:break-after-verso {
+    break-after: verso;
+  }
+}
 .container {
   width: 100%;
 }
