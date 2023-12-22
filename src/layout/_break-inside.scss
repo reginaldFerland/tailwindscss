@@ -1,0 +1,26 @@
+@use '../core/breakpoints';
+
+$_break-inside: (
+    'auto': 'auto',
+    'avoid': 'avoid',
+    'all': 'all',   
+    'avoid-column': 'avoid-column',
+    'avoid-page': 'avoid-page',
+    'avoid-region': 'avoid-region',
+    'column': 'column',
+    'page': 'page',
+    'recto': 'recto',
+    'region': 'region',
+    'left': 'left',
+    'right': 'right',
+    'verso': 'verso',
+);
+
+@each $name, $value in $_break-inside {
+    .break-inside-#{$name} {
+        break-inside: #{$value};
+    }
+    @include breakpoints.bp('break-inside-#{$name}') {
+        break-inside: #{$value};
+    }
+}
