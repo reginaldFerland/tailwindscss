@@ -1,0 +1,15 @@
+@use '../core/breakpoints';
+
+$_box-decoration-break: (
+    'slice': 'slice',
+    'clone': 'clone',
+);
+
+@each $name, $value in $_box-decoration-break {
+    .box-decoration-#{$name} {
+        box-decoration-break: #{$value};
+    }
+    @include breakpoints.bp('box-decoration-#{$name}') {
+        box-decoration-break: #{$value};
+    }
+}

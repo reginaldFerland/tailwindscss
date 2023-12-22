@@ -1216,6 +1216,64 @@
     break-inside: verso;
   }
 }
+.box-decoration-slice {
+  box-decoration-break: slice;
+}
+
+@media (min-width: 640px) {
+  .sm:box-decoration-slice {
+    box-decoration-break: slice;
+  }
+}
+@media (min-width: 768px) {
+  .md:box-decoration-slice {
+    box-decoration-break: slice;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:box-decoration-slice {
+    box-decoration-break: slice;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:box-decoration-slice {
+    box-decoration-break: slice;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:box-decoration-slice {
+    box-decoration-break: slice;
+  }
+}
+.box-decoration-clone {
+  box-decoration-break: clone;
+}
+
+@media (min-width: 640px) {
+  .sm:box-decoration-clone {
+    box-decoration-break: clone;
+  }
+}
+@media (min-width: 768px) {
+  .md:box-decoration-clone {
+    box-decoration-break: clone;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:box-decoration-clone {
+    box-decoration-break: clone;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:box-decoration-clone {
+    box-decoration-break: clone;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:box-decoration-clone {
+    box-decoration-break: clone;
+  }
+}
 .container {
   width: 100%;
 }
