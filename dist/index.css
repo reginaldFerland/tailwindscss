@@ -4589,5 +4589,150 @@
     overscroll-behavior-y: unset;
   }
 }
+.static {
+  position: static;
+}
+
+@media (min-width: 640px) {
+  .sm:static {
+    position: static;
+  }
+}
+@media (min-width: 768px) {
+  .md:static {
+    position: static;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:static {
+    position: static;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:static {
+    position: static;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:static {
+    position: static;
+  }
+}
+.relative {
+  position: relative;
+}
+
+@media (min-width: 640px) {
+  .sm:relative {
+    position: relative;
+  }
+}
+@media (min-width: 768px) {
+  .md:relative {
+    position: relative;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:relative {
+    position: relative;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:relative {
+    position: relative;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:relative {
+    position: relative;
+  }
+}
+.absolute {
+  position: absolute;
+}
+
+@media (min-width: 640px) {
+  .sm:absolute {
+    position: absolute;
+  }
+}
+@media (min-width: 768px) {
+  .md:absolute {
+    position: absolute;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:absolute {
+    position: absolute;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:absolute {
+    position: absolute;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:absolute {
+    position: absolute;
+  }
+}
+.fixed {
+  position: fixed;
+}
+
+@media (min-width: 640px) {
+  .sm:fixed {
+    position: fixed;
+  }
+}
+@media (min-width: 768px) {
+  .md:fixed {
+    position: fixed;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:fixed {
+    position: fixed;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:fixed {
+    position: fixed;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:fixed {
+    position: fixed;
+  }
+}
+.sticky {
+  position: sticky;
+}
+
+@media (min-width: 640px) {
+  .sm:sticky {
+    position: sticky;
+  }
+}
+@media (min-width: 768px) {
+  .md:sticky {
+    position: sticky;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:sticky {
+    position: sticky;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:sticky {
+    position: sticky;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:sticky {
+    position: sticky;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

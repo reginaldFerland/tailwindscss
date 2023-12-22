@@ -1,0 +1,18 @@
+@use '../core/breakpoints';
+
+$_positions: (
+    'static': 'static',
+    'relative': 'relative',
+    'absolute': 'absolute',
+    'fixed': 'fixed',
+    'sticky': 'sticky',
+);
+
+@each $name, $value in $_positions {
+    .#{$name} {
+        position: #{$value};
+    }
+    @include breakpoints.bp('#{$name}') {
+        position: #{$value};
+    }
+}
