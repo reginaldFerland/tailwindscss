@@ -7,6 +7,9 @@
 @each $breakpoint, $size in breakpoints.$breakpoints {
     @media (min-width: map-get(breakpoints.$breakpoints, $breakpoint)) {
         .container {
+            @include breakpoints.bp('container') {
+                max-width: map-get(breakpoints.$breakpoints, $breakpoint);
+            }
             max-width: map-get(breakpoints.$breakpoints, $breakpoint);
         }
     }
