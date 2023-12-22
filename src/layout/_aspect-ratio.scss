@@ -9,8 +9,8 @@ $_aspect-ratio : (
 @each $name, $ratio in $_aspect-ratio {
     .aspect-#{$name} {
         aspect-ratio: #{$ratio};
-        @include breakpoints.bp('aspect-#{$name}') {
-            aspect-ratio: #{$ratio};
-        }
+    }
+    @include breakpoints.bp('aspect-#{$name}') {
+        aspect-ratio: #{$ratio};
     }
 }
