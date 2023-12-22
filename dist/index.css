@@ -2849,5 +2849,150 @@
     display: none;
   }
 }
+.float-start {
+  float: inline-start;
+}
+
+@media (min-width: 640px) {
+  .sm:float-start {
+    float: inline-start;
+  }
+}
+@media (min-width: 768px) {
+  .md:float-start {
+    float: inline-start;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:float-start {
+    float: inline-start;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:float-start {
+    float: inline-start;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:float-start {
+    float: inline-start;
+  }
+}
+.float-end {
+  float: inline-end;
+}
+
+@media (min-width: 640px) {
+  .sm:float-end {
+    float: inline-end;
+  }
+}
+@media (min-width: 768px) {
+  .md:float-end {
+    float: inline-end;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:float-end {
+    float: inline-end;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:float-end {
+    float: inline-end;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:float-end {
+    float: inline-end;
+  }
+}
+.float-left {
+  float: left;
+}
+
+@media (min-width: 640px) {
+  .sm:float-left {
+    float: left;
+  }
+}
+@media (min-width: 768px) {
+  .md:float-left {
+    float: left;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:float-left {
+    float: left;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:float-left {
+    float: left;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:float-left {
+    float: left;
+  }
+}
+.float-right {
+  float: right;
+}
+
+@media (min-width: 640px) {
+  .sm:float-right {
+    float: right;
+  }
+}
+@media (min-width: 768px) {
+  .md:float-right {
+    float: right;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:float-right {
+    float: right;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:float-right {
+    float: right;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:float-right {
+    float: right;
+  }
+}
+.float-none {
+  float: none;
+}
+
+@media (min-width: 640px) {
+  .sm:float-none {
+    float: none;
+  }
+}
+@media (min-width: 768px) {
+  .md:float-none {
+    float: none;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:float-none {
+    float: none;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:float-none {
+    float: none;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:float-none {
+    float: none;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
