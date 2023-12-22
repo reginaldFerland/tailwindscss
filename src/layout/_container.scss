@@ -1,0 +1,13 @@
+@use "../core/breakpoints";
+
+.container {
+    width: 100%;
+}
+
+@each $breakpoint, $size in breakpoints.$breakpoints {
+    @media (min-width: map-get(breakpoints.$breakpoints, $breakpoint)) {
+        .container {
+            max-width: map-get(breakpoints.$breakpoints, $breakpoint);
+        }
+    }
+}
