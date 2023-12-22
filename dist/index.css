@@ -3371,5 +3371,266 @@
     object-fit: scale-down;
   }
 }
+.object-bottom {
+  object-position: bottom;
+}
+
+@media (min-width: 640px) {
+  .sm:object-bottom {
+    object-position: bottom;
+  }
+}
+@media (min-width: 768px) {
+  .md:object-bottom {
+    object-position: bottom;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:object-bottom {
+    object-position: bottom;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:object-bottom {
+    object-position: bottom;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:object-bottom {
+    object-position: bottom;
+  }
+}
+.object-center {
+  object-position: center;
+}
+
+@media (min-width: 640px) {
+  .sm:object-center {
+    object-position: center;
+  }
+}
+@media (min-width: 768px) {
+  .md:object-center {
+    object-position: center;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:object-center {
+    object-position: center;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:object-center {
+    object-position: center;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:object-center {
+    object-position: center;
+  }
+}
+.object-left {
+  object-position: left;
+}
+
+@media (min-width: 640px) {
+  .sm:object-left {
+    object-position: left;
+  }
+}
+@media (min-width: 768px) {
+  .md:object-left {
+    object-position: left;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:object-left {
+    object-position: left;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:object-left {
+    object-position: left;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:object-left {
+    object-position: left;
+  }
+}
+.object-left-bottom {
+  object-position: left bottom;
+}
+
+@media (min-width: 640px) {
+  .sm:object-left-bottom {
+    object-position: left bottom;
+  }
+}
+@media (min-width: 768px) {
+  .md:object-left-bottom {
+    object-position: left bottom;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:object-left-bottom {
+    object-position: left bottom;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:object-left-bottom {
+    object-position: left bottom;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:object-left-bottom {
+    object-position: left bottom;
+  }
+}
+.object-left-top {
+  object-position: left top;
+}
+
+@media (min-width: 640px) {
+  .sm:object-left-top {
+    object-position: left top;
+  }
+}
+@media (min-width: 768px) {
+  .md:object-left-top {
+    object-position: left top;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:object-left-top {
+    object-position: left top;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:object-left-top {
+    object-position: left top;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:object-left-top {
+    object-position: left top;
+  }
+}
+.object-right {
+  object-position: right;
+}
+
+@media (min-width: 640px) {
+  .sm:object-right {
+    object-position: right;
+  }
+}
+@media (min-width: 768px) {
+  .md:object-right {
+    object-position: right;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:object-right {
+    object-position: right;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:object-right {
+    object-position: right;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:object-right {
+    object-position: right;
+  }
+}
+.object-right-bottom {
+  object-position: right bottom;
+}
+
+@media (min-width: 640px) {
+  .sm:object-right-bottom {
+    object-position: right bottom;
+  }
+}
+@media (min-width: 768px) {
+  .md:object-right-bottom {
+    object-position: right bottom;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:object-right-bottom {
+    object-position: right bottom;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:object-right-bottom {
+    object-position: right bottom;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:object-right-bottom {
+    object-position: right bottom;
+  }
+}
+.object-right-top {
+  object-position: right top;
+}
+
+@media (min-width: 640px) {
+  .sm:object-right-top {
+    object-position: right top;
+  }
+}
+@media (min-width: 768px) {
+  .md:object-right-top {
+    object-position: right top;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:object-right-top {
+    object-position: right top;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:object-right-top {
+    object-position: right top;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:object-right-top {
+    object-position: right top;
+  }
+}
+.object-top {
+  object-position: top;
+}
+
+@media (min-width: 640px) {
+  .sm:object-top {
+    object-position: top;
+  }
+}
+@media (min-width: 768px) {
+  .md:object-top {
+    object-position: top;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:object-top {
+    object-position: top;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:object-top {
+    object-position: top;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:object-top {
+    object-position: top;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
