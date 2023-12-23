@@ -2,12 +2,12 @@
 @use 'font-size';
 @use 'font-smoothing';
 @use 'font-style';
-@use 'font-weight';
 @use 'font-variant-numeric';
+@use 'font-weight';
+@use 'hyphens';
 @use 'letter-spacing';
 @use 'line-clamp';
 @use 'line-height';
-// No list image class
 @use 'list-style-position';
 @use 'list-style-type';
 @use 'text-align';
@@ -16,12 +16,12 @@
 @use 'text-decoration-color';
 @use 'text-decoration-style';
 @use 'text-decoration-thickness';
-@use 'text-underline-offset';
-@use 'text-transform';
-@use 'text-overflow';
-@use 'text-wrap';
 @use 'text-indent';
+@use 'text-overflow';
+@use 'text-transform';
+@use 'text-underline-offset';
+@use 'text-wrap';
 @use 'vertical-align';
 @use 'whitespace';
 @use 'word-break';
-@use 'hyphens';
+// No content class
