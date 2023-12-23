@@ -1,0 +1,13 @@
+@use '../core';
+
+$_bg: (
+    'fixed': fixed,
+    'local': local,
+    'scroll': scroll,
+);
+
+@each $name, $value in $_bg {
+    @include core.variations('bg-#{$name}') {
+        background-attachment: $value;
+    }
+}

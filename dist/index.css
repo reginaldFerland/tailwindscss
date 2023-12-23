@@ -78398,5 +78398,92 @@
     word-break: keep-all;
   }
 }
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-fixed {
+    background-attachment: fixed;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-fixed {
+    background-attachment: fixed;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-fixed {
+    background-attachment: fixed;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-fixed {
+    background-attachment: fixed;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-fixed {
+    background-attachment: fixed;
+  }
+}
+.bg-local {
+  background-attachment: local;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-local {
+    background-attachment: local;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-local {
+    background-attachment: local;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-local {
+    background-attachment: local;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-local {
+    background-attachment: local;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-local {
+    background-attachment: local;
+  }
+}
+.bg-scroll {
+  background-attachment: scroll;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-scroll {
+    background-attachment: scroll;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-scroll {
+    background-attachment: scroll;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-scroll {
+    background-attachment: scroll;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-scroll {
+    background-attachment: scroll;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-scroll {
+    background-attachment: scroll;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
