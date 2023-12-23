@@ -1825,6 +1825,470 @@
     flex-shrink: 5;
   }
 }
+.order-first {
+  order: -9999;
+}
+
+@media (min-width: 640px) {
+  .sm:order-first {
+    order: -9999;
+  }
+}
+@media (min-width: 768px) {
+  .md:order-first {
+    order: -9999;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:order-first {
+    order: -9999;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:order-first {
+    order: -9999;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:order-first {
+    order: -9999;
+  }
+}
+.order-last {
+  order: 9999;
+}
+
+@media (min-width: 640px) {
+  .sm:order-last {
+    order: 9999;
+  }
+}
+@media (min-width: 768px) {
+  .md:order-last {
+    order: 9999;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:order-last {
+    order: 9999;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:order-last {
+    order: 9999;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:order-last {
+    order: 9999;
+  }
+}
+.order-none {
+  order: 0;
+}
+
+@media (min-width: 640px) {
+  .sm:order-none {
+    order: 0;
+  }
+}
+@media (min-width: 768px) {
+  .md:order-none {
+    order: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:order-none {
+    order: 0;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:order-none {
+    order: 0;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:order-none {
+    order: 0;
+  }
+}
+.order-0 {
+  order: 0;
+}
+
+@media (min-width: 640px) {
+  .sm:order-0 {
+    order: 0;
+  }
+}
+@media (min-width: 768px) {
+  .md:order-0 {
+    order: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:order-0 {
+    order: 0;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:order-0 {
+    order: 0;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:order-0 {
+    order: 0;
+  }
+}
+.order-1 {
+  order: 1;
+}
+
+@media (min-width: 640px) {
+  .sm:order-1 {
+    order: 1;
+  }
+}
+@media (min-width: 768px) {
+  .md:order-1 {
+    order: 1;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:order-1 {
+    order: 1;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:order-1 {
+    order: 1;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:order-1 {
+    order: 1;
+  }
+}
+.order-2 {
+  order: 2;
+}
+
+@media (min-width: 640px) {
+  .sm:order-2 {
+    order: 2;
+  }
+}
+@media (min-width: 768px) {
+  .md:order-2 {
+    order: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:order-2 {
+    order: 2;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:order-2 {
+    order: 2;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:order-2 {
+    order: 2;
+  }
+}
+.order-3 {
+  order: 3;
+}
+
+@media (min-width: 640px) {
+  .sm:order-3 {
+    order: 3;
+  }
+}
+@media (min-width: 768px) {
+  .md:order-3 {
+    order: 3;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:order-3 {
+    order: 3;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:order-3 {
+    order: 3;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:order-3 {
+    order: 3;
+  }
+}
+.order-4 {
+  order: 4;
+}
+
+@media (min-width: 640px) {
+  .sm:order-4 {
+    order: 4;
+  }
+}
+@media (min-width: 768px) {
+  .md:order-4 {
+    order: 4;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:order-4 {
+    order: 4;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:order-4 {
+    order: 4;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:order-4 {
+    order: 4;
+  }
+}
+.order-5 {
+  order: 5;
+}
+
+@media (min-width: 640px) {
+  .sm:order-5 {
+    order: 5;
+  }
+}
+@media (min-width: 768px) {
+  .md:order-5 {
+    order: 5;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:order-5 {
+    order: 5;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:order-5 {
+    order: 5;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:order-5 {
+    order: 5;
+  }
+}
+.order-6 {
+  order: 6;
+}
+
+@media (min-width: 640px) {
+  .sm:order-6 {
+    order: 6;
+  }
+}
+@media (min-width: 768px) {
+  .md:order-6 {
+    order: 6;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:order-6 {
+    order: 6;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:order-6 {
+    order: 6;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:order-6 {
+    order: 6;
+  }
+}
+.order-7 {
+  order: 7;
+}
+
+@media (min-width: 640px) {
+  .sm:order-7 {
+    order: 7;
+  }
+}
+@media (min-width: 768px) {
+  .md:order-7 {
+    order: 7;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:order-7 {
+    order: 7;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:order-7 {
+    order: 7;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:order-7 {
+    order: 7;
+  }
+}
+.order-8 {
+  order: 8;
+}
+
+@media (min-width: 640px) {
+  .sm:order-8 {
+    order: 8;
+  }
+}
+@media (min-width: 768px) {
+  .md:order-8 {
+    order: 8;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:order-8 {
+    order: 8;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:order-8 {
+    order: 8;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:order-8 {
+    order: 8;
+  }
+}
+.order-9 {
+  order: 9;
+}
+
+@media (min-width: 640px) {
+  .sm:order-9 {
+    order: 9;
+  }
+}
+@media (min-width: 768px) {
+  .md:order-9 {
+    order: 9;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:order-9 {
+    order: 9;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:order-9 {
+    order: 9;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:order-9 {
+    order: 9;
+  }
+}
+.order-10 {
+  order: 10;
+}
+
+@media (min-width: 640px) {
+  .sm:order-10 {
+    order: 10;
+  }
+}
+@media (min-width: 768px) {
+  .md:order-10 {
+    order: 10;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:order-10 {
+    order: 10;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:order-10 {
+    order: 10;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:order-10 {
+    order: 10;
+  }
+}
+.order-11 {
+  order: 11;
+}
+
+@media (min-width: 640px) {
+  .sm:order-11 {
+    order: 11;
+  }
+}
+@media (min-width: 768px) {
+  .md:order-11 {
+    order: 11;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:order-11 {
+    order: 11;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:order-11 {
+    order: 11;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:order-11 {
+    order: 11;
+  }
+}
+.order-12 {
+  order: 12;
+}
+
+@media (min-width: 640px) {
+  .sm:order-12 {
+    order: 12;
+  }
+}
+@media (min-width: 768px) {
+  .md:order-12 {
+    order: 12;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:order-12 {
+    order: 12;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:order-12 {
+    order: 12;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:order-12 {
+    order: 12;
+  }
+}
 .aspect-auto {
   aspect-ratio: 0;
 }
