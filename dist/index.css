@@ -10554,6 +10554,151 @@
     place-content: stretch;
   }
 }
+.place-items- start {
+  place-items: start;
+}
+
+@media (min-width: 640px) {
+  .sm:place-items- start {
+    place-items: start;
+  }
+}
+@media (min-width: 768px) {
+  .md:place-items- start {
+    place-items: start;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:place-items- start {
+    place-items: start;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:place-items- start {
+    place-items: start;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:place-items- start {
+    place-items: start;
+  }
+}
+.place-items- end {
+  place-items: end;
+}
+
+@media (min-width: 640px) {
+  .sm:place-items- end {
+    place-items: end;
+  }
+}
+@media (min-width: 768px) {
+  .md:place-items- end {
+    place-items: end;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:place-items- end {
+    place-items: end;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:place-items- end {
+    place-items: end;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:place-items- end {
+    place-items: end;
+  }
+}
+.place-items- center {
+  place-items: center;
+}
+
+@media (min-width: 640px) {
+  .sm:place-items- center {
+    place-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .md:place-items- center {
+    place-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:place-items- center {
+    place-items: center;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:place-items- center {
+    place-items: center;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:place-items- center {
+    place-items: center;
+  }
+}
+.place-items- baseline {
+  place-items: baseline;
+}
+
+@media (min-width: 640px) {
+  .sm:place-items- baseline {
+    place-items: baseline;
+  }
+}
+@media (min-width: 768px) {
+  .md:place-items- baseline {
+    place-items: baseline;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:place-items- baseline {
+    place-items: baseline;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:place-items- baseline {
+    place-items: baseline;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:place-items- baseline {
+    place-items: baseline;
+  }
+}
+.place-items- stretch {
+  place-items: stretch;
+}
+
+@media (min-width: 640px) {
+  .sm:place-items- stretch {
+    place-items: stretch;
+  }
+}
+@media (min-width: 768px) {
+  .md:place-items- stretch {
+    place-items: stretch;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:place-items- stretch {
+    place-items: stretch;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:place-items- stretch {
+    place-items: stretch;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:place-items- stretch {
+    place-items: stretch;
+  }
+}
 .aspect-auto {
   aspect-ratio: 0;
 }

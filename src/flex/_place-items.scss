@@ -1,0 +1,15 @@
+@use '../core/breakpoints';
+
+$_place-items: (
+    "start": start,
+    "end": end,
+    "center": center,
+    "baseline": baseline,
+    "stretch": stretch,
+);
+
+@each $key, $value in $_place-items {
+    @include breakpoints.bp('place-items-'#{$key}) {
+        place-items: $value;
+    }
+}
