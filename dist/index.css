@@ -1100,206 +1100,206 @@
     flex-basis: 100%;
   }
 }
-.row .flex-row {
+.row {
   flex-direction: row;
 }
 
 @media (min-width: 640px) {
-  .sm:row .flex-row {
+  .sm:row {
     flex-direction: row;
   }
 }
 @media (min-width: 768px) {
-  .md:row .flex-row {
+  .md:row {
     flex-direction: row;
   }
 }
 @media (min-width: 1024px) {
-  .lg:row .flex-row {
+  .lg:row {
     flex-direction: row;
   }
 }
 @media (min-width: 1280px) {
-  .xl:row .flex-row {
+  .xl:row {
     flex-direction: row;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:row .flex-row {
+  .xxl:row {
     flex-direction: row;
   }
 }
-.row-reverse .flex-row-reverse {
+.row-reverse {
   flex-direction: row-reverse;
 }
 
 @media (min-width: 640px) {
-  .sm:row-reverse .flex-row-reverse {
+  .sm:row-reverse {
     flex-direction: row-reverse;
   }
 }
 @media (min-width: 768px) {
-  .md:row-reverse .flex-row-reverse {
+  .md:row-reverse {
     flex-direction: row-reverse;
   }
 }
 @media (min-width: 1024px) {
-  .lg:row-reverse .flex-row-reverse {
+  .lg:row-reverse {
     flex-direction: row-reverse;
   }
 }
 @media (min-width: 1280px) {
-  .xl:row-reverse .flex-row-reverse {
+  .xl:row-reverse {
     flex-direction: row-reverse;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:row-reverse .flex-row-reverse {
+  .xxl:row-reverse {
     flex-direction: row-reverse;
   }
 }
-.col .flex-col {
+.col {
   flex-direction: column;
 }
 
 @media (min-width: 640px) {
-  .sm:col .flex-col {
+  .sm:col {
     flex-direction: column;
   }
 }
 @media (min-width: 768px) {
-  .md:col .flex-col {
+  .md:col {
     flex-direction: column;
   }
 }
 @media (min-width: 1024px) {
-  .lg:col .flex-col {
+  .lg:col {
     flex-direction: column;
   }
 }
 @media (min-width: 1280px) {
-  .xl:col .flex-col {
+  .xl:col {
     flex-direction: column;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:col .flex-col {
+  .xxl:col {
     flex-direction: column;
   }
 }
-.col-reverse .flex-col-reverse {
+.col-reverse {
   flex-direction: column-reverse;
 }
 
 @media (min-width: 640px) {
-  .sm:col-reverse .flex-col-reverse {
+  .sm:col-reverse {
     flex-direction: column-reverse;
   }
 }
 @media (min-width: 768px) {
-  .md:col-reverse .flex-col-reverse {
+  .md:col-reverse {
     flex-direction: column-reverse;
   }
 }
 @media (min-width: 1024px) {
-  .lg:col-reverse .flex-col-reverse {
+  .lg:col-reverse {
     flex-direction: column-reverse;
   }
 }
 @media (min-width: 1280px) {
-  .xl:col-reverse .flex-col-reverse {
+  .xl:col-reverse {
     flex-direction: column-reverse;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:col-reverse .flex-col-reverse {
+  .xxl:col-reverse {
     flex-direction: column-reverse;
   }
 }
-.nowrap .flex-nowrap {
+.flex- nowrap {
   flex-wrap: nowrap;
 }
 
 @media (min-width: 640px) {
-  .sm:nowrap .flex-nowrap {
+  .sm:flex- nowrap {
     flex-wrap: nowrap;
   }
 }
 @media (min-width: 768px) {
-  .md:nowrap .flex-nowrap {
+  .md:flex- nowrap {
     flex-wrap: nowrap;
   }
 }
 @media (min-width: 1024px) {
-  .lg:nowrap .flex-nowrap {
+  .lg:flex- nowrap {
     flex-wrap: nowrap;
   }
 }
 @media (min-width: 1280px) {
-  .xl:nowrap .flex-nowrap {
+  .xl:flex- nowrap {
     flex-wrap: nowrap;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:nowrap .flex-nowrap {
+  .xxl:flex- nowrap {
     flex-wrap: nowrap;
   }
 }
-.wrap .flex-wrap {
+.flex- wrap {
   flex-wrap: wrap;
 }
 
 @media (min-width: 640px) {
-  .sm:wrap .flex-wrap {
+  .sm:flex- wrap {
     flex-wrap: wrap;
   }
 }
 @media (min-width: 768px) {
-  .md:wrap .flex-wrap {
+  .md:flex- wrap {
     flex-wrap: wrap;
   }
 }
 @media (min-width: 1024px) {
-  .lg:wrap .flex-wrap {
+  .lg:flex- wrap {
     flex-wrap: wrap;
   }
 }
 @media (min-width: 1280px) {
-  .xl:wrap .flex-wrap {
+  .xl:flex- wrap {
     flex-wrap: wrap;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:wrap .flex-wrap {
+  .xxl:flex- wrap {
     flex-wrap: wrap;
   }
 }
-.wrap-reverse .flex-wrap-reverse {
+.flex- wrap-reverse {
   flex-wrap: wrap-reverse;
 }
 
 @media (min-width: 640px) {
-  .sm:wrap-reverse .flex-wrap-reverse {
+  .sm:flex- wrap-reverse {
     flex-wrap: wrap-reverse;
   }
 }
 @media (min-width: 768px) {
-  .md:wrap-reverse .flex-wrap-reverse {
+  .md:flex- wrap-reverse {
     flex-wrap: wrap-reverse;
   }
 }
 @media (min-width: 1024px) {
-  .lg:wrap-reverse .flex-wrap-reverse {
+  .lg:flex- wrap-reverse {
     flex-wrap: wrap-reverse;
   }
 }
 @media (min-width: 1280px) {
-  .xl:wrap-reverse .flex-wrap-reverse {
+  .xl:flex- wrap-reverse {
     flex-wrap: wrap-reverse;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:wrap-reverse .flex-wrap-reverse {
+  .xxl:flex- wrap-reverse {
     flex-wrap: wrap-reverse;
   }
 }
