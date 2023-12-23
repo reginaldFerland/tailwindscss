@@ -1,0 +1,13 @@
+@use '../core';
+
+$_hyphens: (
+    'auto': auto,
+    'manual': manual,
+    'none': none,
+);
+
+@each $name, $hyphens in $_hyphens {
+    @include core.variations('hyphens-#{$name}') {
+        hyphens: $hyphens;
+    }
+}

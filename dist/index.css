@@ -78311,5 +78311,92 @@
     word-break: keep-all;
   }
 }
+.hyphens-auto {
+  hyphens: auto;
+}
+
+@media (min-width: 640px) {
+  .sm:hyphens-auto {
+    hyphens: auto;
+  }
+}
+@media (min-width: 768px) {
+  .md:hyphens-auto {
+    hyphens: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:hyphens-auto {
+    hyphens: auto;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:hyphens-auto {
+    hyphens: auto;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:hyphens-auto {
+    hyphens: auto;
+  }
+}
+.hyphens-manual {
+  hyphens: manual;
+}
+
+@media (min-width: 640px) {
+  .sm:hyphens-manual {
+    hyphens: manual;
+  }
+}
+@media (min-width: 768px) {
+  .md:hyphens-manual {
+    hyphens: manual;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:hyphens-manual {
+    hyphens: manual;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:hyphens-manual {
+    hyphens: manual;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:hyphens-manual {
+    hyphens: manual;
+  }
+}
+.hyphens-none {
+  hyphens: none;
+}
+
+@media (min-width: 640px) {
+  .sm:hyphens-none {
+    hyphens: none;
+  }
+}
+@media (min-width: 768px) {
+  .md:hyphens-none {
+    hyphens: none;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:hyphens-none {
+    hyphens: none;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:hyphens-none {
+    hyphens: none;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:hyphens-none {
+    hyphens: none;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
