@@ -76032,148 +76032,322 @@
   }
 }
 .decoration-0 {
-  text-decoration-thickness: 0;
+  text-decoration-thickness: 0px;
 }
 
 @media (min-width: 640px) {
   .sm:decoration-0 {
-    text-decoration-thickness: 0;
+    text-decoration-thickness: 0px;
   }
 }
 @media (min-width: 768px) {
   .md:decoration-0 {
-    text-decoration-thickness: 0;
+    text-decoration-thickness: 0px;
   }
 }
 @media (min-width: 1024px) {
   .lg:decoration-0 {
-    text-decoration-thickness: 0;
+    text-decoration-thickness: 0px;
   }
 }
 @media (min-width: 1280px) {
   .xl:decoration-0 {
-    text-decoration-thickness: 0;
+    text-decoration-thickness: 0px;
   }
 }
 @media (min-width: 1536px) {
   .xxl:decoration-0 {
-    text-decoration-thickness: 0;
+    text-decoration-thickness: 0px;
   }
 }
 .decoration-1 {
-  text-decoration-thickness: 1;
+  text-decoration-thickness: 1px;
 }
 
 @media (min-width: 640px) {
   .sm:decoration-1 {
-    text-decoration-thickness: 1;
+    text-decoration-thickness: 1px;
   }
 }
 @media (min-width: 768px) {
   .md:decoration-1 {
-    text-decoration-thickness: 1;
+    text-decoration-thickness: 1px;
   }
 }
 @media (min-width: 1024px) {
   .lg:decoration-1 {
-    text-decoration-thickness: 1;
+    text-decoration-thickness: 1px;
   }
 }
 @media (min-width: 1280px) {
   .xl:decoration-1 {
-    text-decoration-thickness: 1;
+    text-decoration-thickness: 1px;
   }
 }
 @media (min-width: 1536px) {
   .xxl:decoration-1 {
-    text-decoration-thickness: 1;
+    text-decoration-thickness: 1px;
   }
 }
 .decoration-2 {
-  text-decoration-thickness: 2;
+  text-decoration-thickness: 2px;
 }
 
 @media (min-width: 640px) {
   .sm:decoration-2 {
-    text-decoration-thickness: 2;
+    text-decoration-thickness: 2px;
   }
 }
 @media (min-width: 768px) {
   .md:decoration-2 {
-    text-decoration-thickness: 2;
+    text-decoration-thickness: 2px;
   }
 }
 @media (min-width: 1024px) {
   .lg:decoration-2 {
-    text-decoration-thickness: 2;
+    text-decoration-thickness: 2px;
   }
 }
 @media (min-width: 1280px) {
   .xl:decoration-2 {
-    text-decoration-thickness: 2;
+    text-decoration-thickness: 2px;
   }
 }
 @media (min-width: 1536px) {
   .xxl:decoration-2 {
-    text-decoration-thickness: 2;
+    text-decoration-thickness: 2px;
   }
 }
 .decoration-4 {
-  text-decoration-thickness: 4;
+  text-decoration-thickness: 4px;
 }
 
 @media (min-width: 640px) {
   .sm:decoration-4 {
-    text-decoration-thickness: 4;
+    text-decoration-thickness: 4px;
   }
 }
 @media (min-width: 768px) {
   .md:decoration-4 {
-    text-decoration-thickness: 4;
+    text-decoration-thickness: 4px;
   }
 }
 @media (min-width: 1024px) {
   .lg:decoration-4 {
-    text-decoration-thickness: 4;
+    text-decoration-thickness: 4px;
   }
 }
 @media (min-width: 1280px) {
   .xl:decoration-4 {
-    text-decoration-thickness: 4;
+    text-decoration-thickness: 4px;
   }
 }
 @media (min-width: 1536px) {
   .xxl:decoration-4 {
-    text-decoration-thickness: 4;
+    text-decoration-thickness: 4px;
   }
 }
 .decoration-8 {
-  text-decoration-thickness: 8;
+  text-decoration-thickness: 8px;
 }
 
 @media (min-width: 640px) {
   .sm:decoration-8 {
-    text-decoration-thickness: 8;
+    text-decoration-thickness: 8px;
   }
 }
 @media (min-width: 768px) {
   .md:decoration-8 {
-    text-decoration-thickness: 8;
+    text-decoration-thickness: 8px;
   }
 }
 @media (min-width: 1024px) {
   .lg:decoration-8 {
-    text-decoration-thickness: 8;
+    text-decoration-thickness: 8px;
   }
 }
 @media (min-width: 1280px) {
   .xl:decoration-8 {
-    text-decoration-thickness: 8;
+    text-decoration-thickness: 8px;
   }
 }
 @media (min-width: 1536px) {
   .xxl:decoration-8 {
-    text-decoration-thickness: 8;
+    text-decoration-thickness: 8px;
+  }
+}
+.underline-offset-auto {
+  text-underline-offset: auto;
+}
+
+@media (min-width: 640px) {
+  .sm:underline-offset-auto {
+    text-underline-offset: auto;
+  }
+}
+@media (min-width: 768px) {
+  .md:underline-offset-auto {
+    text-underline-offset: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:underline-offset-auto {
+    text-underline-offset: auto;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:underline-offset-auto {
+    text-underline-offset: auto;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:underline-offset-auto {
+    text-underline-offset: auto;
+  }
+}
+.underline-offset-0 {
+  text-underline-offset: 0px;
+}
+
+@media (min-width: 640px) {
+  .sm:underline-offset-0 {
+    text-underline-offset: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .md:underline-offset-0 {
+    text-underline-offset: 0px;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:underline-offset-0 {
+    text-underline-offset: 0px;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:underline-offset-0 {
+    text-underline-offset: 0px;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:underline-offset-0 {
+    text-underline-offset: 0px;
+  }
+}
+.underline-offset-1 {
+  text-underline-offset: 1px;
+}
+
+@media (min-width: 640px) {
+  .sm:underline-offset-1 {
+    text-underline-offset: 1px;
+  }
+}
+@media (min-width: 768px) {
+  .md:underline-offset-1 {
+    text-underline-offset: 1px;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:underline-offset-1 {
+    text-underline-offset: 1px;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:underline-offset-1 {
+    text-underline-offset: 1px;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:underline-offset-1 {
+    text-underline-offset: 1px;
+  }
+}
+.underline-offset-2 {
+  text-underline-offset: 2px;
+}
+
+@media (min-width: 640px) {
+  .sm:underline-offset-2 {
+    text-underline-offset: 2px;
+  }
+}
+@media (min-width: 768px) {
+  .md:underline-offset-2 {
+    text-underline-offset: 2px;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:underline-offset-2 {
+    text-underline-offset: 2px;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:underline-offset-2 {
+    text-underline-offset: 2px;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:underline-offset-2 {
+    text-underline-offset: 2px;
+  }
+}
+.underline-offset-4 {
+  text-underline-offset: 4px;
+}
+
+@media (min-width: 640px) {
+  .sm:underline-offset-4 {
+    text-underline-offset: 4px;
+  }
+}
+@media (min-width: 768px) {
+  .md:underline-offset-4 {
+    text-underline-offset: 4px;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:underline-offset-4 {
+    text-underline-offset: 4px;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:underline-offset-4 {
+    text-underline-offset: 4px;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:underline-offset-4 {
+    text-underline-offset: 4px;
+  }
+}
+.underline-offset-8 {
+  text-underline-offset: 8px;
+}
+
+@media (min-width: 640px) {
+  .sm:underline-offset-8 {
+    text-underline-offset: 8px;
+  }
+}
+@media (min-width: 768px) {
+  .md:underline-offset-8 {
+    text-underline-offset: 8px;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:underline-offset-8 {
+    text-underline-offset: 8px;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:underline-offset-8 {
+    text-underline-offset: 8px;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:underline-offset-8 {
+    text-underline-offset: 8px;
   }
 }
 
