@@ -1,0 +1,15 @@
+@use '../core/breakpoints';
+
+$_justify-items: (
+  "start": start,
+  "end": end,
+  "center": center,
+  "baseline": baseline,
+  "stretch": stretch,
+);
+
+@each $key, $value in $_justify-items {
+  @include breakpoints.bp('justify-items-'#{$key}) {
+    justify-items: $value;
+  }
+}
