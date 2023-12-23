@@ -11,6 +11,9 @@ $breakpoints: (
 
 @mixin bp($className) {
     @each $breakpoint, $size in $breakpoints {
+        .#{$className} {
+            @content;
+        }
         @media (min-width: map-get($breakpoints, $breakpoint)) {
             .#{$breakpoint}:#{$className} {
                 @content;

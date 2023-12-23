@@ -8,9 +8,6 @@ $_flex: (
 );
 
 @each $key, $value in $_flex {
-    .flex-#{$key} {
-        flex: #{$value};
-    }
     @include breakpoints.bp('flex-#{$key}') {
         flex: #{$value};
     }

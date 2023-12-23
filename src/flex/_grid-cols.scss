@@ -18,9 +18,6 @@ $_index: (
 );
 
 @each $key, $value in $_index {
-    .grid-cols-#{$key} {
-        grid-template-columns: #{$value};
-    }
     @include breakpoints.bp('grid-cols-#{$key}') {
         grid-template-columns: #{$value};
     }
@@ -44,9 +41,6 @@ $_grid-span-index: (
 );
 
 @each $key, $value in $_grid-span-index {
-    .col-#{$key} {
-        grid-column: #{$value};
-    }
     @include breakpoints.bp('col-#{$key}') {
         grid-column: #{$value};
     }
@@ -70,14 +64,8 @@ $_grid-col-index: (
 );
 
 @each $key, $value in $_grid-col-index {
-    .col-start-#{$key} {
-        grid-column-start: #{$value};
-    }
     @include breakpoints.bp('col-start-#{$key}') {
         grid-column-start: #{$value};
-    }
-    .col-end-#{$key} {
-        grid-column-end: #{$value};
     }
     @include breakpoints.bp('col-end-#{$key}') {
         grid-column-end: #{$value};

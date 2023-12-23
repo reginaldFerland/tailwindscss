@@ -2,9 +2,6 @@
 @use '../core/size';
 
 @each $size, $value in size.$size {
-    .basis-#{$size} {
-        flex-basis: #{$value};
-    }
     @include breakpoints.bp('basis-#{$size}') {
         flex-basis: #{$value};
     }

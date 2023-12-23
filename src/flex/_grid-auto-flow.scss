@@ -9,9 +9,6 @@ $_flows: (
 );
 
 @each $key, $value in $_flows {
-    .grid-flow-#{$key} {
-        grid-auto-flow: #{$value};
-    }
     @include breakpoints.bp('grid-flow-#{$key}') {
         grid-auto-flow: #{$value};
     }

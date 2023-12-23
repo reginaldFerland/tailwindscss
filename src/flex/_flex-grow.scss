@@ -9,17 +9,11 @@ $_index: (
     '5': 5,
 );
 
-.grow {
+@include breakpoints.bp('grow') {
     flex-grow: 1;
-    @include breakpoints.bp('grow') {
-        flex-grow: 1;
-    }
 }
 
 @each $key, $value in $_index {
-    .grow-#{$key} {
-        flex-grow: $value;
-    }
     @include breakpoints.bp('grow-#{$key}') {
         flex-grow: $value;
     }

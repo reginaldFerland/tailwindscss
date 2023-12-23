@@ -8,9 +8,6 @@ $_flex-direction: (
 );
 
 @each $key, $value in $_flex-direction {
-    .flex-#{$key} {
-        flex-direction: $value;
-    }
     @include breakpoints.bp($key) {
         .flex-#{$key} {
         flex-direction: $value;

@@ -8,9 +8,6 @@ $_cols: (
 );
 
 @each $key, $value in $_cols {
-    .auto-cols-#{$key} {
-        grid-auto-columns: #{$value};
-    }
     @include breakpoints.bp('auto-cols-#{$key}') {
         grid-auto-columns: #{$value};
     }

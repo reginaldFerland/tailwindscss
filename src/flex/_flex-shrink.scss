@@ -9,17 +9,11 @@ $_index: (
     '5': 5,
 );
 
-.shrink {
+@include breakpoints.bp('shrink') {
     flex-shrink: 1;
-    @include breakpoints.bp('shrink') {
-        flex-shrink: 1;
-    }
 }
 
 @each $key, $value in $_index {
-    .shrink-#{$key} {
-        flex-shrink: $value;
-    }
     @include breakpoints.bp('shrink-#{$key}') {
         flex-shrink: $value;
     }

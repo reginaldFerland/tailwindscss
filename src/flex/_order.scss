@@ -20,9 +20,6 @@ $_order: (
 );
 
 @each $key, $value in $_order {
-    .order-#{$key} {
-        order: $value;
-    }
     @include breakpoints.bp('order-#{$key}') {
         order: $value;
     }
