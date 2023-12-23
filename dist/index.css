@@ -75829,148 +75829,148 @@
   }
 }
 .decoration-solid {
-  text-decorationstyle: solid;
+  text-decoration-style: solid;
 }
 
 @media (min-width: 640px) {
   .sm:decoration-solid {
-    text-decorationstyle: solid;
+    text-decoration-style: solid;
   }
 }
 @media (min-width: 768px) {
   .md:decoration-solid {
-    text-decorationstyle: solid;
+    text-decoration-style: solid;
   }
 }
 @media (min-width: 1024px) {
   .lg:decoration-solid {
-    text-decorationstyle: solid;
+    text-decoration-style: solid;
   }
 }
 @media (min-width: 1280px) {
   .xl:decoration-solid {
-    text-decorationstyle: solid;
+    text-decoration-style: solid;
   }
 }
 @media (min-width: 1536px) {
   .xxl:decoration-solid {
-    text-decorationstyle: solid;
+    text-decoration-style: solid;
   }
 }
 .decoration-double {
-  text-decorationstyle: double;
+  text-decoration-style: double;
 }
 
 @media (min-width: 640px) {
   .sm:decoration-double {
-    text-decorationstyle: double;
+    text-decoration-style: double;
   }
 }
 @media (min-width: 768px) {
   .md:decoration-double {
-    text-decorationstyle: double;
+    text-decoration-style: double;
   }
 }
 @media (min-width: 1024px) {
   .lg:decoration-double {
-    text-decorationstyle: double;
+    text-decoration-style: double;
   }
 }
 @media (min-width: 1280px) {
   .xl:decoration-double {
-    text-decorationstyle: double;
+    text-decoration-style: double;
   }
 }
 @media (min-width: 1536px) {
   .xxl:decoration-double {
-    text-decorationstyle: double;
+    text-decoration-style: double;
   }
 }
 .decoration-dotted {
-  text-decorationstyle: dotted;
+  text-decoration-style: dotted;
 }
 
 @media (min-width: 640px) {
   .sm:decoration-dotted {
-    text-decorationstyle: dotted;
+    text-decoration-style: dotted;
   }
 }
 @media (min-width: 768px) {
   .md:decoration-dotted {
-    text-decorationstyle: dotted;
+    text-decoration-style: dotted;
   }
 }
 @media (min-width: 1024px) {
   .lg:decoration-dotted {
-    text-decorationstyle: dotted;
+    text-decoration-style: dotted;
   }
 }
 @media (min-width: 1280px) {
   .xl:decoration-dotted {
-    text-decorationstyle: dotted;
+    text-decoration-style: dotted;
   }
 }
 @media (min-width: 1536px) {
   .xxl:decoration-dotted {
-    text-decorationstyle: dotted;
+    text-decoration-style: dotted;
   }
 }
 .decoration-dashed {
-  text-decorationstyle: dashed;
+  text-decoration-style: dashed;
 }
 
 @media (min-width: 640px) {
   .sm:decoration-dashed {
-    text-decorationstyle: dashed;
+    text-decoration-style: dashed;
   }
 }
 @media (min-width: 768px) {
   .md:decoration-dashed {
-    text-decorationstyle: dashed;
+    text-decoration-style: dashed;
   }
 }
 @media (min-width: 1024px) {
   .lg:decoration-dashed {
-    text-decorationstyle: dashed;
+    text-decoration-style: dashed;
   }
 }
 @media (min-width: 1280px) {
   .xl:decoration-dashed {
-    text-decorationstyle: dashed;
+    text-decoration-style: dashed;
   }
 }
 @media (min-width: 1536px) {
   .xxl:decoration-dashed {
-    text-decorationstyle: dashed;
+    text-decoration-style: dashed;
   }
 }
 .decoration-wavy {
-  text-decorationstyle: wavy;
+  text-decoration-style: wavy;
 }
 
 @media (min-width: 640px) {
   .sm:decoration-wavy {
-    text-decorationstyle: wavy;
+    text-decoration-style: wavy;
   }
 }
 @media (min-width: 768px) {
   .md:decoration-wavy {
-    text-decorationstyle: wavy;
+    text-decoration-style: wavy;
   }
 }
 @media (min-width: 1024px) {
   .lg:decoration-wavy {
-    text-decorationstyle: wavy;
+    text-decoration-style: wavy;
   }
 }
 @media (min-width: 1280px) {
   .xl:decoration-wavy {
-    text-decorationstyle: wavy;
+    text-decoration-style: wavy;
   }
 }
 @media (min-width: 1536px) {
   .xxl:decoration-wavy {
-    text-decorationstyle: wavy;
+    text-decoration-style: wavy;
   }
 }
 

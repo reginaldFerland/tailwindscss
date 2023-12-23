@@ -10,6 +10,6 @@ $_styles: (
 
 @each $style, $value in $_styles {
     @include core.variations('decoration-#{$style}') {
-        text-decorationstyle: $value;
+        text-decoration-style: $value;
     }
 }
