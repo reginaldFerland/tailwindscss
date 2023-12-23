@@ -1,0 +1,17 @@
+@use '../core/breakpoints';
+
+
+$_justify-self: (
+    "auto": auto,
+    "start": start,
+    "end": end,
+    "center": center,
+    "baseline": baseline,
+    "stretch": stretch,
+);
+
+@each $key, $value in $_justify-self {
+    @include breakpoints.bp('justify-self-'#{$key}) {
+        justify-self: $value;
+    }
+}
