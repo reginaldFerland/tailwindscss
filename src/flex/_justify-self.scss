@@ -11,7 +11,7 @@ $_justify-self: (
 );
 
 @each $key, $value in $_justify-self {
-    @include breakpoints.bp('justify-self-'#{$key}) {
+    @include breakpoints.bp('justify-self-#{$key}') {
         justify-self: $value;
     }
 }

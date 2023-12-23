@@ -10,7 +10,7 @@ $_align-self: (
 );
 
 @each $key, $value in $_align-self {
-    @include breakpoints.bp('self-'#{$key}) {
+    @include breakpoints.bp('self-#{$key}') {
         align-self: $value;
     }
 }

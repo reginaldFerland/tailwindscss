@@ -1,10 +1,10 @@
 @use '../core/breakpoints';
 
 $_flex-direction: (
-  row: row,
-  row-reverse: row-reverse,
-  col: column,
-  col-reverse: column-reverse,
+  "row": row,
+  "row-reverse": row-reverse,
+  "col": column,
+  "col-reverse": column-reverse,
 );
 
 @each $key, $value in $_flex-direction {

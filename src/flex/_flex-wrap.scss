@@ -7,7 +7,7 @@ $_flex-wrap: (
 );
 
 @each $key, $value in $_flex-wrap {
-    @include breakpoints.bp('flex-'#{$key}) {
-            flex-wrap: $value;
+    @include breakpoints.bp('flex-#{$key}') {
+        flex-wrap: $value;
     }
 }

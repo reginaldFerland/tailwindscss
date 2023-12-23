@@ -13,7 +13,7 @@ $_align-content: (
 );
 
 @each $key, $value in $_align-content {
-    @include breakpoints.bp('content-'#{$key}) {
+    @include breakpoints.bp('content-#{$key}') {
         align-content: $value;
     }
 }

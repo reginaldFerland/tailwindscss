@@ -11,7 +11,7 @@ $_justify-content: (
 );
 
 @each $key, $value in $_justify-content {
-  @include breakpoints.bp('justify-'#{$key}) {
+  @include breakpoints.bp('justify-#{$key}') {
     justify-content: $value;
   }
 }

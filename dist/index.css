@@ -1,580 +1,580 @@
-.content- normal {
+.content-normal {
   align-content: normal;
 }
 
 @media (min-width: 640px) {
-  .sm:content- normal {
+  .sm:content-normal {
     align-content: normal;
   }
 }
 @media (min-width: 768px) {
-  .md:content- normal {
+  .md:content-normal {
     align-content: normal;
   }
 }
 @media (min-width: 1024px) {
-  .lg:content- normal {
+  .lg:content-normal {
     align-content: normal;
   }
 }
 @media (min-width: 1280px) {
-  .xl:content- normal {
+  .xl:content-normal {
     align-content: normal;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:content- normal {
+  .xxl:content-normal {
     align-content: normal;
   }
 }
-.content- start {
+.content-start {
   align-content: flex-start;
 }
 
 @media (min-width: 640px) {
-  .sm:content- start {
+  .sm:content-start {
     align-content: flex-start;
   }
 }
 @media (min-width: 768px) {
-  .md:content- start {
+  .md:content-start {
     align-content: flex-start;
   }
 }
 @media (min-width: 1024px) {
-  .lg:content- start {
+  .lg:content-start {
     align-content: flex-start;
   }
 }
 @media (min-width: 1280px) {
-  .xl:content- start {
+  .xl:content-start {
     align-content: flex-start;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:content- start {
+  .xxl:content-start {
     align-content: flex-start;
   }
 }
-.content- end {
+.content-end {
   align-content: flex-end;
 }
 
 @media (min-width: 640px) {
-  .sm:content- end {
+  .sm:content-end {
     align-content: flex-end;
   }
 }
 @media (min-width: 768px) {
-  .md:content- end {
+  .md:content-end {
     align-content: flex-end;
   }
 }
 @media (min-width: 1024px) {
-  .lg:content- end {
+  .lg:content-end {
     align-content: flex-end;
   }
 }
 @media (min-width: 1280px) {
-  .xl:content- end {
+  .xl:content-end {
     align-content: flex-end;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:content- end {
+  .xxl:content-end {
     align-content: flex-end;
   }
 }
-.content- center {
+.content-center {
   align-content: center;
 }
 
 @media (min-width: 640px) {
-  .sm:content- center {
+  .sm:content-center {
     align-content: center;
   }
 }
 @media (min-width: 768px) {
-  .md:content- center {
+  .md:content-center {
     align-content: center;
   }
 }
 @media (min-width: 1024px) {
-  .lg:content- center {
+  .lg:content-center {
     align-content: center;
   }
 }
 @media (min-width: 1280px) {
-  .xl:content- center {
+  .xl:content-center {
     align-content: center;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:content- center {
+  .xxl:content-center {
     align-content: center;
   }
 }
-.content- between {
+.content-between {
   align-content: space-between;
 }
 
 @media (min-width: 640px) {
-  .sm:content- between {
+  .sm:content-between {
     align-content: space-between;
   }
 }
 @media (min-width: 768px) {
-  .md:content- between {
+  .md:content-between {
     align-content: space-between;
   }
 }
 @media (min-width: 1024px) {
-  .lg:content- between {
+  .lg:content-between {
     align-content: space-between;
   }
 }
 @media (min-width: 1280px) {
-  .xl:content- between {
+  .xl:content-between {
     align-content: space-between;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:content- between {
+  .xxl:content-between {
     align-content: space-between;
   }
 }
-.content- around {
+.content-around {
   align-content: space-around;
 }
 
 @media (min-width: 640px) {
-  .sm:content- around {
+  .sm:content-around {
     align-content: space-around;
   }
 }
 @media (min-width: 768px) {
-  .md:content- around {
+  .md:content-around {
     align-content: space-around;
   }
 }
 @media (min-width: 1024px) {
-  .lg:content- around {
+  .lg:content-around {
     align-content: space-around;
   }
 }
 @media (min-width: 1280px) {
-  .xl:content- around {
+  .xl:content-around {
     align-content: space-around;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:content- around {
+  .xxl:content-around {
     align-content: space-around;
   }
 }
-.content- evenly {
+.content-evenly {
   align-content: space-evenly;
 }
 
 @media (min-width: 640px) {
-  .sm:content- evenly {
+  .sm:content-evenly {
     align-content: space-evenly;
   }
 }
 @media (min-width: 768px) {
-  .md:content- evenly {
+  .md:content-evenly {
     align-content: space-evenly;
   }
 }
 @media (min-width: 1024px) {
-  .lg:content- evenly {
+  .lg:content-evenly {
     align-content: space-evenly;
   }
 }
 @media (min-width: 1280px) {
-  .xl:content- evenly {
+  .xl:content-evenly {
     align-content: space-evenly;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:content- evenly {
+  .xxl:content-evenly {
     align-content: space-evenly;
   }
 }
-.content- baseline {
+.content-baseline {
   align-content: baseline;
 }
 
 @media (min-width: 640px) {
-  .sm:content- baseline {
+  .sm:content-baseline {
     align-content: baseline;
   }
 }
 @media (min-width: 768px) {
-  .md:content- baseline {
+  .md:content-baseline {
     align-content: baseline;
   }
 }
 @media (min-width: 1024px) {
-  .lg:content- baseline {
+  .lg:content-baseline {
     align-content: baseline;
   }
 }
 @media (min-width: 1280px) {
-  .xl:content- baseline {
+  .xl:content-baseline {
     align-content: baseline;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:content- baseline {
+  .xxl:content-baseline {
     align-content: baseline;
   }
 }
-.content- strech {
+.content-strech {
   align-content: stretch;
 }
 
 @media (min-width: 640px) {
-  .sm:content- strech {
+  .sm:content-strech {
     align-content: stretch;
   }
 }
 @media (min-width: 768px) {
-  .md:content- strech {
+  .md:content-strech {
     align-content: stretch;
   }
 }
 @media (min-width: 1024px) {
-  .lg:content- strech {
+  .lg:content-strech {
     align-content: stretch;
   }
 }
 @media (min-width: 1280px) {
-  .xl:content- strech {
+  .xl:content-strech {
     align-content: stretch;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:content- strech {
+  .xxl:content-strech {
     align-content: stretch;
   }
 }
-.items- start {
+.items-start {
   align-items: flex-start;
 }
 
 @media (min-width: 640px) {
-  .sm:items- start {
+  .sm:items-start {
     align-items: flex-start;
   }
 }
 @media (min-width: 768px) {
-  .md:items- start {
+  .md:items-start {
     align-items: flex-start;
   }
 }
 @media (min-width: 1024px) {
-  .lg:items- start {
+  .lg:items-start {
     align-items: flex-start;
   }
 }
 @media (min-width: 1280px) {
-  .xl:items- start {
+  .xl:items-start {
     align-items: flex-start;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:items- start {
+  .xxl:items-start {
     align-items: flex-start;
   }
 }
-.items- end {
+.items-end {
   align-items: flex-end;
 }
 
 @media (min-width: 640px) {
-  .sm:items- end {
+  .sm:items-end {
     align-items: flex-end;
   }
 }
 @media (min-width: 768px) {
-  .md:items- end {
+  .md:items-end {
     align-items: flex-end;
   }
 }
 @media (min-width: 1024px) {
-  .lg:items- end {
+  .lg:items-end {
     align-items: flex-end;
   }
 }
 @media (min-width: 1280px) {
-  .xl:items- end {
+  .xl:items-end {
     align-items: flex-end;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:items- end {
+  .xxl:items-end {
     align-items: flex-end;
   }
 }
-.items- center {
+.items-center {
   align-items: center;
 }
 
 @media (min-width: 640px) {
-  .sm:items- center {
+  .sm:items-center {
     align-items: center;
   }
 }
 @media (min-width: 768px) {
-  .md:items- center {
+  .md:items-center {
     align-items: center;
   }
 }
 @media (min-width: 1024px) {
-  .lg:items- center {
+  .lg:items-center {
     align-items: center;
   }
 }
 @media (min-width: 1280px) {
-  .xl:items- center {
+  .xl:items-center {
     align-items: center;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:items- center {
+  .xxl:items-center {
     align-items: center;
   }
 }
-.items- baseline {
+.items-baseline {
   align-items: baseline;
 }
 
 @media (min-width: 640px) {
-  .sm:items- baseline {
+  .sm:items-baseline {
     align-items: baseline;
   }
 }
 @media (min-width: 768px) {
-  .md:items- baseline {
+  .md:items-baseline {
     align-items: baseline;
   }
 }
 @media (min-width: 1024px) {
-  .lg:items- baseline {
+  .lg:items-baseline {
     align-items: baseline;
   }
 }
 @media (min-width: 1280px) {
-  .xl:items- baseline {
+  .xl:items-baseline {
     align-items: baseline;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:items- baseline {
+  .xxl:items-baseline {
     align-items: baseline;
   }
 }
-.items- stretch {
+.items-stretch {
   align-items: stretch;
 }
 
 @media (min-width: 640px) {
-  .sm:items- stretch {
+  .sm:items-stretch {
     align-items: stretch;
   }
 }
 @media (min-width: 768px) {
-  .md:items- stretch {
+  .md:items-stretch {
     align-items: stretch;
   }
 }
 @media (min-width: 1024px) {
-  .lg:items- stretch {
+  .lg:items-stretch {
     align-items: stretch;
   }
 }
 @media (min-width: 1280px) {
-  .xl:items- stretch {
+  .xl:items-stretch {
     align-items: stretch;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:items- stretch {
+  .xxl:items-stretch {
     align-items: stretch;
   }
 }
-.self- auto {
+.self-auto {
   align-self: auto;
 }
 
 @media (min-width: 640px) {
-  .sm:self- auto {
+  .sm:self-auto {
     align-self: auto;
   }
 }
 @media (min-width: 768px) {
-  .md:self- auto {
+  .md:self-auto {
     align-self: auto;
   }
 }
 @media (min-width: 1024px) {
-  .lg:self- auto {
+  .lg:self-auto {
     align-self: auto;
   }
 }
 @media (min-width: 1280px) {
-  .xl:self- auto {
+  .xl:self-auto {
     align-self: auto;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:self- auto {
+  .xxl:self-auto {
     align-self: auto;
   }
 }
-.self- start {
+.self-start {
   align-self: flex-start;
 }
 
 @media (min-width: 640px) {
-  .sm:self- start {
+  .sm:self-start {
     align-self: flex-start;
   }
 }
 @media (min-width: 768px) {
-  .md:self- start {
+  .md:self-start {
     align-self: flex-start;
   }
 }
 @media (min-width: 1024px) {
-  .lg:self- start {
+  .lg:self-start {
     align-self: flex-start;
   }
 }
 @media (min-width: 1280px) {
-  .xl:self- start {
+  .xl:self-start {
     align-self: flex-start;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:self- start {
+  .xxl:self-start {
     align-self: flex-start;
   }
 }
-.self- end {
+.self-end {
   align-self: flex-end;
 }
 
 @media (min-width: 640px) {
-  .sm:self- end {
+  .sm:self-end {
     align-self: flex-end;
   }
 }
 @media (min-width: 768px) {
-  .md:self- end {
+  .md:self-end {
     align-self: flex-end;
   }
 }
 @media (min-width: 1024px) {
-  .lg:self- end {
+  .lg:self-end {
     align-self: flex-end;
   }
 }
 @media (min-width: 1280px) {
-  .xl:self- end {
+  .xl:self-end {
     align-self: flex-end;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:self- end {
+  .xxl:self-end {
     align-self: flex-end;
   }
 }
-.self- center {
+.self-center {
   align-self: center;
 }
 
 @media (min-width: 640px) {
-  .sm:self- center {
+  .sm:self-center {
     align-self: center;
   }
 }
 @media (min-width: 768px) {
-  .md:self- center {
+  .md:self-center {
     align-self: center;
   }
 }
 @media (min-width: 1024px) {
-  .lg:self- center {
+  .lg:self-center {
     align-self: center;
   }
 }
 @media (min-width: 1280px) {
-  .xl:self- center {
+  .xl:self-center {
     align-self: center;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:self- center {
+  .xxl:self-center {
     align-self: center;
   }
 }
-.self- baseline {
+.self-baseline {
   align-self: baseline;
 }
 
 @media (min-width: 640px) {
-  .sm:self- baseline {
+  .sm:self-baseline {
     align-self: baseline;
   }
 }
 @media (min-width: 768px) {
-  .md:self- baseline {
+  .md:self-baseline {
     align-self: baseline;
   }
 }
 @media (min-width: 1024px) {
-  .lg:self- baseline {
+  .lg:self-baseline {
     align-self: baseline;
   }
 }
 @media (min-width: 1280px) {
-  .xl:self- baseline {
+  .xl:self-baseline {
     align-self: baseline;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:self- baseline {
+  .xxl:self-baseline {
     align-self: baseline;
   }
 }
-.self- stretch {
+.self-stretch {
   align-self: stretch;
 }
 
 @media (min-width: 640px) {
-  .sm:self- stretch {
+  .sm:self-stretch {
     align-self: stretch;
   }
 }
 @media (min-width: 768px) {
-  .md:self- stretch {
+  .md:self-stretch {
     align-self: stretch;
   }
 }
 @media (min-width: 1024px) {
-  .lg:self- stretch {
+  .lg:self-stretch {
     align-self: stretch;
   }
 }
 @media (min-width: 1280px) {
-  .xl:self- stretch {
+  .xl:self-stretch {
     align-self: stretch;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:self- stretch {
+  .xxl:self-stretch {
     align-self: stretch;
   }
 }
@@ -9249,525 +9249,525 @@
     grid-row-end: auto;
   }
 }
-.justify- start {
+.justify-start {
   justify-content: flex-start;
 }
 
 @media (min-width: 640px) {
-  .sm:justify- start {
+  .sm:justify-start {
     justify-content: flex-start;
   }
 }
 @media (min-width: 768px) {
-  .md:justify- start {
+  .md:justify-start {
     justify-content: flex-start;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify- start {
+  .lg:justify-start {
     justify-content: flex-start;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify- start {
+  .xl:justify-start {
     justify-content: flex-start;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify- start {
+  .xxl:justify-start {
     justify-content: flex-start;
   }
 }
-.justify- end {
+.justify-end {
   justify-content: flex-end;
 }
 
 @media (min-width: 640px) {
-  .sm:justify- end {
+  .sm:justify-end {
     justify-content: flex-end;
   }
 }
 @media (min-width: 768px) {
-  .md:justify- end {
+  .md:justify-end {
     justify-content: flex-end;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify- end {
+  .lg:justify-end {
     justify-content: flex-end;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify- end {
+  .xl:justify-end {
     justify-content: flex-end;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify- end {
+  .xxl:justify-end {
     justify-content: flex-end;
   }
 }
-.justify- center {
+.justify-center {
   justify-content: center;
 }
 
 @media (min-width: 640px) {
-  .sm:justify- center {
+  .sm:justify-center {
     justify-content: center;
   }
 }
 @media (min-width: 768px) {
-  .md:justify- center {
+  .md:justify-center {
     justify-content: center;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify- center {
+  .lg:justify-center {
     justify-content: center;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify- center {
+  .xl:justify-center {
     justify-content: center;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify- center {
+  .xxl:justify-center {
     justify-content: center;
   }
 }
-.justify- between {
+.justify-between {
   justify-content: space-between;
 }
 
 @media (min-width: 640px) {
-  .sm:justify- between {
+  .sm:justify-between {
     justify-content: space-between;
   }
 }
 @media (min-width: 768px) {
-  .md:justify- between {
+  .md:justify-between {
     justify-content: space-between;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify- between {
+  .lg:justify-between {
     justify-content: space-between;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify- between {
+  .xl:justify-between {
     justify-content: space-between;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify- between {
+  .xxl:justify-between {
     justify-content: space-between;
   }
 }
-.justify- around {
+.justify-around {
   justify-content: space-around;
 }
 
 @media (min-width: 640px) {
-  .sm:justify- around {
+  .sm:justify-around {
     justify-content: space-around;
   }
 }
 @media (min-width: 768px) {
-  .md:justify- around {
+  .md:justify-around {
     justify-content: space-around;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify- around {
+  .lg:justify-around {
     justify-content: space-around;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify- around {
+  .xl:justify-around {
     justify-content: space-around;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify- around {
+  .xxl:justify-around {
     justify-content: space-around;
   }
 }
-.justify- evenly {
+.justify-evenly {
   justify-content: space-evenly;
 }
 
 @media (min-width: 640px) {
-  .sm:justify- evenly {
+  .sm:justify-evenly {
     justify-content: space-evenly;
   }
 }
 @media (min-width: 768px) {
-  .md:justify- evenly {
+  .md:justify-evenly {
     justify-content: space-evenly;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify- evenly {
+  .lg:justify-evenly {
     justify-content: space-evenly;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify- evenly {
+  .xl:justify-evenly {
     justify-content: space-evenly;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify- evenly {
+  .xxl:justify-evenly {
     justify-content: space-evenly;
   }
 }
-.justify- strech {
+.justify-strech {
   justify-content: stretch;
 }
 
 @media (min-width: 640px) {
-  .sm:justify- strech {
+  .sm:justify-strech {
     justify-content: stretch;
   }
 }
 @media (min-width: 768px) {
-  .md:justify- strech {
+  .md:justify-strech {
     justify-content: stretch;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify- strech {
+  .lg:justify-strech {
     justify-content: stretch;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify- strech {
+  .xl:justify-strech {
     justify-content: stretch;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify- strech {
+  .xxl:justify-strech {
     justify-content: stretch;
   }
 }
-.justify-items- start {
+.justify-items-start {
   justify-items: start;
 }
 
 @media (min-width: 640px) {
-  .sm:justify-items- start {
+  .sm:justify-items-start {
     justify-items: start;
   }
 }
 @media (min-width: 768px) {
-  .md:justify-items- start {
+  .md:justify-items-start {
     justify-items: start;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify-items- start {
+  .lg:justify-items-start {
     justify-items: start;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify-items- start {
+  .xl:justify-items-start {
     justify-items: start;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify-items- start {
+  .xxl:justify-items-start {
     justify-items: start;
   }
 }
-.justify-items- end {
+.justify-items-end {
   justify-items: end;
 }
 
 @media (min-width: 640px) {
-  .sm:justify-items- end {
+  .sm:justify-items-end {
     justify-items: end;
   }
 }
 @media (min-width: 768px) {
-  .md:justify-items- end {
+  .md:justify-items-end {
     justify-items: end;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify-items- end {
+  .lg:justify-items-end {
     justify-items: end;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify-items- end {
+  .xl:justify-items-end {
     justify-items: end;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify-items- end {
+  .xxl:justify-items-end {
     justify-items: end;
   }
 }
-.justify-items- center {
+.justify-items-center {
   justify-items: center;
 }
 
 @media (min-width: 640px) {
-  .sm:justify-items- center {
+  .sm:justify-items-center {
     justify-items: center;
   }
 }
 @media (min-width: 768px) {
-  .md:justify-items- center {
+  .md:justify-items-center {
     justify-items: center;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify-items- center {
+  .lg:justify-items-center {
     justify-items: center;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify-items- center {
+  .xl:justify-items-center {
     justify-items: center;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify-items- center {
+  .xxl:justify-items-center {
     justify-items: center;
   }
 }
-.justify-items- baseline {
+.justify-items-baseline {
   justify-items: baseline;
 }
 
 @media (min-width: 640px) {
-  .sm:justify-items- baseline {
+  .sm:justify-items-baseline {
     justify-items: baseline;
   }
 }
 @media (min-width: 768px) {
-  .md:justify-items- baseline {
+  .md:justify-items-baseline {
     justify-items: baseline;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify-items- baseline {
+  .lg:justify-items-baseline {
     justify-items: baseline;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify-items- baseline {
+  .xl:justify-items-baseline {
     justify-items: baseline;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify-items- baseline {
+  .xxl:justify-items-baseline {
     justify-items: baseline;
   }
 }
-.justify-items- stretch {
+.justify-items-stretch {
   justify-items: stretch;
 }
 
 @media (min-width: 640px) {
-  .sm:justify-items- stretch {
+  .sm:justify-items-stretch {
     justify-items: stretch;
   }
 }
 @media (min-width: 768px) {
-  .md:justify-items- stretch {
+  .md:justify-items-stretch {
     justify-items: stretch;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify-items- stretch {
+  .lg:justify-items-stretch {
     justify-items: stretch;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify-items- stretch {
+  .xl:justify-items-stretch {
     justify-items: stretch;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify-items- stretch {
+  .xxl:justify-items-stretch {
     justify-items: stretch;
   }
 }
-.justify-self- auto {
+.justify-self-auto {
   justify-self: auto;
 }
 
 @media (min-width: 640px) {
-  .sm:justify-self- auto {
+  .sm:justify-self-auto {
     justify-self: auto;
   }
 }
 @media (min-width: 768px) {
-  .md:justify-self- auto {
+  .md:justify-self-auto {
     justify-self: auto;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify-self- auto {
+  .lg:justify-self-auto {
     justify-self: auto;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify-self- auto {
+  .xl:justify-self-auto {
     justify-self: auto;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify-self- auto {
+  .xxl:justify-self-auto {
     justify-self: auto;
   }
 }
-.justify-self- start {
+.justify-self-start {
   justify-self: start;
 }
 
 @media (min-width: 640px) {
-  .sm:justify-self- start {
+  .sm:justify-self-start {
     justify-self: start;
   }
 }
 @media (min-width: 768px) {
-  .md:justify-self- start {
+  .md:justify-self-start {
     justify-self: start;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify-self- start {
+  .lg:justify-self-start {
     justify-self: start;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify-self- start {
+  .xl:justify-self-start {
     justify-self: start;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify-self- start {
+  .xxl:justify-self-start {
     justify-self: start;
   }
 }
-.justify-self- end {
+.justify-self-end {
   justify-self: end;
 }
 
 @media (min-width: 640px) {
-  .sm:justify-self- end {
+  .sm:justify-self-end {
     justify-self: end;
   }
 }
 @media (min-width: 768px) {
-  .md:justify-self- end {
+  .md:justify-self-end {
     justify-self: end;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify-self- end {
+  .lg:justify-self-end {
     justify-self: end;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify-self- end {
+  .xl:justify-self-end {
     justify-self: end;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify-self- end {
+  .xxl:justify-self-end {
     justify-self: end;
   }
 }
-.justify-self- center {
+.justify-self-center {
   justify-self: center;
 }
 
 @media (min-width: 640px) {
-  .sm:justify-self- center {
+  .sm:justify-self-center {
     justify-self: center;
   }
 }
 @media (min-width: 768px) {
-  .md:justify-self- center {
+  .md:justify-self-center {
     justify-self: center;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify-self- center {
+  .lg:justify-self-center {
     justify-self: center;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify-self- center {
+  .xl:justify-self-center {
     justify-self: center;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify-self- center {
+  .xxl:justify-self-center {
     justify-self: center;
   }
 }
-.justify-self- baseline {
+.justify-self-baseline {
   justify-self: baseline;
 }
 
 @media (min-width: 640px) {
-  .sm:justify-self- baseline {
+  .sm:justify-self-baseline {
     justify-self: baseline;
   }
 }
 @media (min-width: 768px) {
-  .md:justify-self- baseline {
+  .md:justify-self-baseline {
     justify-self: baseline;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify-self- baseline {
+  .lg:justify-self-baseline {
     justify-self: baseline;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify-self- baseline {
+  .xl:justify-self-baseline {
     justify-self: baseline;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify-self- baseline {
+  .xxl:justify-self-baseline {
     justify-self: baseline;
   }
 }
-.justify-self- stretch {
+.justify-self-stretch {
   justify-self: stretch;
 }
 
 @media (min-width: 640px) {
-  .sm:justify-self- stretch {
+  .sm:justify-self-stretch {
     justify-self: stretch;
   }
 }
 @media (min-width: 768px) {
-  .md:justify-self- stretch {
+  .md:justify-self-stretch {
     justify-self: stretch;
   }
 }
 @media (min-width: 1024px) {
-  .lg:justify-self- stretch {
+  .lg:justify-self-stretch {
     justify-self: stretch;
   }
 }
 @media (min-width: 1280px) {
-  .xl:justify-self- stretch {
+  .xl:justify-self-stretch {
     justify-self: stretch;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:justify-self- stretch {
+  .xxl:justify-self-stretch {
     justify-self: stretch;
   }
 }
@@ -10235,641 +10235,641 @@
     order: 12;
   }
 }
-.place-content- start {
+.place-content-start {
   place-content: flex-start;
 }
 
 @media (min-width: 640px) {
-  .sm:place-content- start {
+  .sm:place-content-start {
     place-content: flex-start;
   }
 }
 @media (min-width: 768px) {
-  .md:place-content- start {
+  .md:place-content-start {
     place-content: flex-start;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-content- start {
+  .lg:place-content-start {
     place-content: flex-start;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-content- start {
+  .xl:place-content-start {
     place-content: flex-start;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-content- start {
+  .xxl:place-content-start {
     place-content: flex-start;
   }
 }
-.place-content- end {
+.place-content-end {
   place-content: flex-end;
 }
 
 @media (min-width: 640px) {
-  .sm:place-content- end {
+  .sm:place-content-end {
     place-content: flex-end;
   }
 }
 @media (min-width: 768px) {
-  .md:place-content- end {
+  .md:place-content-end {
     place-content: flex-end;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-content- end {
+  .lg:place-content-end {
     place-content: flex-end;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-content- end {
+  .xl:place-content-end {
     place-content: flex-end;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-content- end {
+  .xxl:place-content-end {
     place-content: flex-end;
   }
 }
-.place-content- center {
+.place-content-center {
   place-content: center;
 }
 
 @media (min-width: 640px) {
-  .sm:place-content- center {
+  .sm:place-content-center {
     place-content: center;
   }
 }
 @media (min-width: 768px) {
-  .md:place-content- center {
+  .md:place-content-center {
     place-content: center;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-content- center {
+  .lg:place-content-center {
     place-content: center;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-content- center {
+  .xl:place-content-center {
     place-content: center;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-content- center {
+  .xxl:place-content-center {
     place-content: center;
   }
 }
-.place-content- between {
+.place-content-between {
   place-content: space-between;
 }
 
 @media (min-width: 640px) {
-  .sm:place-content- between {
+  .sm:place-content-between {
     place-content: space-between;
   }
 }
 @media (min-width: 768px) {
-  .md:place-content- between {
+  .md:place-content-between {
     place-content: space-between;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-content- between {
+  .lg:place-content-between {
     place-content: space-between;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-content- between {
+  .xl:place-content-between {
     place-content: space-between;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-content- between {
+  .xxl:place-content-between {
     place-content: space-between;
   }
 }
-.place-content- around {
+.place-content-around {
   place-content: space-around;
 }
 
 @media (min-width: 640px) {
-  .sm:place-content- around {
+  .sm:place-content-around {
     place-content: space-around;
   }
 }
 @media (min-width: 768px) {
-  .md:place-content- around {
+  .md:place-content-around {
     place-content: space-around;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-content- around {
+  .lg:place-content-around {
     place-content: space-around;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-content- around {
+  .xl:place-content-around {
     place-content: space-around;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-content- around {
+  .xxl:place-content-around {
     place-content: space-around;
   }
 }
-.place-content- evenly {
+.place-content-evenly {
   place-content: space-evenly;
 }
 
 @media (min-width: 640px) {
-  .sm:place-content- evenly {
+  .sm:place-content-evenly {
     place-content: space-evenly;
   }
 }
 @media (min-width: 768px) {
-  .md:place-content- evenly {
+  .md:place-content-evenly {
     place-content: space-evenly;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-content- evenly {
+  .lg:place-content-evenly {
     place-content: space-evenly;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-content- evenly {
+  .xl:place-content-evenly {
     place-content: space-evenly;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-content- evenly {
+  .xxl:place-content-evenly {
     place-content: space-evenly;
   }
 }
-.place-content- baseline {
+.place-content-baseline {
   place-content: baseline;
 }
 
 @media (min-width: 640px) {
-  .sm:place-content- baseline {
+  .sm:place-content-baseline {
     place-content: baseline;
   }
 }
 @media (min-width: 768px) {
-  .md:place-content- baseline {
+  .md:place-content-baseline {
     place-content: baseline;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-content- baseline {
+  .lg:place-content-baseline {
     place-content: baseline;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-content- baseline {
+  .xl:place-content-baseline {
     place-content: baseline;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-content- baseline {
+  .xxl:place-content-baseline {
     place-content: baseline;
   }
 }
-.place-content- stretch {
+.place-content-stretch {
   place-content: stretch;
 }
 
 @media (min-width: 640px) {
-  .sm:place-content- stretch {
+  .sm:place-content-stretch {
     place-content: stretch;
   }
 }
 @media (min-width: 768px) {
-  .md:place-content- stretch {
+  .md:place-content-stretch {
     place-content: stretch;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-content- stretch {
+  .lg:place-content-stretch {
     place-content: stretch;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-content- stretch {
+  .xl:place-content-stretch {
     place-content: stretch;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-content- stretch {
+  .xxl:place-content-stretch {
     place-content: stretch;
   }
 }
-.place-items- start {
+.place-items-start {
   place-items: start;
 }
 
 @media (min-width: 640px) {
-  .sm:place-items- start {
+  .sm:place-items-start {
     place-items: start;
   }
 }
 @media (min-width: 768px) {
-  .md:place-items- start {
+  .md:place-items-start {
     place-items: start;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-items- start {
+  .lg:place-items-start {
     place-items: start;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-items- start {
+  .xl:place-items-start {
     place-items: start;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-items- start {
+  .xxl:place-items-start {
     place-items: start;
   }
 }
-.place-items- end {
+.place-items-end {
   place-items: end;
 }
 
 @media (min-width: 640px) {
-  .sm:place-items- end {
+  .sm:place-items-end {
     place-items: end;
   }
 }
 @media (min-width: 768px) {
-  .md:place-items- end {
+  .md:place-items-end {
     place-items: end;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-items- end {
+  .lg:place-items-end {
     place-items: end;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-items- end {
+  .xl:place-items-end {
     place-items: end;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-items- end {
+  .xxl:place-items-end {
     place-items: end;
   }
 }
-.place-items- center {
+.place-items-center {
   place-items: center;
 }
 
 @media (min-width: 640px) {
-  .sm:place-items- center {
+  .sm:place-items-center {
     place-items: center;
   }
 }
 @media (min-width: 768px) {
-  .md:place-items- center {
+  .md:place-items-center {
     place-items: center;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-items- center {
+  .lg:place-items-center {
     place-items: center;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-items- center {
+  .xl:place-items-center {
     place-items: center;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-items- center {
+  .xxl:place-items-center {
     place-items: center;
   }
 }
-.place-items- baseline {
+.place-items-baseline {
   place-items: baseline;
 }
 
 @media (min-width: 640px) {
-  .sm:place-items- baseline {
+  .sm:place-items-baseline {
     place-items: baseline;
   }
 }
 @media (min-width: 768px) {
-  .md:place-items- baseline {
+  .md:place-items-baseline {
     place-items: baseline;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-items- baseline {
+  .lg:place-items-baseline {
     place-items: baseline;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-items- baseline {
+  .xl:place-items-baseline {
     place-items: baseline;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-items- baseline {
+  .xxl:place-items-baseline {
     place-items: baseline;
   }
 }
-.place-items- stretch {
+.place-items-stretch {
   place-items: stretch;
 }
 
 @media (min-width: 640px) {
-  .sm:place-items- stretch {
+  .sm:place-items-stretch {
     place-items: stretch;
   }
 }
 @media (min-width: 768px) {
-  .md:place-items- stretch {
+  .md:place-items-stretch {
     place-items: stretch;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-items- stretch {
+  .lg:place-items-stretch {
     place-items: stretch;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-items- stretch {
+  .xl:place-items-stretch {
     place-items: stretch;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-items- stretch {
+  .xxl:place-items-stretch {
     place-items: stretch;
   }
 }
-.place-self- auto {
+.place-self-auto {
   place-self: auto;
 }
 
 @media (min-width: 640px) {
-  .sm:place-self- auto {
+  .sm:place-self-auto {
     place-self: auto;
   }
 }
 @media (min-width: 768px) {
-  .md:place-self- auto {
+  .md:place-self-auto {
     place-self: auto;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-self- auto {
+  .lg:place-self-auto {
     place-self: auto;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-self- auto {
+  .xl:place-self-auto {
     place-self: auto;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-self- auto {
+  .xxl:place-self-auto {
     place-self: auto;
   }
 }
-.place-self- start {
+.place-self-start {
   place-self: flex-start;
 }
 
 @media (min-width: 640px) {
-  .sm:place-self- start {
+  .sm:place-self-start {
     place-self: flex-start;
   }
 }
 @media (min-width: 768px) {
-  .md:place-self- start {
+  .md:place-self-start {
     place-self: flex-start;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-self- start {
+  .lg:place-self-start {
     place-self: flex-start;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-self- start {
+  .xl:place-self-start {
     place-self: flex-start;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-self- start {
+  .xxl:place-self-start {
     place-self: flex-start;
   }
 }
-.place-self- end {
+.place-self-end {
   place-self: flex-end;
 }
 
 @media (min-width: 640px) {
-  .sm:place-self- end {
+  .sm:place-self-end {
     place-self: flex-end;
   }
 }
 @media (min-width: 768px) {
-  .md:place-self- end {
+  .md:place-self-end {
     place-self: flex-end;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-self- end {
+  .lg:place-self-end {
     place-self: flex-end;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-self- end {
+  .xl:place-self-end {
     place-self: flex-end;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-self- end {
+  .xxl:place-self-end {
     place-self: flex-end;
   }
 }
-.place-self- center {
+.place-self-center {
   place-self: center;
 }
 
 @media (min-width: 640px) {
-  .sm:place-self- center {
+  .sm:place-self-center {
     place-self: center;
   }
 }
 @media (min-width: 768px) {
-  .md:place-self- center {
+  .md:place-self-center {
     place-self: center;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-self- center {
+  .lg:place-self-center {
     place-self: center;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-self- center {
+  .xl:place-self-center {
     place-self: center;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-self- center {
+  .xxl:place-self-center {
     place-self: center;
   }
 }
-.place-self- baseline {
+.place-self-baseline {
   place-self: baseline;
 }
 
 @media (min-width: 640px) {
-  .sm:place-self- baseline {
+  .sm:place-self-baseline {
     place-self: baseline;
   }
 }
 @media (min-width: 768px) {
-  .md:place-self- baseline {
+  .md:place-self-baseline {
     place-self: baseline;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-self- baseline {
+  .lg:place-self-baseline {
     place-self: baseline;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-self- baseline {
+  .xl:place-self-baseline {
     place-self: baseline;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-self- baseline {
+  .xxl:place-self-baseline {
     place-self: baseline;
   }
 }
-.place-self- stretch {
+.place-self-stretch {
   place-self: stretch;
 }
 
 @media (min-width: 640px) {
-  .sm:place-self- stretch {
+  .sm:place-self-stretch {
     place-self: stretch;
   }
 }
 @media (min-width: 768px) {
-  .md:place-self- stretch {
+  .md:place-self-stretch {
     place-self: stretch;
   }
 }
 @media (min-width: 1024px) {
-  .lg:place-self- stretch {
+  .lg:place-self-stretch {
     place-self: stretch;
   }
 }
 @media (min-width: 1280px) {
-  .xl:place-self- stretch {
+  .xl:place-self-stretch {
     place-self: stretch;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:place-self- stretch {
+  .xxl:place-self-stretch {
     place-self: stretch;
   }
 }
-.flex- nowrap {
+.flex-nowrap {
   flex-wrap: nowrap;
 }
 
 @media (min-width: 640px) {
-  .sm:flex- nowrap {
+  .sm:flex-nowrap {
     flex-wrap: nowrap;
   }
 }
 @media (min-width: 768px) {
-  .md:flex- nowrap {
+  .md:flex-nowrap {
     flex-wrap: nowrap;
   }
 }
 @media (min-width: 1024px) {
-  .lg:flex- nowrap {
+  .lg:flex-nowrap {
     flex-wrap: nowrap;
   }
 }
 @media (min-width: 1280px) {
-  .xl:flex- nowrap {
+  .xl:flex-nowrap {
     flex-wrap: nowrap;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:flex- nowrap {
+  .xxl:flex-nowrap {
     flex-wrap: nowrap;
   }
 }
-.flex- wrap {
+.flex-wrap {
   flex-wrap: wrap;
 }
 
 @media (min-width: 640px) {
-  .sm:flex- wrap {
+  .sm:flex-wrap {
     flex-wrap: wrap;
   }
 }
 @media (min-width: 768px) {
-  .md:flex- wrap {
+  .md:flex-wrap {
     flex-wrap: wrap;
   }
 }
 @media (min-width: 1024px) {
-  .lg:flex- wrap {
+  .lg:flex-wrap {
     flex-wrap: wrap;
   }
 }
 @media (min-width: 1280px) {
-  .xl:flex- wrap {
+  .xl:flex-wrap {
     flex-wrap: wrap;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:flex- wrap {
+  .xxl:flex-wrap {
     flex-wrap: wrap;
   }
 }
-.flex- wrap-reverse {
+.flex-wrap-reverse {
   flex-wrap: wrap-reverse;
 }
 
 @media (min-width: 640px) {
-  .sm:flex- wrap-reverse {
+  .sm:flex-wrap-reverse {
     flex-wrap: wrap-reverse;
   }
 }
 @media (min-width: 768px) {
-  .md:flex- wrap-reverse {
+  .md:flex-wrap-reverse {
     flex-wrap: wrap-reverse;
   }
 }
 @media (min-width: 1024px) {
-  .lg:flex- wrap-reverse {
+  .lg:flex-wrap-reverse {
     flex-wrap: wrap-reverse;
   }
 }
 @media (min-width: 1280px) {
-  .xl:flex- wrap-reverse {
+  .xl:flex-wrap-reverse {
     flex-wrap: wrap-reverse;
   }
 }
 @media (min-width: 1536px) {
-  .xxl:flex- wrap-reverse {
+  .xxl:flex-wrap-reverse {
     flex-wrap: wrap-reverse;
   }
 }

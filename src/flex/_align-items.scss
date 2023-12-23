@@ -9,7 +9,7 @@ $_align-items: (
 ); 
 
 @each $key, $value in $_align-items {
-    @include breakpoints.bp('items-'#{$key}) {
+    @include breakpoints.bp('items-#{$key}') {
         align-items: $value;
     }
 }

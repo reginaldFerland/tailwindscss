@@ -10,7 +10,7 @@ $_place-self: (
 );
 
 @each $key, $value in $_place-self {
-    @include breakpoints.bp('place-self-'#{$key}) {
+    @include breakpoints.bp('place-self-#{$key}') {
         place-self: $value;
     }
 }

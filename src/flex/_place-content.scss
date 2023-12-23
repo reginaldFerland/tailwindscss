@@ -12,7 +12,7 @@ $_place-content: (
 );
 
 @each $key, $value in $_place-content {
-    @include breakpoints.bp('place-content-'#{$key}) {
+    @include breakpoints.bp('place-content-#{$key}') {
         place-content: $value;
     }
 }
