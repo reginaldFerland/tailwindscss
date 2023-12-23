@@ -1,0 +1,14 @@
+@use '../core';
+
+$_transform: (
+    'uppercase': uppercase,
+    'lowercase': lowercase,
+    'capitalize': capitalize,
+    'normal': none,
+);
+
+@each $name, $transform in $_transform {
+    @include core.variations('#{$name}') {
+        text-transform: $transform;
+    }
+}
