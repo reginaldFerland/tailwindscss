@@ -9,6 +9,6 @@ $_wrap: (
 
 @each $name, $wrap in $_wrap {
     @include core.variations('text-#{$name}') {
-        text-space: $wrap;
+        text-wrap: $wrap;
     }
 }

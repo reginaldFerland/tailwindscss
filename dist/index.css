@@ -76566,119 +76566,119 @@
   }
 }
 .text-wrap {
-  text-space: wrap;
+  text-wrap: wrap;
 }
 
 @media (min-width: 640px) {
   .sm:text-wrap {
-    text-space: wrap;
+    text-wrap: wrap;
   }
 }
 @media (min-width: 768px) {
   .md:text-wrap {
-    text-space: wrap;
+    text-wrap: wrap;
   }
 }
 @media (min-width: 1024px) {
   .lg:text-wrap {
-    text-space: wrap;
+    text-wrap: wrap;
   }
 }
 @media (min-width: 1280px) {
   .xl:text-wrap {
-    text-space: wrap;
+    text-wrap: wrap;
   }
 }
 @media (min-width: 1536px) {
   .xxl:text-wrap {
-    text-space: wrap;
+    text-wrap: wrap;
   }
 }
 .text-nowrap {
-  text-space: nowrap;
+  text-wrap: nowrap;
 }
 
 @media (min-width: 640px) {
   .sm:text-nowrap {
-    text-space: nowrap;
+    text-wrap: nowrap;
   }
 }
 @media (min-width: 768px) {
   .md:text-nowrap {
-    text-space: nowrap;
+    text-wrap: nowrap;
   }
 }
 @media (min-width: 1024px) {
   .lg:text-nowrap {
-    text-space: nowrap;
+    text-wrap: nowrap;
   }
 }
 @media (min-width: 1280px) {
   .xl:text-nowrap {
-    text-space: nowrap;
+    text-wrap: nowrap;
   }
 }
 @media (min-width: 1536px) {
   .xxl:text-nowrap {
-    text-space: nowrap;
+    text-wrap: nowrap;
   }
 }
 .text-balance {
-  text-space: balance;
+  text-wrap: balance;
 }
 
 @media (min-width: 640px) {
   .sm:text-balance {
-    text-space: balance;
+    text-wrap: balance;
   }
 }
 @media (min-width: 768px) {
   .md:text-balance {
-    text-space: balance;
+    text-wrap: balance;
   }
 }
 @media (min-width: 1024px) {
   .lg:text-balance {
-    text-space: balance;
+    text-wrap: balance;
   }
 }
 @media (min-width: 1280px) {
   .xl:text-balance {
-    text-space: balance;
+    text-wrap: balance;
   }
 }
 @media (min-width: 1536px) {
   .xxl:text-balance {
-    text-space: balance;
+    text-wrap: balance;
   }
 }
 .text-pretty {
-  text-space: pretty;
+  text-wrap: pretty;
 }
 
 @media (min-width: 640px) {
   .sm:text-pretty {
-    text-space: pretty;
+    text-wrap: pretty;
   }
 }
 @media (min-width: 768px) {
   .md:text-pretty {
-    text-space: pretty;
+    text-wrap: pretty;
   }
 }
 @media (min-width: 1024px) {
   .lg:text-pretty {
-    text-space: pretty;
+    text-wrap: pretty;
   }
 }
 @media (min-width: 1280px) {
   .xl:text-pretty {
-    text-space: pretty;
+    text-wrap: pretty;
   }
 }
 @media (min-width: 1536px) {
   .xxl:text-pretty {
-    text-space: pretty;
+    text-wrap: pretty;
   }
 }
 
