@@ -1,0 +1,16 @@
+@use '../core';
+
+$_whitespace: (
+    'normal': normal,
+    'nowrap': nowrap,
+    'pre': pre,
+    'pre-line': pre-line,
+    'pre-wrap': pre-wrap,
+    'break-spaces': break-spaces,
+);
+
+@each $name, $whitespace in $_whitespace {
+    @include core.variations('whitespace-#{$name}') {
+        white-space: $whitespace;
+    }
+}
