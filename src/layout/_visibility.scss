@@ -1,0 +1,16 @@
+@use '../core/breakpoints';
+
+$_visibility: (
+    'visible': 'visible',
+    'invisible': 'hidden',
+    'collapse': 'collapse',
+);
+
+@each $name, $value in $_visibility {
+    .#{$name} {
+        visibility: #{$value};
+    }
+    @include breakpoints.bp('#{$name}') {
+        visibility: #{$value};
+    }
+}
