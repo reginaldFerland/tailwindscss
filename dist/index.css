@@ -10003,6 +10003,151 @@
     align-content: stretch;
   }
 }
+.items- start {
+  align-items: flex-start;
+}
+
+@media (min-width: 640px) {
+  .sm:items- start {
+    align-items: flex-start;
+  }
+}
+@media (min-width: 768px) {
+  .md:items- start {
+    align-items: flex-start;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:items- start {
+    align-items: flex-start;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:items- start {
+    align-items: flex-start;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:items- start {
+    align-items: flex-start;
+  }
+}
+.items- end {
+  align-items: flex-end;
+}
+
+@media (min-width: 640px) {
+  .sm:items- end {
+    align-items: flex-end;
+  }
+}
+@media (min-width: 768px) {
+  .md:items- end {
+    align-items: flex-end;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:items- end {
+    align-items: flex-end;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:items- end {
+    align-items: flex-end;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:items- end {
+    align-items: flex-end;
+  }
+}
+.items- center {
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+  .sm:items- center {
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .md:items- center {
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:items- center {
+    align-items: center;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:items- center {
+    align-items: center;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:items- center {
+    align-items: center;
+  }
+}
+.items- baseline {
+  align-items: baseline;
+}
+
+@media (min-width: 640px) {
+  .sm:items- baseline {
+    align-items: baseline;
+  }
+}
+@media (min-width: 768px) {
+  .md:items- baseline {
+    align-items: baseline;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:items- baseline {
+    align-items: baseline;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:items- baseline {
+    align-items: baseline;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:items- baseline {
+    align-items: baseline;
+  }
+}
+.items- stretch {
+  align-items: stretch;
+}
+
+@media (min-width: 640px) {
+  .sm:items- stretch {
+    align-items: stretch;
+  }
+}
+@media (min-width: 768px) {
+  .md:items- stretch {
+    align-items: stretch;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:items- stretch {
+    align-items: stretch;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:items- stretch {
+    align-items: stretch;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:items- stretch {
+    align-items: stretch;
+  }
+}
 .aspect-auto {
   aspect-ratio: 0;
 }

@@ -1,0 +1,15 @@
+@use '../core/breakpoints';
+
+$_align-items: (
+    "start": flex-start,
+    "end": flex-end,
+    "center": center,
+    "baseline": baseline,
+    "stretch": stretch,
+); 
+
+@each $key, $value in $_align-items {
+    @include breakpoints.bp('items-'#{$key}) {
+        align-items: $value;
+    }
+}
