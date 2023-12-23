@@ -1,0 +1,20 @@
+@use '../core/breakpoints';
+@use '../core/size';
+
+@each $key, $value in size.$size {
+    @include breakpoints.bp('space-x-#{$key}') {
+        margin-left: $value;
+    }
+
+    @include breakpoints.bp('space-y-#{$key}') {
+        margin-top: $value;
+    }
+}
+
+@include breakpoints.bp('space-x-reverse') {
+    --tw-space-x-reverse: 1;
+}
+
+@include breakpoints.bp('space-y-reverse') {
+    --tw-space-y-reverse: 1;
+}
