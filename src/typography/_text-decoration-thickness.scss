@@ -1,0 +1,17 @@
+@use '../core';
+
+$_thicknesses: (
+    "auto": auto,
+    "from-font": from-font,
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "4": 4,
+    "8": 8,
+);
+
+@each $thickness, $value in $_thicknesses {
+    @include core.variations('decoration-#{$thickness}') {
+        text-decoration-thickness: $value;
+    }
+}
