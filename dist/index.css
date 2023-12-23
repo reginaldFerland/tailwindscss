@@ -59897,5 +59897,266 @@
     font-weight: 900;
   }
 }
+.normal-nums {
+  font-variant-numeric: "normal";
+}
+
+@media (min-width: 640px) {
+  .sm:normal-nums {
+    font-variant-numeric: "normal";
+  }
+}
+@media (min-width: 768px) {
+  .md:normal-nums {
+    font-variant-numeric: "normal";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:normal-nums {
+    font-variant-numeric: "normal";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:normal-nums {
+    font-variant-numeric: "normal";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:normal-nums {
+    font-variant-numeric: "normal";
+  }
+}
+.ordinal {
+  font-variant-numeric: "ordinal";
+}
+
+@media (min-width: 640px) {
+  .sm:ordinal {
+    font-variant-numeric: "ordinal";
+  }
+}
+@media (min-width: 768px) {
+  .md:ordinal {
+    font-variant-numeric: "ordinal";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:ordinal {
+    font-variant-numeric: "ordinal";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:ordinal {
+    font-variant-numeric: "ordinal";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:ordinal {
+    font-variant-numeric: "ordinal";
+  }
+}
+.slashed-zero {
+  font-variant-numeric: "slashed-zero";
+}
+
+@media (min-width: 640px) {
+  .sm:slashed-zero {
+    font-variant-numeric: "slashed-zero";
+  }
+}
+@media (min-width: 768px) {
+  .md:slashed-zero {
+    font-variant-numeric: "slashed-zero";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:slashed-zero {
+    font-variant-numeric: "slashed-zero";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:slashed-zero {
+    font-variant-numeric: "slashed-zero";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:slashed-zero {
+    font-variant-numeric: "slashed-zero";
+  }
+}
+.lining-nums {
+  font-variant-numeric: "lining-nums";
+}
+
+@media (min-width: 640px) {
+  .sm:lining-nums {
+    font-variant-numeric: "lining-nums";
+  }
+}
+@media (min-width: 768px) {
+  .md:lining-nums {
+    font-variant-numeric: "lining-nums";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:lining-nums {
+    font-variant-numeric: "lining-nums";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:lining-nums {
+    font-variant-numeric: "lining-nums";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:lining-nums {
+    font-variant-numeric: "lining-nums";
+  }
+}
+.oldstyle-nums {
+  font-variant-numeric: "oldstyle-nums";
+}
+
+@media (min-width: 640px) {
+  .sm:oldstyle-nums {
+    font-variant-numeric: "oldstyle-nums";
+  }
+}
+@media (min-width: 768px) {
+  .md:oldstyle-nums {
+    font-variant-numeric: "oldstyle-nums";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:oldstyle-nums {
+    font-variant-numeric: "oldstyle-nums";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:oldstyle-nums {
+    font-variant-numeric: "oldstyle-nums";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:oldstyle-nums {
+    font-variant-numeric: "oldstyle-nums";
+  }
+}
+.proportional-nums {
+  font-variant-numeric: "proportional-nums";
+}
+
+@media (min-width: 640px) {
+  .sm:proportional-nums {
+    font-variant-numeric: "proportional-nums";
+  }
+}
+@media (min-width: 768px) {
+  .md:proportional-nums {
+    font-variant-numeric: "proportional-nums";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:proportional-nums {
+    font-variant-numeric: "proportional-nums";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:proportional-nums {
+    font-variant-numeric: "proportional-nums";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:proportional-nums {
+    font-variant-numeric: "proportional-nums";
+  }
+}
+.tabular-nums {
+  font-variant-numeric: "tabular-nums";
+}
+
+@media (min-width: 640px) {
+  .sm:tabular-nums {
+    font-variant-numeric: "tabular-nums";
+  }
+}
+@media (min-width: 768px) {
+  .md:tabular-nums {
+    font-variant-numeric: "tabular-nums";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:tabular-nums {
+    font-variant-numeric: "tabular-nums";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:tabular-nums {
+    font-variant-numeric: "tabular-nums";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:tabular-nums {
+    font-variant-numeric: "tabular-nums";
+  }
+}
+.diagonal-fractions {
+  font-variant-numeric: "diagonal-fractions";
+}
+
+@media (min-width: 640px) {
+  .sm:diagonal-fractions {
+    font-variant-numeric: "diagonal-fractions";
+  }
+}
+@media (min-width: 768px) {
+  .md:diagonal-fractions {
+    font-variant-numeric: "diagonal-fractions";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:diagonal-fractions {
+    font-variant-numeric: "diagonal-fractions";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:diagonal-fractions {
+    font-variant-numeric: "diagonal-fractions";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:diagonal-fractions {
+    font-variant-numeric: "diagonal-fractions";
+  }
+}
+.stacked-fractions {
+  font-variant-numeric: "stacked-fractions";
+}
+
+@media (min-width: 640px) {
+  .sm:stacked-fractions {
+    font-variant-numeric: "stacked-fractions";
+  }
+}
+@media (min-width: 768px) {
+  .md:stacked-fractions {
+    font-variant-numeric: "stacked-fractions";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:stacked-fractions {
+    font-variant-numeric: "stacked-fractions";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:stacked-fractions {
+    font-variant-numeric: "stacked-fractions";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:stacked-fractions {
+    font-variant-numeric: "stacked-fractions";
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
