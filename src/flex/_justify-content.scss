@@ -1,0 +1,17 @@
+@use '../core/breakpoints';
+
+$_justify-content: (
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "between": space-between,
+  "around": space-around,
+  "evenly": space-evenly,
+  "strech": stretch,
+);
+
+@each $key, $value in $_justify-content {
+  @include breakpoints.breakpoint('justify-'#{$key}) {
+    justify-content: $value;
+  }
+}
