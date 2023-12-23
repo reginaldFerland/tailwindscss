@@ -78189,5 +78189,127 @@
     white-space: break-spaces;
   }
 }
+.break-normal {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+@media (min-width: 640px) {
+  .sm:break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+}
+@media (min-width: 768px) {
+  .md:break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+}
+.break-words {
+  overflow-wrap: break-word;
+}
+
+@media (min-width: 640px) {
+  .sm:break-words {
+    overflow-wrap: break-word;
+  }
+}
+@media (min-width: 768px) {
+  .md:break-words {
+    overflow-wrap: break-word;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:break-words {
+    overflow-wrap: break-word;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:break-words {
+    overflow-wrap: break-word;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:break-words {
+    overflow-wrap: break-word;
+  }
+}
+.break-all {
+  word-break: break-all;
+}
+
+@media (min-width: 640px) {
+  .sm:break-all {
+    word-break: break-all;
+  }
+}
+@media (min-width: 768px) {
+  .md:break-all {
+    word-break: break-all;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:break-all {
+    word-break: break-all;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:break-all {
+    word-break: break-all;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:break-all {
+    word-break: break-all;
+  }
+}
+.break-keep {
+  word-break: keep-all;
+}
+
+@media (min-width: 640px) {
+  .sm:break-keep {
+    word-break: keep-all;
+  }
+}
+@media (min-width: 768px) {
+  .md:break-keep {
+    word-break: keep-all;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:break-keep {
+    word-break: keep-all;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:break-keep {
+    word-break: keep-all;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:break-keep {
+    word-break: keep-all;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

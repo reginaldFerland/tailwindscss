@@ -1,0 +1,18 @@
+@use '../core';
+
+@include core.variations('break-normal') {
+    overflow-wrap: normal;
+    word-break: normal;
+}
+
+@include core.variations('break-words') {
+    overflow-wrap: break-word;
+}
+
+@include core.variations('break-all') {
+    word-break: break-all;
+}
+
+@include core.variations('break-keep') {
+    word-break: keep-all;
+}
