@@ -46,7 +46,7 @@ $_grid-span-index: (
     }
 }
 
-$_grid-col-index: (
+$_grid-row-index: (
     '1': 1,
     '2': 2,
     '3': 3,
@@ -63,7 +63,7 @@ $_grid-col-index: (
     'auto': auto,
 );
 
-@each $key, $value in $_grid-col-index {
+@each $key, $value in $_grid-row-index {
     @include breakpoints.bp('row-start-#{$key}') {
         grid-row-start: #{$value};
     }
