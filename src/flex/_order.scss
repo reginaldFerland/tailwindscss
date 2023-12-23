@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_order: (
     'first': -9999,
@@ -20,7 +20,7 @@ $_order: (
 );
 
 @each $key, $value in $_order {
-    @include breakpoints.bp('order-#{$key}') {
+    @include core.variations('order-#{$key}') {
         order: $value;
     }
 }

@@ -1,42 +1,42 @@
-@use '../core/breakpoints';
+@use '../core';
 @use '../core/size';
 
 @each $key, $value in size.$size {
-    @include breakpoints.bp('p-#{$key}') {
+    @include core.variations('p-#{$key}') {
         padding: $value;
     }
 
-    @include breakpoints.bp('px-#{$key}') {
+    @include core.variations('px-#{$key}') {
         padding-left: $value;
         padding-right: $value;
     }
 
-    @include breakpoints.bp('py-#{$key}') {
+    @include core.variations('py-#{$key}') {
         padding-top: $value;
         padding-bottom: $value;
     }
 
-    @include breakpoints.bp('ps-#{$key}') {
+    @include core.variations('ps-#{$key}') {
         padding-inline-start: $value;
     }
 
-    @include breakpoints.bp('pe-#{$key}') {
+    @include core.variations('pe-#{$key}') {
         padding-inline-end: $value;
     }
 
-    @include breakpoints.bp('pt-#{$key}') {
+    @include core.variations('pt-#{$key}') {
         padding-top: $value;
     }
 
-    @include breakpoints.bp('pr-#{$key}') {
+    @include core.variations('pr-#{$key}') {
         padding-right: $value;
     }
 
-    @include breakpoints.bp('pb-#{$key}') {
+    @include core.variations('pb-#{$key}') {
         padding-bottom: $value;
     }
 
-    @include breakpoints.bp('pl-#{$key}') {
+    @include core.variations('pl-#{$key}') {
         padding-left: $value;
     }
 }

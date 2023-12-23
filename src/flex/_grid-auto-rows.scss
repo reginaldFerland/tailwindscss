@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_rows: (
     'auto': "auto",
@@ -8,7 +8,7 @@ $_rows: (
 );
 
 @each $key, $value in $_rows {
-    @include breakpoints.bp('auto-rows-#{$key}') {
+    @include core.variations('auto-rows-#{$key}') {
         grid-auto-rows: #{$value};
     }
 }

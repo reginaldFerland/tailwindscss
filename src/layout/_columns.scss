@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_columns : (
     "1" : "1",
@@ -31,7 +31,7 @@ $_columns : (
 
 
 @each $name, $size in $_columns {
-    @include breakpoints.bp('columns-#{$name}') {
+    @include core.variations('columns-#{$name}') {
         columns: #{$size};
     }
 }

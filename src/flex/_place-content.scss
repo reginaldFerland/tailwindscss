@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_place-content: (
     "start": flex-start,
@@ -12,7 +12,7 @@ $_place-content: (
 );
 
 @each $key, $value in $_place-content {
-    @include breakpoints.bp('place-content-#{$key}') {
+    @include core.variations('place-content-#{$key}') {
         place-content: $value;
     }
 }

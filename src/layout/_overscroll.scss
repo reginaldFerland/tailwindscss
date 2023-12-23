@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_overscrolls: (
     'auto': 'auto',
@@ -10,16 +10,15 @@ $_overscrolls: (
 );
 
 @each $name, $value in $_overscrolls {
-    @include breakpoints.bp('overscroll-#{$name}') {
+    @include core.variations('overscroll-#{$name}') {
         overscroll-behavior: #{$value};
     }
 
-    @include breakpoints.bp('overscroll-x-#{$name}') {
+    @include core.variations('overscroll-x-#{$name}') {
         overscroll-behavior-x: #{$value};
     }
 
-    @include breakpoints.bp('overscroll-y-#{$name}') {
+    @include core.variations('overscroll-y-#{$name}') {
         overscroll-behavior-y: #{$value};
     }
 }
-

@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_object-fit: (
     'object-contain': 'contain',
@@ -9,7 +9,7 @@ $_object-fit: (
 );
 
 @each $name, $value in $_object-fit {
-    @include breakpoints.bp('#{$name}') {
+    @include core.variations('#{$name}') {
         object-fit: #{$value};
     }
 }

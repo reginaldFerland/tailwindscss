@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_box-sizing: (
     'border': 'border-box',
@@ -6,7 +6,7 @@ $_box-sizing: (
 );
 
 @each $name, $value in $_box-sizing {
-    @include breakpoints.bp('box-#{$name}') {
+    @include core.variations('box-#{$name}') {
         box-sizing: #{$value};
     }
 }

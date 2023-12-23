@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_box-decoration-break: (
     'slice': 'slice',
@@ -6,7 +6,7 @@ $_box-decoration-break: (
 );
 
 @each $name, $value in $_box-decoration-break {
-    @include breakpoints.bp('box-decoration-#{$name}') {
+    @include core.variations('box-decoration-#{$name}') {
         box-decoration-break: #{$value};
     }
 }

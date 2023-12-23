@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_isolation: (
     'isolate': 'isolate',
@@ -6,7 +6,7 @@ $_isolation: (
 );
 
 @each $name, $value in $_isolation {
-    @include breakpoints.bp('#{$name}') {
+    @include core.variations('#{$name}') {
         isolation: #{$value};
     }
 }

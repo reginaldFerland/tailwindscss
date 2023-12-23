@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_display: (
     'block': 'block',
@@ -25,7 +25,7 @@ $_display: (
 );
 
 @each $name, $value in $_display {
-    @include breakpoints.bp('#{$name}') {
+    @include core.variations('#{$name}') {
         display: #{$value};
     }
 }

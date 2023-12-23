@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_object-position: (
     'object-bottom': 'bottom',
@@ -13,7 +13,7 @@ $_object-position: (
 );
 
 @each $name, $value in $_object-position {
-    @include breakpoints.bp('#{$name}') {
+    @include core.variations('#{$name}') {
         object-position: #{$value};
     }
 }

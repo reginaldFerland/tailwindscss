@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_align-self: (
     "auto": auto,
@@ -10,7 +10,7 @@ $_align-self: (
 );
 
 @each $key, $value in $_align-self {
-    @include breakpoints.bp('self-#{$key}') {
+    @include core.variations('self-#{$key}') {
         align-self: $value;
     }
 }

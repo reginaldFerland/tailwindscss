@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_visibility: (
     'visible': 'visible',
@@ -7,7 +7,7 @@ $_visibility: (
 );
 
 @each $name, $value in $_visibility {
-    @include breakpoints.bp('#{$name}') {
+    @include core.variations('#{$name}') {
         visibility: #{$value};
     }
 }

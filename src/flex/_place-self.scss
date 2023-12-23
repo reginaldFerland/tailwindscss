@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_place-self: (
     "auto": auto,
@@ -10,7 +10,7 @@ $_place-self: (
 );
 
 @each $key, $value in $_place-self {
-    @include breakpoints.bp('place-self-#{$key}') {
+    @include core.variations('place-self-#{$key}') {
         place-self: $value;
     }
 }

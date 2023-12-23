@@ -1,4 +1,5 @@
-@use '../core/breakpoints';
+@use '../core';
+
 
 $_overflow: (
     'auto': 'auto',
@@ -9,15 +10,15 @@ $_overflow: (
 );
 
 @each $name, $value in $_overflow {
-    @include breakpoints.bp('overflow-#{$name}') {
+    @include core.variations('overflow-#{$name}') {
         overflow: #{$value};
     }
 
-    @include breakpoints.bp('overflow-x-#{$name}') {
+    @include core.variations('overflow-x-#{$name}') {
         overflow-x: #{$value};
     }
 
-    @include breakpoints.bp('overflow-y-#{$name}') {
+    @include core.variations('overflow-y-#{$name}') {
         overflow-y: #{$value};
     }
 }

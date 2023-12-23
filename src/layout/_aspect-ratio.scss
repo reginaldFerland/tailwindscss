@@ -1,4 +1,4 @@
-@use "../core/breakpoints";
+@use '../core';
 
 $_aspect-ratio : (
     "auto" : "0",
@@ -7,7 +7,7 @@ $_aspect-ratio : (
 );
 
 @each $name, $ratio in $_aspect-ratio {
-    @include breakpoints.bp('aspect-#{$name}') {
+    @include core.variations('aspect-#{$name}') {
         aspect-ratio: #{$ratio};
     }
 }

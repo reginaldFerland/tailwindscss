@@ -1,2 +1,15 @@
 @use "breakpoints";
 @use "size";
+
+@mixin variations($className, $createBaseClass: true) {
+  @if $createBaseClass {
+    .#{$className} {
+      @content;
+    }
+  }
+
+  @include breakpoints.bp($className, false) {
+    @content;
+  }
+
+}

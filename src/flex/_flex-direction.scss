@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_flex-direction: (
   "row": row,
@@ -8,7 +8,7 @@ $_flex-direction: (
 );
 
 @each $key, $value in $_flex-direction {
-    @include breakpoints.bp($key) {
+    @include core.variations($key) {
         flex-direction: $value;
     }
 }

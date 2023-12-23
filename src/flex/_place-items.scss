@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_place-items: (
     "start": start,
@@ -9,7 +9,7 @@ $_place-items: (
 );
 
 @each $key, $value in $_place-items {
-    @include breakpoints.bp('place-items-#{$key}') {
+    @include core.variations('place-items-#{$key}') {
         place-items: $value;
     }
 }

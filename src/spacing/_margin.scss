@@ -1,41 +1,42 @@
-@use '../core/breakpoints';
+@use '../core';
 @use '../core/size';
+
 @each $key, $value in size.$size {
-    @include breakpoints.bp('m-#{$key}') {
+    @include core.variations('m-#{$key}') {
         margin: $value;
     }
 
-    @include breakpoints.bp('mx-#{$key}') {
+    @include core.variations('mx-#{$key}') {
         margin-left: $value;
         margin-right: $value;
     }
 
-    @include breakpoints.bp('my-#{$key}') {
+    @include core.variations('my-#{$key}') {
         margin-top: $value;
         margin-bottom: $value;
     }
 
-    @include breakpoints.bp('ms-#{$key}') {
+    @include core.variations('ms-#{$key}') {
         margin-inline-start: $value;
     }
 
-    @include breakpoints.bp('me-#{$key}') {
+    @include core.variations('me-#{$key}') {
         margin-inline-end: $value;
     }
 
-    @include breakpoints.bp('mt-#{$key}') {
+    @include core.variations('mt-#{$key}') {
         margin-top: $value;
     }
 
-    @include breakpoints.bp('mr-#{$key}') {
+    @include core.variations('mr-#{$key}') {
         margin-right: $value;
     }
 
-    @include breakpoints.bp('mb-#{$key}') {
+    @include core.variations('mb-#{$key}') {
         margin-bottom: $value;
     }
 
-    @include breakpoints.bp('ml-#{$key}') {
+    @include core.variations('ml-#{$key}') {
         margin-left: $value;
     }
 }

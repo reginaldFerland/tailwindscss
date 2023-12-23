@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_index: (
     '0': 0,
@@ -9,12 +9,12 @@ $_index: (
     '5': 5,
 );
 
-@include breakpoints.bp('grow') {
+@include core.variations('grow') {
     flex-grow: 1;
 }
 
 @each $key, $value in $_index {
-    @include breakpoints.bp('grow-#{$key}') {
+    @include core.variations('grow-#{$key}') {
         flex-grow: $value;
     }
 }

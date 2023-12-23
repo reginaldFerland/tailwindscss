@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_flex: (
   "1": "1 1 0%",
@@ -8,7 +8,7 @@ $_flex: (
 );
 
 @each $key, $value in $_flex {
-    @include breakpoints.bp('flex-#{$key}') {
+    @include core.variations('flex-#{$key}') {
         flex: #{$value};
     }
 }

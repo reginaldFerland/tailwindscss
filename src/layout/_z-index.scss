@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_indexes: (
     'auto': auto,
@@ -11,7 +11,7 @@ $_indexes: (
 );
 
 @each $name, $value in $_indexes {
-    @include breakpoints.bp('z-#{$name}') {
+    @include core.variations('z-#{$name}') {
         z-index: #{$value};
     }
 }

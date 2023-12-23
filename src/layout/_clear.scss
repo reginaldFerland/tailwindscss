@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_clears: (
     "start": "inline-start",
@@ -10,7 +10,7 @@ $_clears: (
 );
 
 @each $name, $value in $_clears {
-    @include breakpoints.bp('clear-#{$name}') {
+    @include core.variations('clear-#{$name}') {
         clear: #{$value};
     }
 }

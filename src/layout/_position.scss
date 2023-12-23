@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 @use '../core/size';
 
 $_positions: (
@@ -10,7 +10,7 @@ $_positions: (
 );
 
 @each $name, $value in $_positions {
-    @include breakpoints.bp('#{$name}') {
+    @include core.variations('#{$name}') {
         position: #{$value};
     }
 }
@@ -25,7 +25,7 @@ $_directions: (
 
 @each $name, $dir in $_directions {
     @each $size, $value in size.$size {
-        @include breakpoints.bp('#{$name}-#{$size}') {
+        @include core.variations('#{$name}-#{$size}') {
             #{$dir}: #{$value};
         }
     }
@@ -38,19 +38,19 @@ $_inset-directions: (
 
 @each $name, $dir in $_inset-directions {
     @each $size, $value in size.$size {
-        @include breakpoints.bp('#{$name}-#{$size}') {
+        @include core.variations('#{$name}-#{$size}') {
             inset-inline-#{$dir}: #{$value};
         }
     }
 }
 
 @each $size, $value in size.$size {
-    @include breakpoints.bp('inset-x-#{$size}') {
+    @include core.variations('inset-x-#{$size}') {
         left: #{$value};
         right: #{$value};
     }
 
-    @include breakpoints.bp('inset-y-#{$size}') {
+    @include core.variations('inset-y-#{$size}') {
         top: #{$value};
         bottom: #{$value};
     }

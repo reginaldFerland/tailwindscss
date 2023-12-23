@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_align-items: (
     "start": flex-start,
@@ -9,7 +9,7 @@ $_align-items: (
 ); 
 
 @each $key, $value in $_align-items {
-    @include breakpoints.bp('items-#{$key}') {
+    @include core.variations('items-#{$key}') {
         align-items: $value;
     }
 }

@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_flows: (
     'row': row,
@@ -9,7 +9,7 @@ $_flows: (
 );
 
 @each $key, $value in $_flows {
-    @include breakpoints.bp('grid-flow-#{$key}') {
+    @include core.variations('grid-flow-#{$key}') {
         grid-auto-flow: #{$value};
     }
 }

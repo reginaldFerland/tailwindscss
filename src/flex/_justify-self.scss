@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 
 $_justify-self: (
@@ -11,7 +11,7 @@ $_justify-self: (
 );
 
 @each $key, $value in $_justify-self {
-    @include breakpoints.bp('justify-self-#{$key}') {
+    @include core.variations('justify-self-#{$key}') {
         justify-self: $value;
     }
 }

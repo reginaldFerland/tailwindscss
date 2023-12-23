@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_break-inside: (
     'auto': 'auto',
@@ -17,7 +17,7 @@ $_break-inside: (
 );
 
 @each $name, $value in $_break-inside {
-    @include breakpoints.bp('break-inside-#{$name}') {
+    @include core.variations('break-inside-#{$name}') {
         break-inside: #{$value};
     }
 }

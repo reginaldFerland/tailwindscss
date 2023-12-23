@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_index: (
     'none': none,
@@ -18,7 +18,7 @@ $_index: (
 );
 
 @each $key, $value in $_index {
-    @include breakpoints.bp('grid-cols-#{$key}') {
+    @include core.variations('grid-cols-#{$key}') {
         grid-template-columns: #{$value};
     }
 }
@@ -41,7 +41,7 @@ $_grid-span-index: (
 );
 
 @each $key, $value in $_grid-span-index {
-    @include breakpoints.bp('col-#{$key}') {
+    @include core.variations('col-#{$key}') {
         grid-column: #{$value};
     }
 }
@@ -64,10 +64,10 @@ $_grid-col-index: (
 );
 
 @each $key, $value in $_grid-col-index {
-    @include breakpoints.bp('col-start-#{$key}') {
+    @include core.variations('col-start-#{$key}') {
         grid-column-start: #{$value};
     }
-    @include breakpoints.bp('col-end-#{$key}') {
+    @include core.variations('col-end-#{$key}') {
         grid-column-end: #{$value};
     }
 }

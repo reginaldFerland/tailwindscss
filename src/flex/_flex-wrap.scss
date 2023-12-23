@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_flex-wrap: (
   nowrap: nowrap,
@@ -7,7 +7,7 @@ $_flex-wrap: (
 );
 
 @each $key, $value in $_flex-wrap {
-    @include breakpoints.bp('flex-#{$key}') {
+    @include core.variations('flex-#{$key}') {
         flex-wrap: $value;
     }
 }

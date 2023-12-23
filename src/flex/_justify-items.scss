@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_justify-items: (
   "start": start,
@@ -9,7 +9,7 @@ $_justify-items: (
 );
 
 @each $key, $value in $_justify-items {
-  @include breakpoints.bp('justify-items-#{$key}') {
+  @include core.variations('justify-items-#{$key}') {
     justify-items: $value;
   }
 }

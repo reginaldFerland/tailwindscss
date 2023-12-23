@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core' as core;
 
 $_align-content: (
     "normal": normal,
@@ -13,7 +13,7 @@ $_align-content: (
 );
 
 @each $key, $value in $_align-content {
-    @include breakpoints.bp('content-#{$key}') {
+    @include core.variations('content-#{$key}') {
         align-content: $value;
     }
 }

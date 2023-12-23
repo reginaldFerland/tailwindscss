@@ -1,4 +1,4 @@
-@use '../core/breakpoints';
+@use '../core';
 
 $_floats: (
     'start': 'inline-start',
@@ -9,7 +9,7 @@ $_floats: (
 );
 
 @each $name, $value in $_floats {
-    @include breakpoints.bp('float-#{$name}') {
+    @include core.variations('float-#{$name}') {
         float: #{$value};
     }
 }
