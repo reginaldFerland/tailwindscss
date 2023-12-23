@@ -1,0 +1,16 @@
+@use '../core';
+
+$_directions: (
+    'left': left,
+    'right': right,
+    'center': center,
+    'justify': justify,
+    'start': start,
+    'end': end,
+);
+
+@each $name, $direction in $_directions {
+    @include core.variations('text-#{$name}') {
+        text-align: $direction;
+    }
+}

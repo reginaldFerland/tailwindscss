@@ -1,0 +1,4 @@
+@use '../core';
+@use '../core/color';
+
+@include core.color-variations('text');
