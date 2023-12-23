@@ -1,0 +1,16 @@
+@use '../core/breakpoints';
+@use '../core/size';
+
+@each $size, $value in size.$size {
+    @include breakpoints.bp('gap-#{$size}') {
+        gap: #{$value};
+    }
+
+    @include breakpoints.bp('gap-x-#{$size}') {
+        column-gap: #{$value};
+    }
+
+    @include breakpoints.bp('gap-y-#{$size}') {
+        row-gap: #{$value};
+    }
+}
