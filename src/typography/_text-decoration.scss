@@ -1,0 +1,14 @@
+@use '../core';
+
+$_decoration: (
+    'underline': underline,
+    'overline': overline,
+    'line-through': line-through,
+    'no-underline': none,
+);
+
+@each $name, $decoration in $_decoration {
+    @include core.variations('#{$name}') {
+        text-decoration-line: $decoration;
+    }
+}

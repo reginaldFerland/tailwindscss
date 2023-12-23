@@ -68549,5 +68549,121 @@
     color: #4c0519;
   }
 }
+.underline {
+  text-decoration-line: underline;
+}
+
+@media (min-width: 640px) {
+  .sm:underline {
+    text-decoration-line: underline;
+  }
+}
+@media (min-width: 768px) {
+  .md:underline {
+    text-decoration-line: underline;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:underline {
+    text-decoration-line: underline;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:underline {
+    text-decoration-line: underline;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:underline {
+    text-decoration-line: underline;
+  }
+}
+.overline {
+  text-decoration-line: overline;
+}
+
+@media (min-width: 640px) {
+  .sm:overline {
+    text-decoration-line: overline;
+  }
+}
+@media (min-width: 768px) {
+  .md:overline {
+    text-decoration-line: overline;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:overline {
+    text-decoration-line: overline;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:overline {
+    text-decoration-line: overline;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:overline {
+    text-decoration-line: overline;
+  }
+}
+.line-through {
+  text-decoration-line: line-through;
+}
+
+@media (min-width: 640px) {
+  .sm:line-through {
+    text-decoration-line: line-through;
+  }
+}
+@media (min-width: 768px) {
+  .md:line-through {
+    text-decoration-line: line-through;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:line-through {
+    text-decoration-line: line-through;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:line-through {
+    text-decoration-line: line-through;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:line-through {
+    text-decoration-line: line-through;
+  }
+}
+.no-underline {
+  text-decoration-line: none;
+}
+
+@media (min-width: 640px) {
+  .sm:no-underline {
+    text-decoration-line: none;
+  }
+}
+@media (min-width: 768px) {
+  .md:no-underline {
+    text-decoration-line: none;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:no-underline {
+    text-decoration-line: none;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:no-underline {
+    text-decoration-line: none;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:no-underline {
+    text-decoration-line: none;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
