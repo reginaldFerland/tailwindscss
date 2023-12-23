@@ -1100,6 +1100,106 @@
     flex-basis: 100%;
   }
 }
+@media (min-width: 640px) {
+  .sm:row .flex-row {
+    flex-direction: row;
+  }
+}
+@media (min-width: 768px) {
+  .md:row .flex-row {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:row .flex-row {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:row .flex-row {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:row .flex-row {
+    flex-direction: row;
+  }
+}
+@media (min-width: 640px) {
+  .sm:row-reverse .flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+}
+@media (min-width: 768px) {
+  .md:row-reverse .flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:row-reverse .flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:row-reverse .flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:row-reverse .flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+}
+@media (min-width: 640px) {
+  .sm:col .flex-col {
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  .md:col .flex-col {
+    flex-direction: column;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:col .flex-col {
+    flex-direction: column;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:col .flex-col {
+    flex-direction: column;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:col .flex-col {
+    flex-direction: column;
+  }
+}
+@media (min-width: 640px) {
+  .sm:col-reverse .flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 768px) {
+  .md:col-reverse .flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:col-reverse .flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:col-reverse .flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:col-reverse .flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+}
 .aspect-auto {
   aspect-ratio: 0;
 }
