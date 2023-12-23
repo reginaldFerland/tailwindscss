@@ -1,0 +1,13 @@
+@use '../core';
+
+$_types: (
+    'none': none,
+    'disc': disc,
+    'decimal': decimal,
+);
+
+@each $name, $type in $_types {
+    @include core.variations('list-#{$name}') {
+        list-style-type: $type;
+    }
+}
