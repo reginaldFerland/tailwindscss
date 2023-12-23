@@ -1,0 +1,41 @@
+@use '../core/breakpoints';
+@use '../core/size';
+@each $key, $value in size.$size {
+    @include breakpoints.bp('m-#{$key}') {
+        margin: $value;
+    }
+
+    @include breakpoints.bp('mx-#{$key}') {
+        margin-left: $value;
+        margin-right: $value;
+    }
+
+    @include breakpoints.bp('my-#{$key}') {
+        margin-top: $value;
+        margin-bottom: $value;
+    }
+
+    @include breakpoints.bp('ms-#{$key}') {
+        margin-inline-start: $value;
+    }
+
+    @include breakpoints.bp('me-#{$key}') {
+        margin-inline-end: $value;
+    }
+
+    @include breakpoints.bp('mt-#{$key}') {
+        margin-top: $value;
+    }
+
+    @include breakpoints.bp('mr-#{$key}') {
+        margin-right: $value;
+    }
+
+    @include breakpoints.bp('mb-#{$key}') {
+        margin-bottom: $value;
+    }
+
+    @include breakpoints.bp('ml-#{$key}') {
+        margin-left: $value;
+    }
+}
