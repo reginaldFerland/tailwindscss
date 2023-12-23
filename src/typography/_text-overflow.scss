@@ -1,0 +1,15 @@
+@use '../core';
+
+@include core.variations('truncate') {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@include core.variations('text-ellipsis') {
+    text-overflow: ellipsis;
+}
+
+@include core.variations('text-clip') {
+    text-overflow: clip;
+}

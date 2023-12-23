@@ -76466,5 +76466,104 @@
     text-transform: none;
   }
 }
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (min-width: 640px) {
+  .sm:truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 768px) {
+  .md:truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+.text-ellipsis {
+  text-overflow: ellipsis;
+}
+
+@media (min-width: 640px) {
+  .sm:text-ellipsis {
+    text-overflow: ellipsis;
+  }
+}
+@media (min-width: 768px) {
+  .md:text-ellipsis {
+    text-overflow: ellipsis;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:text-ellipsis {
+    text-overflow: ellipsis;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:text-ellipsis {
+    text-overflow: ellipsis;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:text-ellipsis {
+    text-overflow: ellipsis;
+  }
+}
+.text-clip {
+  text-overflow: clip;
+}
+
+@media (min-width: 640px) {
+  .sm:text-clip {
+    text-overflow: clip;
+  }
+}
+@media (min-width: 768px) {
+  .md:text-clip {
+    text-overflow: clip;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:text-clip {
+    text-overflow: clip;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:text-clip {
+    text-overflow: clip;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:text-clip {
+    text-overflow: clip;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
