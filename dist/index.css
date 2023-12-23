@@ -59636,5 +59636,266 @@
     font-style: normal;
   }
 }
+.font-thin {
+  font-weight: 100;
+}
+
+@media (min-width: 640px) {
+  .sm:font-thin {
+    font-weight: 100;
+  }
+}
+@media (min-width: 768px) {
+  .md:font-thin {
+    font-weight: 100;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:font-thin {
+    font-weight: 100;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:font-thin {
+    font-weight: 100;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:font-thin {
+    font-weight: 100;
+  }
+}
+.font-extralight {
+  font-weight: 200;
+}
+
+@media (min-width: 640px) {
+  .sm:font-extralight {
+    font-weight: 200;
+  }
+}
+@media (min-width: 768px) {
+  .md:font-extralight {
+    font-weight: 200;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:font-extralight {
+    font-weight: 200;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:font-extralight {
+    font-weight: 200;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:font-extralight {
+    font-weight: 200;
+  }
+}
+.font-light {
+  font-weight: 300;
+}
+
+@media (min-width: 640px) {
+  .sm:font-light {
+    font-weight: 300;
+  }
+}
+@media (min-width: 768px) {
+  .md:font-light {
+    font-weight: 300;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:font-light {
+    font-weight: 300;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:font-light {
+    font-weight: 300;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:font-light {
+    font-weight: 300;
+  }
+}
+.font-normal {
+  font-weight: 400;
+}
+
+@media (min-width: 640px) {
+  .sm:font-normal {
+    font-weight: 400;
+  }
+}
+@media (min-width: 768px) {
+  .md:font-normal {
+    font-weight: 400;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:font-normal {
+    font-weight: 400;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:font-normal {
+    font-weight: 400;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:font-normal {
+    font-weight: 400;
+  }
+}
+.font-medium {
+  font-weight: 500;
+}
+
+@media (min-width: 640px) {
+  .sm:font-medium {
+    font-weight: 500;
+  }
+}
+@media (min-width: 768px) {
+  .md:font-medium {
+    font-weight: 500;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:font-medium {
+    font-weight: 500;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:font-medium {
+    font-weight: 500;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:font-medium {
+    font-weight: 500;
+  }
+}
+.font-semibold {
+  font-weight: 600;
+}
+
+@media (min-width: 640px) {
+  .sm:font-semibold {
+    font-weight: 600;
+  }
+}
+@media (min-width: 768px) {
+  .md:font-semibold {
+    font-weight: 600;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:font-semibold {
+    font-weight: 600;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:font-semibold {
+    font-weight: 600;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:font-semibold {
+    font-weight: 600;
+  }
+}
+.font-bold {
+  font-weight: 700;
+}
+
+@media (min-width: 640px) {
+  .sm:font-bold {
+    font-weight: 700;
+  }
+}
+@media (min-width: 768px) {
+  .md:font-bold {
+    font-weight: 700;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:font-bold {
+    font-weight: 700;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:font-bold {
+    font-weight: 700;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:font-bold {
+    font-weight: 700;
+  }
+}
+.font-extrabold {
+  font-weight: 800;
+}
+
+@media (min-width: 640px) {
+  .sm:font-extrabold {
+    font-weight: 800;
+  }
+}
+@media (min-width: 768px) {
+  .md:font-extrabold {
+    font-weight: 800;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:font-extrabold {
+    font-weight: 800;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:font-extrabold {
+    font-weight: 800;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:font-extrabold {
+    font-weight: 800;
+  }
+}
+.font-black {
+  font-weight: 900;
+}
+
+@media (min-width: 640px) {
+  .sm:font-black {
+    font-weight: 900;
+  }
+}
+@media (min-width: 768px) {
+  .md:font-black {
+    font-weight: 900;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:font-black {
+    font-weight: 900;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:font-black {
+    font-weight: 900;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:font-black {
+    font-weight: 900;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
