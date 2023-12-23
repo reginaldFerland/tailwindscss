@@ -1,0 +1,19 @@
+@use '../core/breakpoints';
+
+$_align-content: (
+    "normal": normal,
+    "start": flex-start,
+    "end": flex-end,
+    "center": center,
+    "between": space-between,
+    "around": space-around,
+    "evenly": space-evenly,
+    "baseline": baseline,
+    "strech": stretch,
+);
+
+@each $key, $value in $_align-content {
+    @include breakpoints.bp('content-'#{$key}) {
+        align-content: $value;
+    }
+}

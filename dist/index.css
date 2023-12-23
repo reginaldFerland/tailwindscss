@@ -9742,6 +9742,267 @@
     justify-self: stretch;
   }
 }
+.content- normal {
+  align-content: normal;
+}
+
+@media (min-width: 640px) {
+  .sm:content- normal {
+    align-content: normal;
+  }
+}
+@media (min-width: 768px) {
+  .md:content- normal {
+    align-content: normal;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:content- normal {
+    align-content: normal;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:content- normal {
+    align-content: normal;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:content- normal {
+    align-content: normal;
+  }
+}
+.content- start {
+  align-content: flex-start;
+}
+
+@media (min-width: 640px) {
+  .sm:content- start {
+    align-content: flex-start;
+  }
+}
+@media (min-width: 768px) {
+  .md:content- start {
+    align-content: flex-start;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:content- start {
+    align-content: flex-start;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:content- start {
+    align-content: flex-start;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:content- start {
+    align-content: flex-start;
+  }
+}
+.content- end {
+  align-content: flex-end;
+}
+
+@media (min-width: 640px) {
+  .sm:content- end {
+    align-content: flex-end;
+  }
+}
+@media (min-width: 768px) {
+  .md:content- end {
+    align-content: flex-end;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:content- end {
+    align-content: flex-end;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:content- end {
+    align-content: flex-end;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:content- end {
+    align-content: flex-end;
+  }
+}
+.content- center {
+  align-content: center;
+}
+
+@media (min-width: 640px) {
+  .sm:content- center {
+    align-content: center;
+  }
+}
+@media (min-width: 768px) {
+  .md:content- center {
+    align-content: center;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:content- center {
+    align-content: center;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:content- center {
+    align-content: center;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:content- center {
+    align-content: center;
+  }
+}
+.content- between {
+  align-content: space-between;
+}
+
+@media (min-width: 640px) {
+  .sm:content- between {
+    align-content: space-between;
+  }
+}
+@media (min-width: 768px) {
+  .md:content- between {
+    align-content: space-between;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:content- between {
+    align-content: space-between;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:content- between {
+    align-content: space-between;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:content- between {
+    align-content: space-between;
+  }
+}
+.content- around {
+  align-content: space-around;
+}
+
+@media (min-width: 640px) {
+  .sm:content- around {
+    align-content: space-around;
+  }
+}
+@media (min-width: 768px) {
+  .md:content- around {
+    align-content: space-around;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:content- around {
+    align-content: space-around;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:content- around {
+    align-content: space-around;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:content- around {
+    align-content: space-around;
+  }
+}
+.content- evenly {
+  align-content: space-evenly;
+}
+
+@media (min-width: 640px) {
+  .sm:content- evenly {
+    align-content: space-evenly;
+  }
+}
+@media (min-width: 768px) {
+  .md:content- evenly {
+    align-content: space-evenly;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:content- evenly {
+    align-content: space-evenly;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:content- evenly {
+    align-content: space-evenly;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:content- evenly {
+    align-content: space-evenly;
+  }
+}
+.content- baseline {
+  align-content: baseline;
+}
+
+@media (min-width: 640px) {
+  .sm:content- baseline {
+    align-content: baseline;
+  }
+}
+@media (min-width: 768px) {
+  .md:content- baseline {
+    align-content: baseline;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:content- baseline {
+    align-content: baseline;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:content- baseline {
+    align-content: baseline;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:content- baseline {
+    align-content: baseline;
+  }
+}
+.content- strech {
+  align-content: stretch;
+}
+
+@media (min-width: 640px) {
+  .sm:content- strech {
+    align-content: stretch;
+  }
+}
+@media (min-width: 768px) {
+  .md:content- strech {
+    align-content: stretch;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:content- strech {
+    align-content: stretch;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:content- strech {
+    align-content: stretch;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:content- strech {
+    align-content: stretch;
+  }
+}
 .aspect-auto {
   aspect-ratio: 0;
 }
