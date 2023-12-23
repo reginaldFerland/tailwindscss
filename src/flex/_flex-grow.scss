@@ -11,6 +11,9 @@ $_index: (
 
 .grow {
     flex-grow: 1;
+    @include breakpoints.bp('grow') {
+        flex-grow: 1;
+    }
 }
 
 @each $key, $value in $_index {

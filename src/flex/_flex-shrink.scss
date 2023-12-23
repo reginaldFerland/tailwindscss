@@ -1,0 +1,26 @@
+@use '../core/breakpoints';
+
+$_index: (
+    '0': 0,
+    '1': 1,
+    '2': 2,
+    '3': 3,
+    '4': 4,
+    '5': 5,
+);
+
+.shrink {
+    flex-shrink: 1;
+    @include breakpoints.bp('shrink') {
+        flex-shrink: 1;
+    }
+}
+
+@each $key, $value in $_index {
+    .shrink-#{$key} {
+        flex-shrink: $value;
+    }
+    @include breakpoints.bp('shrink-#{$key}') {
+        flex-shrink: $value;
+    }
+}
