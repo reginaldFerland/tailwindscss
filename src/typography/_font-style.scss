@@ -1,0 +1,9 @@
+@use '../core';
+
+@include core.variations('italic') {
+    font-style: italic;
+}
+
+@include core.variations('not-italic') {
+    font-style: normal;
+}

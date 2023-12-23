@@ -59578,5 +59578,63 @@
     -moz-osx-font-smoothing: auto;
   }
 }
+.italic {
+  font-style: italic;
+}
+
+@media (min-width: 640px) {
+  .sm:italic {
+    font-style: italic;
+  }
+}
+@media (min-width: 768px) {
+  .md:italic {
+    font-style: italic;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:italic {
+    font-style: italic;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:italic {
+    font-style: italic;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:italic {
+    font-style: italic;
+  }
+}
+.not-italic {
+  font-style: normal;
+}
+
+@media (min-width: 640px) {
+  .sm:not-italic {
+    font-style: normal;
+  }
+}
+@media (min-width: 768px) {
+  .md:not-italic {
+    font-style: normal;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:not-italic {
+    font-style: normal;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:not-italic {
+    font-style: normal;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:not-italic {
+    font-style: normal;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
