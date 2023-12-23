@@ -10322,6 +10322,238 @@
     align-self: stretch;
   }
 }
+.place-content- start {
+  place-content: flex-start;
+}
+
+@media (min-width: 640px) {
+  .sm:place-content- start {
+    place-content: flex-start;
+  }
+}
+@media (min-width: 768px) {
+  .md:place-content- start {
+    place-content: flex-start;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:place-content- start {
+    place-content: flex-start;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:place-content- start {
+    place-content: flex-start;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:place-content- start {
+    place-content: flex-start;
+  }
+}
+.place-content- end {
+  place-content: flex-end;
+}
+
+@media (min-width: 640px) {
+  .sm:place-content- end {
+    place-content: flex-end;
+  }
+}
+@media (min-width: 768px) {
+  .md:place-content- end {
+    place-content: flex-end;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:place-content- end {
+    place-content: flex-end;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:place-content- end {
+    place-content: flex-end;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:place-content- end {
+    place-content: flex-end;
+  }
+}
+.place-content- center {
+  place-content: center;
+}
+
+@media (min-width: 640px) {
+  .sm:place-content- center {
+    place-content: center;
+  }
+}
+@media (min-width: 768px) {
+  .md:place-content- center {
+    place-content: center;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:place-content- center {
+    place-content: center;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:place-content- center {
+    place-content: center;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:place-content- center {
+    place-content: center;
+  }
+}
+.place-content- between {
+  place-content: space-between;
+}
+
+@media (min-width: 640px) {
+  .sm:place-content- between {
+    place-content: space-between;
+  }
+}
+@media (min-width: 768px) {
+  .md:place-content- between {
+    place-content: space-between;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:place-content- between {
+    place-content: space-between;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:place-content- between {
+    place-content: space-between;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:place-content- between {
+    place-content: space-between;
+  }
+}
+.place-content- around {
+  place-content: space-around;
+}
+
+@media (min-width: 640px) {
+  .sm:place-content- around {
+    place-content: space-around;
+  }
+}
+@media (min-width: 768px) {
+  .md:place-content- around {
+    place-content: space-around;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:place-content- around {
+    place-content: space-around;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:place-content- around {
+    place-content: space-around;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:place-content- around {
+    place-content: space-around;
+  }
+}
+.place-content- evenly {
+  place-content: space-evenly;
+}
+
+@media (min-width: 640px) {
+  .sm:place-content- evenly {
+    place-content: space-evenly;
+  }
+}
+@media (min-width: 768px) {
+  .md:place-content- evenly {
+    place-content: space-evenly;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:place-content- evenly {
+    place-content: space-evenly;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:place-content- evenly {
+    place-content: space-evenly;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:place-content- evenly {
+    place-content: space-evenly;
+  }
+}
+.place-content- baseline {
+  place-content: baseline;
+}
+
+@media (min-width: 640px) {
+  .sm:place-content- baseline {
+    place-content: baseline;
+  }
+}
+@media (min-width: 768px) {
+  .md:place-content- baseline {
+    place-content: baseline;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:place-content- baseline {
+    place-content: baseline;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:place-content- baseline {
+    place-content: baseline;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:place-content- baseline {
+    place-content: baseline;
+  }
+}
+.place-content- stretch {
+  place-content: stretch;
+}
+
+@media (min-width: 640px) {
+  .sm:place-content- stretch {
+    place-content: stretch;
+  }
+}
+@media (min-width: 768px) {
+  .md:place-content- stretch {
+    place-content: stretch;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:place-content- stretch {
+    place-content: stretch;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:place-content- stretch {
+    place-content: stretch;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:place-content- stretch {
+    place-content: stretch;
+  }
+}
 .aspect-auto {
   aspect-ratio: 0;
 }

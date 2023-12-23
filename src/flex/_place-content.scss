@@ -1,0 +1,18 @@
+@use '../core/breakpoints';
+
+$_place-content: (
+    "start": flex-start,
+    "end": flex-end,
+    "center": center,
+    "between": space-between,
+    "around": space-around,
+    "evenly": space-evenly,
+    "baseline": baseline,
+    "stretch": stretch,
+);
+
+@each $key, $value in $_place-content {
+    @include breakpoints.bp('place-content-'#{$key}) {
+        place-content: $value;
+    }
+}
