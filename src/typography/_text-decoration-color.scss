@@ -1,0 +1,3 @@
+@use '../core';
+
+@include core.color-variations('decoration', 'text-decoration-color');
