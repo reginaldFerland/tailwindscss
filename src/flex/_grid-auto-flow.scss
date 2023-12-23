@@ -1,0 +1,18 @@
+@use '../core/breakpoints';
+
+$_flows: (
+    'row': row,
+    'col': column,
+    'dense': dense,
+    'row-dense': "row dense",
+    'col-dense': "column dense",
+);
+
+@each $key, $value in $_flows {
+    .grid-flow-#{$key} {
+        grid-auto-flow: #{$value};
+    }
+    @include breakpoints.bp('grid-flow-#{$key}') {
+        grid-auto-flow: #{$value};
+    }
+}
