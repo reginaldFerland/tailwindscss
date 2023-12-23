@@ -5682,6 +5682,122 @@
     grid-auto-flow: column dense;
   }
 }
+.auto-cols-auto {
+  grid-auto-columns: auto;
+}
+
+@media (min-width: 640px) {
+  .sm:auto-cols-auto {
+    grid-auto-columns: auto;
+  }
+}
+@media (min-width: 768px) {
+  .md:auto-cols-auto {
+    grid-auto-columns: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:auto-cols-auto {
+    grid-auto-columns: auto;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:auto-cols-auto {
+    grid-auto-columns: auto;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:auto-cols-auto {
+    grid-auto-columns: auto;
+  }
+}
+.auto-cols-min {
+  grid-auto-columns: min-content;
+}
+
+@media (min-width: 640px) {
+  .sm:auto-cols-min {
+    grid-auto-columns: min-content;
+  }
+}
+@media (min-width: 768px) {
+  .md:auto-cols-min {
+    grid-auto-columns: min-content;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:auto-cols-min {
+    grid-auto-columns: min-content;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:auto-cols-min {
+    grid-auto-columns: min-content;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:auto-cols-min {
+    grid-auto-columns: min-content;
+  }
+}
+.auto-cols-max {
+  grid-auto-columns: max-content;
+}
+
+@media (min-width: 640px) {
+  .sm:auto-cols-max {
+    grid-auto-columns: max-content;
+  }
+}
+@media (min-width: 768px) {
+  .md:auto-cols-max {
+    grid-auto-columns: max-content;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:auto-cols-max {
+    grid-auto-columns: max-content;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:auto-cols-max {
+    grid-auto-columns: max-content;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:auto-cols-max {
+    grid-auto-columns: max-content;
+  }
+}
+.auto-cols-fr {
+  grid-auto-columns: minmax(0, 1fr);
+}
+
+@media (min-width: 640px) {
+  .sm:auto-cols-fr {
+    grid-auto-columns: minmax(0, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  .md:auto-cols-fr {
+    grid-auto-columns: minmax(0, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:auto-cols-fr {
+    grid-auto-columns: minmax(0, 1fr);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:auto-cols-fr {
+    grid-auto-columns: minmax(0, 1fr);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:auto-cols-fr {
+    grid-auto-columns: minmax(0, 1fr);
+  }
+}
 .aspect-auto {
   aspect-ratio: 0;
 }

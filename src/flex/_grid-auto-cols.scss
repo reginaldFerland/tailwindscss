@@ -1,0 +1,17 @@
+@use '../core/breakpoints';
+
+$_cols: (
+    'auto': "auto",
+    'min': "min-content",
+    'max': "max-content",
+    'fr': "minmax(0, 1fr)",
+);
+
+@each $key, $value in $_cols {
+    .auto-cols-#{$key} {
+        grid-auto-columns: #{$value};
+    }
+    @include breakpoints.bp('auto-cols-#{$key}') {
+        grid-auto-columns: #{$value};
+    }
+}
