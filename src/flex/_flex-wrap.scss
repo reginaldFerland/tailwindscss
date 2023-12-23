@@ -1,0 +1,18 @@
+@use '../core/breakpoints';
+
+$_flex-wrap: (
+  nowrap: nowrap,
+  wrap: wrap,
+  wrap-reverse: wrap-reverse,
+);
+
+@each $key, $value in $_flex-wrap {
+    .flex-#{$key} {
+        flex-wrap: $value;
+    }
+    @include breakpoints.bp($key) {
+        .flex-#{$key} {
+            flex-wrap: $value;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+@use '../core/breakpoints';
+
+$_index: (
+    '0': 0,
+    '1': 1,
+    '2': 2,
+    '3': 3,
+    '4': 4,
+    '5': 5,
+);
+
+.grow {
+    flex-grow: 1;
+}
+
+@each $key, $value in $_index {
+    .grow-#{$key} {
+        flex-grow: $value;
+    }
+    @include breakpoints.bp('grow-#{$key}') {
+        flex-grow: $value;
+    }
+}

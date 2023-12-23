@@ -1,0 +1,17 @@
+@use '../core/breakpoints';
+
+$_flex: (
+  "1": "1 1 0%",
+  "auto": "1 1 auto",
+  "initial": "0 1 auto",
+  "none": "none",
+);
+
+@each $key, $value in $_flex {
+    .flex-#{$key} {
+        flex: #{$value};
+    }
+    @include breakpoints.bp('flex-#{$key}') {
+        flex: #{$value};
+    }
+}
