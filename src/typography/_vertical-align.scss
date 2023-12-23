@@ -1,0 +1,18 @@
+@use '../core';
+
+$_align: (
+    'baseline': baseline,
+    'top': top,
+    'middle': middle,
+    'bottom': bottom,
+    'text-top': text-top,
+    'text-bottom': text-bottom,
+    'sub': sub,
+    'super': super,
+);
+
+@each $name, $align in $_align {
+    @include core.variations('align-#{$name}') {
+        vertical-align: $align;
+    }
+}
