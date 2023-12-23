@@ -1,0 +1,12 @@
+@use '../core';
+
+$_position : (
+    'inside': inside,
+    'outside': outside,
+);
+
+@each $name, $position in $_position {
+    @include core.variations('list-#{$name}') {
+        list-style-position: $position;
+    }
+}
