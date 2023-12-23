@@ -1,0 +1,42 @@
+@use '../core/breakpoints';
+@use '../core/size';
+
+@each $key, $value in size.$size {
+    @include breakpoints.bp('p-#{$key}') {
+        padding: $value;
+    }
+
+    @include breakpoints.bp('px-#{$key}') {
+        padding-left: $value;
+        padding-right: $value;
+    }
+
+    @include breakpoints.bp('py-#{$key}') {
+        padding-top: $value;
+        padding-bottom: $value;
+    }
+
+    @include breakpoints.bp('ps-#{$key}') {
+        padding-inline-start: $value;
+    }
+
+    @include breakpoints.bp('pe-#{$key}') {
+        padding-inline-end: $value;
+    }
+
+    @include breakpoints.bp('pt-#{$key}') {
+        padding-top: $value;
+    }
+
+    @include breakpoints.bp('pr-#{$key}') {
+        padding-right: $value;
+    }
+
+    @include breakpoints.bp('pb-#{$key}') {
+        padding-bottom: $value;
+    }
+
+    @include breakpoints.bp('pl-#{$key}') {
+        padding-left: $value;
+    }
+}
