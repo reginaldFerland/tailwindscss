@@ -1,0 +1,26 @@
+@use '../core';
+@use '../core/size';
+
+@each $key, $value in size.$size {
+    @include core.variations('h-#{$key}') {
+        width: $value;
+    }
+}
+
+$sizes: (
+    'full': 100%,
+    'screen': 100vh,
+    'min': min-content,
+    'max': max-content,
+    'fit': fit-content,
+    'fill': fill-available,
+    'svh': 100svw,
+    'lvh': 100lvw,
+    'dvh': 100dvw,
+);
+
+@each $key, $value in $sizes {
+    @include core.variations('h-#{$key}') {
+        height: $value;
+    }
+}
