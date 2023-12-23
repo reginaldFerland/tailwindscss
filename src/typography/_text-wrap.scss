@@ -1,0 +1,14 @@
+@use '../core';
+
+$_wrap: (
+    'wrap': wrap,
+    'nowrap': nowrap,
+    'balance': balance,
+    'pretty': pretty,
+);
+
+@each $name, $wrap in $_wrap {
+    @include core.variations('text-#{$name}') {
+        text-space: $wrap;
+    }
+}
