@@ -1,12 +1,12 @@
 @use 'aspect-ratio';
+@use 'box-decoration';
+@use 'box-sizing';
 @use 'break-after';
 @use 'break-before';
 @use 'break-inside';
-@use 'box-decoration';
-@use 'box-sizing';
 @use 'clear';
-@use 'container';
 @use 'columns';
+@use 'container';
 @use 'display';
 @use 'float';
 @use 'isolation';
