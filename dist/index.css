@@ -58966,5 +58966,92 @@
     width: fill-available;
   }
 }
+.font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+@media (min-width: 640px) {
+  .sm:font-sans {
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+}
+@media (min-width: 768px) {
+  .md:font-sans {
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:font-sans {
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:font-sans {
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:font-sans {
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+}
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+}
+
+@media (min-width: 640px) {
+  .sm:font-serif {
+    font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+  }
+}
+@media (min-width: 768px) {
+  .md:font-serif {
+    font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:font-serif {
+    font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:font-serif {
+    font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:font-serif {
+    font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+  }
+}
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+}
+
+@media (min-width: 640px) {
+  .sm:font-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  }
+}
+@media (min-width: 768px) {
+  .md:font-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:font-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:font-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:font-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
