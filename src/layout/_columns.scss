@@ -31,9 +31,6 @@ $_columns : (
 
 
 @each $name, $size in $_columns {
-    .columns-#{$name} {
-        columns: #{$size};
-    }
     @include breakpoints.bp('columns-#{$name}') {
         columns: #{$size};
     }

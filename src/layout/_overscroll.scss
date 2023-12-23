@@ -10,23 +10,14 @@ $_overscrolls: (
 );
 
 @each $name, $value in $_overscrolls {
-    .overscroll-#{$name} {
-        overscroll-behavior: #{$value};
-    }
     @include breakpoints.bp('overscroll-#{$name}') {
         overscroll-behavior: #{$value};
     }
 
-    .overscroll-x-#{$name} {
-        overscroll-behavior-x: #{$value};
-    }
     @include breakpoints.bp('overscroll-x-#{$name}') {
         overscroll-behavior-x: #{$value};
     }
 
-    .overscroll-y-#{$name} {
-        overscroll-behavior-y: #{$value};
-    }
     @include breakpoints.bp('overscroll-y-#{$name}') {
         overscroll-behavior-y: #{$value};
     }

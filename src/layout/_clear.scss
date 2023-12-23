@@ -10,9 +10,6 @@ $_clears: (
 );
 
 @each $name, $value in $_clears {
-    .clear-#{$name} {
-        clear: #{$value};
-    }
     @include breakpoints.bp('clear-#{$name}') {
         clear: #{$value};
     }

@@ -7,9 +7,6 @@ $_visibility: (
 );
 
 @each $name, $value in $_visibility {
-    .#{$name} {
-        visibility: #{$value};
-    }
     @include breakpoints.bp('#{$name}') {
         visibility: #{$value};
     }

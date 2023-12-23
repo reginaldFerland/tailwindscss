@@ -17,9 +17,6 @@ $_break-afters: (
 );
 
 @each $name, $value in $_break-afters {
-    .break-after-#{$name} {
-        break-after: #{$value};
-    }
     @include breakpoints.bp('break-after-#{$name}') {
         break-after: #{$value};
     }

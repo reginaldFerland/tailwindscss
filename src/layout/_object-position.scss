@@ -13,9 +13,6 @@ $_object-position: (
 );
 
 @each $name, $value in $_object-position {
-    .#{$name} {
-        object-position: #{$value};
-    }
     @include breakpoints.bp('#{$name}') {
         object-position: #{$value};
     }

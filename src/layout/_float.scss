@@ -9,9 +9,6 @@ $_floats: (
 );
 
 @each $name, $value in $_floats {
-    .float-#{$name} {
-        float: #{$value};
-    }
     @include breakpoints.bp('float-#{$name}') {
         float: #{$value};
     }

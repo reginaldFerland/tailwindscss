@@ -17,9 +17,6 @@ $_break-inside: (
 );
 
 @each $name, $value in $_break-inside {
-    .break-inside-#{$name} {
-        break-inside: #{$value};
-    }
     @include breakpoints.bp('break-inside-#{$name}') {
         break-inside: #{$value};
     }

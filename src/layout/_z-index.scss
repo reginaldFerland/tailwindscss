@@ -11,9 +11,6 @@ $_indexes: (
 );
 
 @each $name, $value in $_indexes {
-    .z-#{$name} {
-        z-index: #{$value};
-    }
     @include breakpoints.bp('z-#{$name}') {
         z-index: #{$value};
     }

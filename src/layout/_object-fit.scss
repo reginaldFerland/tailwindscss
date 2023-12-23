@@ -9,9 +9,6 @@ $_object-fit: (
 );
 
 @each $name, $value in $_object-fit {
-    .#{$name} {
-        object-fit: #{$value};
-    }
     @include breakpoints.bp('#{$name}') {
         object-fit: #{$value};
     }

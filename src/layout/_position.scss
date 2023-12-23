@@ -10,9 +10,6 @@ $_positions: (
 );
 
 @each $name, $value in $_positions {
-    .#{$name} {
-        position: #{$value};
-    }
     @include breakpoints.bp('#{$name}') {
         position: #{$value};
     }
@@ -28,9 +25,6 @@ $_directions: (
 
 @each $name, $dir in $_directions {
     @each $size, $value in size.$size {
-        .#{$name}-#{$size} {
-            #{$dir}: #{$value};
-        }
         @include breakpoints.bp('#{$name}-#{$size}') {
             #{$dir}: #{$value};
         }
@@ -44,9 +38,6 @@ $_inset-directions: (
 
 @each $name, $dir in $_inset-directions {
     @each $size, $value in size.$size {
-        .#{$name}-#{$size} {
-            inset-inline-#{$dir}: #{$value};
-        }
         @include breakpoints.bp('#{$name}-#{$size}') {
             inset-inline-#{$dir}: #{$value};
         }
@@ -54,19 +45,11 @@ $_inset-directions: (
 }
 
 @each $size, $value in size.$size {
-    .inset-x-#{$size} {
-        left: #{$value};
-        right: #{$value};
-    }
     @include breakpoints.bp('inset-x-#{$size}') {
         left: #{$value};
         right: #{$value};
     }
 
-    .inset-y-#{$size} {
-        top: #{$value};
-        bottom: #{$value};
-    }
     @include breakpoints.bp('inset-y-#{$size}') {
         top: #{$value};
         bottom: #{$value};

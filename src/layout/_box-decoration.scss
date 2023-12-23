@@ -6,9 +6,6 @@ $_box-decoration-break: (
 );
 
 @each $name, $value in $_box-decoration-break {
-    .box-decoration-#{$name} {
-        box-decoration-break: #{$value};
-    }
     @include breakpoints.bp('box-decoration-#{$name}') {
         box-decoration-break: #{$value};
     }

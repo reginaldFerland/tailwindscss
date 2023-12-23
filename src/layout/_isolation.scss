@@ -6,9 +6,6 @@ $_isolation: (
 );
 
 @each $name, $value in $_isolation {
-    .#{$name} {
-        isolation: #{$value};
-    }
     @include breakpoints.bp('#{$name}') {
         isolation: #{$value};
     }

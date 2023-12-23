@@ -25,9 +25,6 @@ $_display: (
 );
 
 @each $name, $value in $_display {
-    .#{$name} {
-        display: #{$value};
-    }
     @include breakpoints.bp('#{$name}') {
         display: #{$value};
     }

@@ -10,7 +10,7 @@
             max-width: map-get(breakpoints.$breakpoints, $breakpoint);
         }
     }
-    @include breakpoints.bp('container') {
+    @include breakpoints.bp('container', false) {
         max-width: map-get(breakpoints.$breakpoints, $breakpoint);
     }
 }

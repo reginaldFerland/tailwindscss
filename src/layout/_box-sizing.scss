@@ -6,9 +6,6 @@ $_box-sizing: (
 );
 
 @each $name, $value in $_box-sizing {
-    .box-#{$name} {
-        box-sizing: #{$value};
-    }
     @include breakpoints.bp('box-#{$name}') {
         box-sizing: #{$value};
     }

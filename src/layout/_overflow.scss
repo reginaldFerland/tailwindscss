@@ -9,23 +9,14 @@ $_overflow: (
 );
 
 @each $name, $value in $_overflow {
-    .overflow-#{$name} {
-        overflow: #{$value};
-    }
     @include breakpoints.bp('overflow-#{$name}') {
         overflow: #{$value};
     }
 
-    .overflow-x-#{$name} {
-        overflow-x: #{$value};
-    }
     @include breakpoints.bp('overflow-x-#{$name}') {
         overflow-x: #{$value};
     }
 
-    .overflow-y-#{$name} {
-        overflow-y: #{$value};
-    }
     @include breakpoints.bp('overflow-y-#{$name}') {
         overflow-y: #{$value};
     }
