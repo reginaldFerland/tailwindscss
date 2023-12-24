@@ -1,0 +1,61 @@
+@use '../core';
+
+$_sizes: (
+    'none': 0px,
+    'sm': 0.125rem, // 2px
+    'md': 0.375rem, // 6px
+    'lg': 0.5rem, // 8px
+    'xl': 0.75rem, // 12px
+    '2xl': 1rem, // 16px
+    '3xl': 1.5rem, // 24px
+    'full': 9999px,
+);
+
+@each $name, $value in $_sizes {
+    @include core.variations('rounded-#{$name}') {
+        border-radius: $value;
+    }
+
+    @include core.variations('rounded-s-#{$name}') {
+        border-start-start-radius: $value;
+        border-end-start-radius: $value;
+    }
+
+    @include core.variations('rounded-e-#{$name}') {
+        border-start-end-radius: $value;
+        border-end-end-radius: $value;
+    }
+
+    @include core.variations('rounded-t-#{$name}') {
+        border-top-left-radius: $value;
+        border-top-right-radius: $value;
+    }
+
+    @include core.variations('rounded-r-#{$name}') {
+        border-top-right-radius: $value;
+        border-bottom-right-radius: $value;
+    }
+
+    @include core.variations('rounded-b-#{$name}') {
+        border-bottom-right-radius: $value;
+        border-bottom-left-radius: $value;
+    }
+
+    @include core.variations('rounded-l-#{$name}') {
+        border-top-left-radius: $value;
+        border-bottom-left-radius: $value;
+    }
+
+    @include core.variations('rounded-ss-#{$name}') {
+        border-start-start-radius: $value;
+    }
+
+    @include core.variations('rounded-se-#{$name}') {
+        border-start-end-radius: $value;
+    }
+
+    @include core.variations('rounded-ee-#{$name}') {
+        border-end-end-radius: $value;
+    }
+
+}
