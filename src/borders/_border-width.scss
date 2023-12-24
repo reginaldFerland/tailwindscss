@@ -1,0 +1,87 @@
+@use '../core';
+
+$_width: (
+    '0': 0px,
+    '2': 2px,
+    '4': 4px,
+    '8': 8px,
+);
+
+@include core.variations('border') {
+    border-width: 1px;
+}
+
+@include core.variations('border-x') {
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+@include core.variations('border-y') {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+@include core.variations('border-s') {
+    border-inline-start-width: 1px;
+}
+
+@include core.variations('border-e') {
+    border-inline-end-width: 1px;
+}
+
+@include core.variations('border-t') {
+    border-top-width: 1px;
+}
+
+@include core.variations('border-r') {
+    border-right-width: 1px;
+}
+
+@include core.variations('border-b') {
+    border-bottom-width: 1px;
+}
+
+@include core.variations('border-l') {
+    border-left-width: 1px;
+}
+
+@each $name, $value in $_width {
+    @include core.variations('border-#{$name}') {
+        border-width: $value;
+    }
+
+    @include core.variations('border-x-#{$name}') {
+        border-left-width: $value;
+        border-right-width: $value;
+    }
+
+    @include core.variations('border-y-#{$name}') {
+        border-top-width: $value;
+        border-bottom-width: $value;
+    }
+
+    @include core.variations('border-s-#{$name}') {
+        border-inline-start-width: $value;
+    }
+
+    @include core.variations('border-e-#{$name}') {
+        border-inline-end-width: $value;
+    }
+
+    @include core.variations('border-t-#{$name}') {
+        border-top-width: $value;
+    }
+
+    @include core.variations('border-r-#{$name}') {
+        border-right-width: $value;
+    }
+
+    @include core.variations('border-b-#{$name}') {
+        border-bottom-width: $value;
+    }
+
+    @include core.variations('border-l-#{$name}') {
+        border-left-width: $value;
+    }
+}
+
