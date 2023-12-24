@@ -1,0 +1,13 @@
+@use '../core';
+
+$_bg: (
+    'border': border-box,
+    'content': content-box,
+    'padding': padding-box,
+);
+
+@each $name, $value in $_bg {
+    @include core.variations('bg-origin-#{$name}') {
+        background-origin: $value;
+    }
+}

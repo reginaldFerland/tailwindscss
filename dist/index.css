@@ -85764,5 +85764,92 @@
     background-color: #4c0519;
   }
 }
+.bg-origin-border {
+  background-origin: border-box;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-origin-border {
+    background-origin: border-box;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-origin-border {
+    background-origin: border-box;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-origin-border {
+    background-origin: border-box;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-origin-border {
+    background-origin: border-box;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-origin-border {
+    background-origin: border-box;
+  }
+}
+.bg-origin-content {
+  background-origin: content-box;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-origin-content {
+    background-origin: content-box;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-origin-content {
+    background-origin: content-box;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-origin-content {
+    background-origin: content-box;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-origin-content {
+    background-origin: content-box;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-origin-content {
+    background-origin: content-box;
+  }
+}
+.bg-origin-padding {
+  background-origin: padding-box;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-origin-padding {
+    background-origin: padding-box;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-origin-padding {
+    background-origin: padding-box;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-origin-padding {
+    background-origin: padding-box;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-origin-padding {
+    background-origin: padding-box;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-origin-padding {
+    background-origin: padding-box;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
