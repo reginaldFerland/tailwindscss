@@ -1,0 +1,16 @@
+@use '../core';
+
+$_bg: (
+    "reapeat": repeat,
+    "no-repeat": no-repeat,
+    "repeat-x": repeat-x,
+    "repeat-y": repeat-y,
+    "space": space,
+    "round": round,
+);
+
+@each $name, $value in $_bg {
+    @include core.variations("bg-repeat-#{$name}") {
+        background-repeat: $value;
+    }
+}

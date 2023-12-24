@@ -86112,5 +86112,179 @@
     background-position: top;
   }
 }
+.bg-repeat-reapeat {
+  background-repeat: repeat;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-repeat-reapeat {
+    background-repeat: repeat;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-repeat-reapeat {
+    background-repeat: repeat;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-repeat-reapeat {
+    background-repeat: repeat;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-repeat-reapeat {
+    background-repeat: repeat;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-repeat-reapeat {
+    background-repeat: repeat;
+  }
+}
+.bg-repeat-no-repeat {
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-repeat-no-repeat {
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-repeat-no-repeat {
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-repeat-no-repeat {
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-repeat-no-repeat {
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-repeat-no-repeat {
+    background-repeat: no-repeat;
+  }
+}
+.bg-repeat-repeat-x {
+  background-repeat: repeat-x;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-repeat-repeat-x {
+    background-repeat: repeat-x;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-repeat-repeat-x {
+    background-repeat: repeat-x;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-repeat-repeat-x {
+    background-repeat: repeat-x;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-repeat-repeat-x {
+    background-repeat: repeat-x;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-repeat-repeat-x {
+    background-repeat: repeat-x;
+  }
+}
+.bg-repeat-repeat-y {
+  background-repeat: repeat-y;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-repeat-repeat-y {
+    background-repeat: repeat-y;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-repeat-repeat-y {
+    background-repeat: repeat-y;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-repeat-repeat-y {
+    background-repeat: repeat-y;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-repeat-repeat-y {
+    background-repeat: repeat-y;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-repeat-repeat-y {
+    background-repeat: repeat-y;
+  }
+}
+.bg-repeat-space {
+  background-repeat: space;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-repeat-space {
+    background-repeat: space;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-repeat-space {
+    background-repeat: space;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-repeat-space {
+    background-repeat: space;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-repeat-space {
+    background-repeat: space;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-repeat-space {
+    background-repeat: space;
+  }
+}
+.bg-repeat-round {
+  background-repeat: round;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-repeat-round {
+    background-repeat: round;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-repeat-round {
+    background-repeat: round;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-repeat-round {
+    background-repeat: round;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-repeat-round {
+    background-repeat: round;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-repeat-round {
+    background-repeat: round;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
