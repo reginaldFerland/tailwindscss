@@ -85851,5 +85851,266 @@
     background-origin: padding-box;
   }
 }
+.bg-bottom {
+  background-position: bottom;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-bottom {
+    background-position: bottom;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-bottom {
+    background-position: bottom;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-bottom {
+    background-position: bottom;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-bottom {
+    background-position: bottom;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-bottom {
+    background-position: bottom;
+  }
+}
+.bg-center {
+  background-position: center;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-center {
+    background-position: center;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-center {
+    background-position: center;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-center {
+    background-position: center;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-center {
+    background-position: center;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-center {
+    background-position: center;
+  }
+}
+.bg-left {
+  background-position: left;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-left {
+    background-position: left;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-left {
+    background-position: left;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-left {
+    background-position: left;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-left {
+    background-position: left;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-left {
+    background-position: left;
+  }
+}
+.bg-left-bottom {
+  background-position: left bottom;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-left-bottom {
+    background-position: left bottom;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-left-bottom {
+    background-position: left bottom;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-left-bottom {
+    background-position: left bottom;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-left-bottom {
+    background-position: left bottom;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-left-bottom {
+    background-position: left bottom;
+  }
+}
+.bg-left-top {
+  background-position: left top;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-left-top {
+    background-position: left top;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-left-top {
+    background-position: left top;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-left-top {
+    background-position: left top;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-left-top {
+    background-position: left top;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-left-top {
+    background-position: left top;
+  }
+}
+.bg-right {
+  background-position: right;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-right {
+    background-position: right;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-right {
+    background-position: right;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-right {
+    background-position: right;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-right {
+    background-position: right;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-right {
+    background-position: right;
+  }
+}
+.bg-right-bottom {
+  background-position: right bottom;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-right-bottom {
+    background-position: right bottom;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-right-bottom {
+    background-position: right bottom;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-right-bottom {
+    background-position: right bottom;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-right-bottom {
+    background-position: right bottom;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-right-bottom {
+    background-position: right bottom;
+  }
+}
+.bg-right-top {
+  background-position: right top;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-right-top {
+    background-position: right top;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-right-top {
+    background-position: right top;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-right-top {
+    background-position: right top;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-right-top {
+    background-position: right top;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-right-top {
+    background-position: right top;
+  }
+}
+.bg-top {
+  background-position: top;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-top {
+    background-position: top;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-top {
+    background-position: top;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-top {
+    background-position: top;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-top {
+    background-position: top;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-top {
+    background-position: top;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
