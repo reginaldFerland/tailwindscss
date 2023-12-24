@@ -86286,5 +86286,92 @@
     background-repeat: round;
   }
 }
+.bg-auto {
+  background-size: auto;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-auto {
+    background-size: auto;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-auto {
+    background-size: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-auto {
+    background-size: auto;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-auto {
+    background-size: auto;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-auto {
+    background-size: auto;
+  }
+}
+.bg-cover {
+  background-size: cover;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-cover {
+    background-size: cover;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-cover {
+    background-size: cover;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-cover {
+    background-size: cover;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-cover {
+    background-size: cover;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-cover {
+    background-size: cover;
+  }
+}
+.bg-contain {
+  background-size: contain;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-contain {
+    background-size: contain;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-contain {
+    background-size: contain;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-contain {
+    background-size: contain;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-contain {
+    background-size: contain;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-contain {
+    background-size: contain;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

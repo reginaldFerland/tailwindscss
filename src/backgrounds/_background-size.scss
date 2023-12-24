@@ -1,0 +1,13 @@
+@use '../core';
+
+$_bg: (
+    "auto": auto,
+    "cover": cover,
+    "contain": contain,
+);
+
+@each $name, $value in $_bg {
+    @include core.variations("bg-#{$name}") {
+        background-size: $value;
+    }
+}
