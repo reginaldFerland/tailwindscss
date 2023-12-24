@@ -78485,5 +78485,121 @@
     background-attachment: scroll;
   }
 }
+.bg-clip-border {
+  background-clip: border-box;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-clip-border {
+    background-clip: border-box;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-clip-border {
+    background-clip: border-box;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-clip-border {
+    background-clip: border-box;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-clip-border {
+    background-clip: border-box;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-clip-border {
+    background-clip: border-box;
+  }
+}
+.bg-clip-content {
+  background-clip: content-box;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-clip-content {
+    background-clip: content-box;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-clip-content {
+    background-clip: content-box;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-clip-content {
+    background-clip: content-box;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-clip-content {
+    background-clip: content-box;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-clip-content {
+    background-clip: content-box;
+  }
+}
+.bg-clip-padding {
+  background-clip: padding-box;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-clip-padding {
+    background-clip: padding-box;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-clip-padding {
+    background-clip: padding-box;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-clip-padding {
+    background-clip: padding-box;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-clip-padding {
+    background-clip: padding-box;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-clip-padding {
+    background-clip: padding-box;
+  }
+}
+.bg-clip-text {
+  background-clip: text;
+}
+
+@media (min-width: 640px) {
+  .sm:bg-clip-text {
+    background-clip: text;
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-clip-text {
+    background-clip: text;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-clip-text {
+    background-clip: text;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-clip-text {
+    background-clip: text;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-clip-text {
+    background-clip: text;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

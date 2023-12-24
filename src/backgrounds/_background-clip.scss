@@ -1,0 +1,14 @@
+@use '../core';
+
+$_bg: (
+    'border': border-box,
+    'content': content-box,
+    'padding': padding-box,
+    'text': text,
+);
+
+@each $name, $value in $_bg {
+    @include core.variations('bg-clip-#{$name}') {
+        background-clip: $value;
+    }
+}
