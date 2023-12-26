@@ -30,3 +30,24 @@
         }
     }
 }
+
+// TODO: Refactor mixins
+@mixin color-variations2($className, $elements: ("color"), $createBaseClass: true) {
+    @each $color, $hex in color.$basic-colors {
+        @include variations("#{$className}-#{$color}", $createBaseClass) {
+          @each $element in $elements {
+            #{$element}: $hex;
+          }
+        }
+    }
+
+    @each $color, $value in color.$colors {
+        @each $shade, $hex in $value {
+          @include variations("#{$className}-#{$color}-#{$shade}", $createBaseClass) {
+            @each $element in $elements {
+              #{$element}: $hex;
+            }
+          }
+        }
+    }
+}

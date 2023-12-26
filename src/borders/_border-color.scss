@@ -1,0 +1,31 @@
+@use '../core';
+
+/*
+border
+border-y
+border-x
+border-s
+border-e
+border-t
+border-r
+border-b
+border-l
+*/
+
+@include core.color-variations2('border', 'border-color');
+
+@include core.color-variations2('border-x', ('border-left-color', 'border-right-color'));
+
+@include core.color-variations2('border-y', ('border-top-color', 'border-bottom-color'));
+
+@include core.color-variations2('border-s', ('border-inline-start-color'));
+
+@include core.color-variations2('border-e', ('border-inline-end-color'));
+
+@include core.color-variations2('border-t', ('border-top-color'));
+
+@include core.color-variations2('border-r', ('border-right-color'));
+
+@include core.color-variations2('border-b', ('border-bottom-color'));
+
+@include core.color-variations2('border-l', ('border-left-color'));
