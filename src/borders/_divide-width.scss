@@ -1,0 +1,30 @@
+@use '../core';
+
+$_border-width: (
+    '0': 0px,
+    '2': 2px,
+    '4': 4px,
+    '8': 8px,
+);
+
+@include core.variations('divide-x') {
+    border-right-width: 0px;
+    border-left-width: 1px;
+}
+
+@include core.variations('divide-y') {
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+}
+
+@each $name, $value in $_border-width {
+    @include core.variations('divide-x-#{$name}') {
+        border-right-width: 0px;
+        border-left-width: $value;
+    }
+
+    @include core.variations('divide-y-#{$name}') {
+        border-top-width: $value;
+        border-bottom-width: 0px;
+    }
+}
