@@ -1,0 +1,15 @@
+@use '../core';
+
+@include core.variations('appearance-none') {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+}
+
+@include core.variations('appearance-auto') {
+    appearance: auto;
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+    -ms-appearance: auto;
+}
