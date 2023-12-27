@@ -165591,5 +165591,149 @@ border-l
     border-color: #4c0519;
   }
 }
+.divide-solid .solid {
+  border-style: solid;
+}
+@media (min-width: 640px) {
+  .divide-solid .sm:solid {
+    border-style: solid;
+  }
+}
+@media (min-width: 768px) {
+  .divide-solid .md:solid {
+    border-style: solid;
+  }
+}
+@media (min-width: 1024px) {
+  .divide-solid .lg:solid {
+    border-style: solid;
+  }
+}
+@media (min-width: 1280px) {
+  .divide-solid .xl:solid {
+    border-style: solid;
+  }
+}
+@media (min-width: 1536px) {
+  .divide-solid .xxl:solid {
+    border-style: solid;
+  }
+}
+
+.divide-dashed .dashed {
+  border-style: dashed;
+}
+@media (min-width: 640px) {
+  .divide-dashed .sm:dashed {
+    border-style: dashed;
+  }
+}
+@media (min-width: 768px) {
+  .divide-dashed .md:dashed {
+    border-style: dashed;
+  }
+}
+@media (min-width: 1024px) {
+  .divide-dashed .lg:dashed {
+    border-style: dashed;
+  }
+}
+@media (min-width: 1280px) {
+  .divide-dashed .xl:dashed {
+    border-style: dashed;
+  }
+}
+@media (min-width: 1536px) {
+  .divide-dashed .xxl:dashed {
+    border-style: dashed;
+  }
+}
+
+.divide-dotted .dotted {
+  border-style: dotted;
+}
+@media (min-width: 640px) {
+  .divide-dotted .sm:dotted {
+    border-style: dotted;
+  }
+}
+@media (min-width: 768px) {
+  .divide-dotted .md:dotted {
+    border-style: dotted;
+  }
+}
+@media (min-width: 1024px) {
+  .divide-dotted .lg:dotted {
+    border-style: dotted;
+  }
+}
+@media (min-width: 1280px) {
+  .divide-dotted .xl:dotted {
+    border-style: dotted;
+  }
+}
+@media (min-width: 1536px) {
+  .divide-dotted .xxl:dotted {
+    border-style: dotted;
+  }
+}
+
+.divide-double .double {
+  border-style: double;
+}
+@media (min-width: 640px) {
+  .divide-double .sm:double {
+    border-style: double;
+  }
+}
+@media (min-width: 768px) {
+  .divide-double .md:double {
+    border-style: double;
+  }
+}
+@media (min-width: 1024px) {
+  .divide-double .lg:double {
+    border-style: double;
+  }
+}
+@media (min-width: 1280px) {
+  .divide-double .xl:double {
+    border-style: double;
+  }
+}
+@media (min-width: 1536px) {
+  .divide-double .xxl:double {
+    border-style: double;
+  }
+}
+
+.divide-none .none {
+  border-style: none;
+}
+@media (min-width: 640px) {
+  .divide-none .sm:none {
+    border-style: none;
+  }
+}
+@media (min-width: 768px) {
+  .divide-none .md:none {
+    border-style: none;
+  }
+}
+@media (min-width: 1024px) {
+  .divide-none .lg:none {
+    border-style: none;
+  }
+}
+@media (min-width: 1280px) {
+  .divide-none .xl:none {
+    border-style: none;
+  }
+}
+@media (min-width: 1536px) {
+  .divide-none .xxl:none {
+    border-style: none;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

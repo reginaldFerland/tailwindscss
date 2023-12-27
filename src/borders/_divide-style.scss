@@ -1,0 +1,17 @@
+@use '../core';
+
+$_styles: (
+    "solid": solid,
+    "dashed": dashed,
+    "dotted": dotted,
+    "double": double,
+    "none": none,
+);
+
+@each $name, $style in $_styles {
+    .divide-#{$name} {
+        @include core.variations($style) {
+            border-style: $style;
+        }
+    }
+}
