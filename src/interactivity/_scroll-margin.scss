@@ -1,0 +1,42 @@
+@use '../core';
+@use '../core/size';
+
+@each $name, $value in size.$size {
+    @include core.variations('scroll-m-#{$name}') {
+        scroll-margin: $value;
+    }
+
+    @include core.variations('scroll-my-#{$name}') {
+        scroll-margin-top: $value;
+        scroll-margin-bottom: $value;
+    }
+
+    @include core.variations('scroll-mx-#{$name}') {
+        scroll-margin-left: $value;
+        scroll-margin-right: $value;
+    }
+
+    @include core.variations('scroll-ms-#{$name}') {
+        scroll-margin-inline-start: $value;
+    }
+
+    @include core.variations('scroll-me-#{$name}') {
+        scroll-margin-inline-end: $value;
+    }
+
+    @include core.variations('scroll-mb-#{$name}') {
+        scroll-margin-bottom: $value;
+    }
+
+    @include core.variations('scroll-ml-#{$name}') {
+        scroll-margin-left: $value;
+    }
+
+    @include core.variations('scroll-mr-#{$name}') {
+        scroll-margin-right: $value;
+    }
+
+    @include core.variations('scroll-mt-#{$name}') {
+        scroll-margin-top: $value;
+    }
+}
