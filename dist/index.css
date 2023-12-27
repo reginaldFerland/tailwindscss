@@ -184418,5 +184418,382 @@ border-l
     filter: blur(64px);
   }
 }
+.backdrop-brightness-0 {
+  filter: brightness(0);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-brightness-0 {
+    filter: brightness(0);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-brightness-0 {
+    filter: brightness(0);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-brightness-0 {
+    filter: brightness(0);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-brightness-0 {
+    filter: brightness(0);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-brightness-0 {
+    filter: brightness(0);
+  }
+}
+.backdrop-brightness-25 {
+  filter: brightness(0.25);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-brightness-25 {
+    filter: brightness(0.25);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-brightness-25 {
+    filter: brightness(0.25);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-brightness-25 {
+    filter: brightness(0.25);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-brightness-25 {
+    filter: brightness(0.25);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-brightness-25 {
+    filter: brightness(0.25);
+  }
+}
+.backdrop-brightness-50 {
+  filter: brightness(0.5);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-brightness-50 {
+    filter: brightness(0.5);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-brightness-50 {
+    filter: brightness(0.5);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-brightness-50 {
+    filter: brightness(0.5);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-brightness-50 {
+    filter: brightness(0.5);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-brightness-50 {
+    filter: brightness(0.5);
+  }
+}
+.backdrop-brightness-75 {
+  filter: brightness(0.75);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-brightness-75 {
+    filter: brightness(0.75);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-brightness-75 {
+    filter: brightness(0.75);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-brightness-75 {
+    filter: brightness(0.75);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-brightness-75 {
+    filter: brightness(0.75);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-brightness-75 {
+    filter: brightness(0.75);
+  }
+}
+.backdrop-brightness-90 {
+  filter: brightness(0.9);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-brightness-90 {
+    filter: brightness(0.9);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-brightness-90 {
+    filter: brightness(0.9);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-brightness-90 {
+    filter: brightness(0.9);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-brightness-90 {
+    filter: brightness(0.9);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-brightness-90 {
+    filter: brightness(0.9);
+  }
+}
+.backdrop-brightness-95 {
+  filter: brightness(0.95);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-brightness-95 {
+    filter: brightness(0.95);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-brightness-95 {
+    filter: brightness(0.95);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-brightness-95 {
+    filter: brightness(0.95);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-brightness-95 {
+    filter: brightness(0.95);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-brightness-95 {
+    filter: brightness(0.95);
+  }
+}
+.backdrop-brightness-100 {
+  filter: brightness(1);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-brightness-100 {
+    filter: brightness(1);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-brightness-100 {
+    filter: brightness(1);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-brightness-100 {
+    filter: brightness(1);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-brightness-100 {
+    filter: brightness(1);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-brightness-100 {
+    filter: brightness(1);
+  }
+}
+.backdrop-brightness-105 {
+  filter: brightness(1.05);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-brightness-105 {
+    filter: brightness(1.05);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-brightness-105 {
+    filter: brightness(1.05);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-brightness-105 {
+    filter: brightness(1.05);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-brightness-105 {
+    filter: brightness(1.05);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-brightness-105 {
+    filter: brightness(1.05);
+  }
+}
+.backdrop-brightness-110 {
+  filter: brightness(1.1);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-brightness-110 {
+    filter: brightness(1.1);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-brightness-110 {
+    filter: brightness(1.1);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-brightness-110 {
+    filter: brightness(1.1);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-brightness-110 {
+    filter: brightness(1.1);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-brightness-110 {
+    filter: brightness(1.1);
+  }
+}
+.backdrop-brightness-125 {
+  filter: brightness(1.25);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-brightness-125 {
+    filter: brightness(1.25);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-brightness-125 {
+    filter: brightness(1.25);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-brightness-125 {
+    filter: brightness(1.25);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-brightness-125 {
+    filter: brightness(1.25);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-brightness-125 {
+    filter: brightness(1.25);
+  }
+}
+.backdrop-brightness-150 {
+  filter: brightness(1.5);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-brightness-150 {
+    filter: brightness(1.5);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-brightness-150 {
+    filter: brightness(1.5);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-brightness-150 {
+    filter: brightness(1.5);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-brightness-150 {
+    filter: brightness(1.5);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-brightness-150 {
+    filter: brightness(1.5);
+  }
+}
+.backdrop-brightness-175 {
+  filter: brightness(1.75);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-brightness-175 {
+    filter: brightness(1.75);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-brightness-175 {
+    filter: brightness(1.75);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-brightness-175 {
+    filter: brightness(1.75);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-brightness-175 {
+    filter: brightness(1.75);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-brightness-175 {
+    filter: brightness(1.75);
+  }
+}
+.backdrop-brightness-200 {
+  filter: brightness(2);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-brightness-200 {
+    filter: brightness(2);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-brightness-200 {
+    filter: brightness(2);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-brightness-200 {
+    filter: brightness(2);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-brightness-200 {
+    filter: brightness(2);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-brightness-200 {
+    filter: brightness(2);
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
