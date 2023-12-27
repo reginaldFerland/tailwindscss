@@ -187071,5 +187071,121 @@ border-l
     transition-duration: 1000ms;
   }
 }
+.ease-linear {
+  transition-timing-function: linear;
+}
+
+@media (min-width: 640px) {
+  .sm:ease-linear {
+    transition-timing-function: linear;
+  }
+}
+@media (min-width: 768px) {
+  .md:ease-linear {
+    transition-timing-function: linear;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:ease-linear {
+    transition-timing-function: linear;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:ease-linear {
+    transition-timing-function: linear;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:ease-linear {
+    transition-timing-function: linear;
+  }
+}
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+@media (min-width: 640px) {
+  .sm:ease-in {
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  }
+}
+@media (min-width: 768px) {
+  .md:ease-in {
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:ease-in {
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:ease-in {
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:ease-in {
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  }
+}
+.ease-out {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+@media (min-width: 640px) {
+  .sm:ease-out {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+@media (min-width: 768px) {
+  .md:ease-out {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:ease-out {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:ease-out {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:ease-out {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-width: 640px) {
+  .sm:ease-in-out {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+@media (min-width: 768px) {
+  .md:ease-in-out {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:ease-in-out {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:ease-in-out {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:ease-in-out {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
