@@ -1,0 +1,19 @@
+@use '../core';
+
+$_origins: (
+    "center": center,
+    "top": top,
+    "right": right,
+    "bottom": bottom,
+    "left": left,
+    "top-left": top left,
+    "top-right": top right,
+    "bottom-left": bottom left,
+    "bottom-right": bottom right,
+);
+
+@each $name, $value in $_origins {
+    @include core.variations('origin-#{$name}') {
+        transform-origin: $value;
+    }
+}
