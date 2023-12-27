@@ -1,0 +1,26 @@
+
+@mixin prefers($className) {
+    @media (prefers-color-scheme: dark) {
+        dark:#{$className} {
+            @content;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        motion-reduce:#{$className} {
+            @content;
+        }
+    }
+
+    @media (prefers-contrast: more) {
+        contrast-more:#{$className} {
+            @content;
+        }
+    }
+
+    @media (forced-colors: active) {
+        forced-colors:#{$className} {
+            @content;
+        }
+    }
+}

@@ -1,8 +1,0 @@
-
-@mixin prefers-color-scheme($className) {
-    @media (prefers-color-scheme: dark) {
-        dark:#{$className} {
-            @content;
-        }
-    }
-}
