@@ -237478,5 +237478,295 @@ border-l
     scroll-snap-type: "both var(--tw-scroll-snap-strictness)";
   }
 }
+.touch-auto {
+  touch-action: "auto";
+}
+
+@media (min-width: 640px) {
+  .sm:touch-auto {
+    touch-action: "auto";
+  }
+}
+@media (min-width: 768px) {
+  .md:touch-auto {
+    touch-action: "auto";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:touch-auto {
+    touch-action: "auto";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:touch-auto {
+    touch-action: "auto";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:touch-auto {
+    touch-action: "auto";
+  }
+}
+.touch-none {
+  touch-action: "none";
+}
+
+@media (min-width: 640px) {
+  .sm:touch-none {
+    touch-action: "none";
+  }
+}
+@media (min-width: 768px) {
+  .md:touch-none {
+    touch-action: "none";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:touch-none {
+    touch-action: "none";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:touch-none {
+    touch-action: "none";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:touch-none {
+    touch-action: "none";
+  }
+}
+.touch-pan-x {
+  touch-action: "pan-x";
+}
+
+@media (min-width: 640px) {
+  .sm:touch-pan-x {
+    touch-action: "pan-x";
+  }
+}
+@media (min-width: 768px) {
+  .md:touch-pan-x {
+    touch-action: "pan-x";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:touch-pan-x {
+    touch-action: "pan-x";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:touch-pan-x {
+    touch-action: "pan-x";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:touch-pan-x {
+    touch-action: "pan-x";
+  }
+}
+.touch-pan-y {
+  touch-action: "pan-y";
+}
+
+@media (min-width: 640px) {
+  .sm:touch-pan-y {
+    touch-action: "pan-y";
+  }
+}
+@media (min-width: 768px) {
+  .md:touch-pan-y {
+    touch-action: "pan-y";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:touch-pan-y {
+    touch-action: "pan-y";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:touch-pan-y {
+    touch-action: "pan-y";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:touch-pan-y {
+    touch-action: "pan-y";
+  }
+}
+.touch-pan-left {
+  touch-action: "pan-left";
+}
+
+@media (min-width: 640px) {
+  .sm:touch-pan-left {
+    touch-action: "pan-left";
+  }
+}
+@media (min-width: 768px) {
+  .md:touch-pan-left {
+    touch-action: "pan-left";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:touch-pan-left {
+    touch-action: "pan-left";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:touch-pan-left {
+    touch-action: "pan-left";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:touch-pan-left {
+    touch-action: "pan-left";
+  }
+}
+.touch-pan-right {
+  touch-action: "pan-right";
+}
+
+@media (min-width: 640px) {
+  .sm:touch-pan-right {
+    touch-action: "pan-right";
+  }
+}
+@media (min-width: 768px) {
+  .md:touch-pan-right {
+    touch-action: "pan-right";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:touch-pan-right {
+    touch-action: "pan-right";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:touch-pan-right {
+    touch-action: "pan-right";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:touch-pan-right {
+    touch-action: "pan-right";
+  }
+}
+.touch-pan-up {
+  touch-action: "pan-up";
+}
+
+@media (min-width: 640px) {
+  .sm:touch-pan-up {
+    touch-action: "pan-up";
+  }
+}
+@media (min-width: 768px) {
+  .md:touch-pan-up {
+    touch-action: "pan-up";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:touch-pan-up {
+    touch-action: "pan-up";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:touch-pan-up {
+    touch-action: "pan-up";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:touch-pan-up {
+    touch-action: "pan-up";
+  }
+}
+.touch-pan-down {
+  touch-action: "pan-down";
+}
+
+@media (min-width: 640px) {
+  .sm:touch-pan-down {
+    touch-action: "pan-down";
+  }
+}
+@media (min-width: 768px) {
+  .md:touch-pan-down {
+    touch-action: "pan-down";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:touch-pan-down {
+    touch-action: "pan-down";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:touch-pan-down {
+    touch-action: "pan-down";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:touch-pan-down {
+    touch-action: "pan-down";
+  }
+}
+.touch-pinch-zoom {
+  touch-action: "pinch-zoom";
+}
+
+@media (min-width: 640px) {
+  .sm:touch-pinch-zoom {
+    touch-action: "pinch-zoom";
+  }
+}
+@media (min-width: 768px) {
+  .md:touch-pinch-zoom {
+    touch-action: "pinch-zoom";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:touch-pinch-zoom {
+    touch-action: "pinch-zoom";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:touch-pinch-zoom {
+    touch-action: "pinch-zoom";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:touch-pinch-zoom {
+    touch-action: "pinch-zoom";
+  }
+}
+.touch-manipulation {
+  touch-action: "manipulation";
+}
+
+@media (min-width: 640px) {
+  .sm:touch-manipulation {
+    touch-action: "manipulation";
+  }
+}
+@media (min-width: 768px) {
+  .md:touch-manipulation {
+    touch-action: "manipulation";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:touch-manipulation {
+    touch-action: "manipulation";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:touch-manipulation {
+    touch-action: "manipulation";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:touch-manipulation {
+    touch-action: "manipulation";
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

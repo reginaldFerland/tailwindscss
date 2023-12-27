@@ -1,0 +1,20 @@
+@use '../core';
+
+$_touch-action: (
+    'auto': 'auto',
+    'none': 'none',
+    'pan-x': 'pan-x',
+    'pan-y': 'pan-y',
+    'pan-left': 'pan-left',
+    'pan-right': 'pan-right',
+    'pan-up': 'pan-up',
+    'pan-down': 'pan-down',
+    'pinch-zoom': 'pinch-zoom',
+    'manipulation': 'manipulation',
+);
+
+@each $name, $value in $_touch-action {
+    @include core.variations('touch-#{$name}') {
+        touch-action: $value;
+    }
+}
