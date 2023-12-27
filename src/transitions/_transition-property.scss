@@ -1,0 +1,23 @@
+@use '../core';
+@use 'sass:list';
+
+$_transition: (
+    'transition-all': ("all", "cubic-bezier(0.4, 0, 0.2, 1)", "150ms"),
+    'transition': ("color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter", "cubic-bezier(0.4, 0, 0.2, 1)", "150ms"),
+    'transition-colors': ("color, background-color, border-color, text-decoration-color, fill, stroke", "cubic-bezier(0.4, 0, 0.2, 1)", "150ms"),
+    'transition-opacity': ("opacity", "cubic-bezier(0.4, 0, 0.2, 1)", "150ms"),
+    'transition-shadow': ("box-shadow", "cubic-bezier(0.4, 0, 0.2, 1)", "150ms"),
+    'transition-transform': ("transform", "cubic-bezier(0.4, 0, 0.2, 1)", "150ms")
+);
+
+@include core.variations('transition-none') {
+    transition-property: none;
+}
+
+@each $name, $value in $_transition {
+    @include core.variations($name) {
+        transition-property: list.nth($value, 1);
+        transition-timing-function: list.nth($value, 2);
+        transition-duration: list.nth($value, 3);
+   }
+}

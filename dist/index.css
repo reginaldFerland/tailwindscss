@@ -186535,5 +186535,280 @@ border-l
     caption-side: bottom;
   }
 }
+.transition-none {
+  transition-property: none;
+}
+
+@media (min-width: 640px) {
+  .sm:transition-none {
+    transition-property: none;
+  }
+}
+@media (min-width: 768px) {
+  .md:transition-none {
+    transition-property: none;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:transition-none {
+    transition-property: none;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:transition-none {
+    transition-property: none;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:transition-none {
+    transition-property: none;
+  }
+}
+.transition-all {
+  transition-property: "all";
+  transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+  transition-duration: "150ms";
+}
+
+@media (min-width: 640px) {
+  .sm:transition-all {
+    transition-property: "all";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 768px) {
+  .md:transition-all {
+    transition-property: "all";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:transition-all {
+    transition-property: "all";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:transition-all {
+    transition-property: "all";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:transition-all {
+    transition-property: "all";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+.transition {
+  transition-property: "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter";
+  transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+  transition-duration: "150ms";
+}
+
+@media (min-width: 640px) {
+  .sm:transition {
+    transition-property: "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 768px) {
+  .md:transition {
+    transition-property: "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:transition {
+    transition-property: "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:transition {
+    transition-property: "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:transition {
+    transition-property: "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+.transition-colors {
+  transition-property: "color, background-color, border-color, text-decoration-color, fill, stroke";
+  transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+  transition-duration: "150ms";
+}
+
+@media (min-width: 640px) {
+  .sm:transition-colors {
+    transition-property: "color, background-color, border-color, text-decoration-color, fill, stroke";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 768px) {
+  .md:transition-colors {
+    transition-property: "color, background-color, border-color, text-decoration-color, fill, stroke";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:transition-colors {
+    transition-property: "color, background-color, border-color, text-decoration-color, fill, stroke";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:transition-colors {
+    transition-property: "color, background-color, border-color, text-decoration-color, fill, stroke";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:transition-colors {
+    transition-property: "color, background-color, border-color, text-decoration-color, fill, stroke";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+.transition-opacity {
+  transition-property: "opacity";
+  transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+  transition-duration: "150ms";
+}
+
+@media (min-width: 640px) {
+  .sm:transition-opacity {
+    transition-property: "opacity";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 768px) {
+  .md:transition-opacity {
+    transition-property: "opacity";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:transition-opacity {
+    transition-property: "opacity";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:transition-opacity {
+    transition-property: "opacity";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:transition-opacity {
+    transition-property: "opacity";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+.transition-shadow {
+  transition-property: "box-shadow";
+  transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+  transition-duration: "150ms";
+}
+
+@media (min-width: 640px) {
+  .sm:transition-shadow {
+    transition-property: "box-shadow";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 768px) {
+  .md:transition-shadow {
+    transition-property: "box-shadow";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:transition-shadow {
+    transition-property: "box-shadow";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:transition-shadow {
+    transition-property: "box-shadow";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:transition-shadow {
+    transition-property: "box-shadow";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+.transition-transform {
+  transition-property: "transform";
+  transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+  transition-duration: "150ms";
+}
+
+@media (min-width: 640px) {
+  .sm:transition-transform {
+    transition-property: "transform";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 768px) {
+  .md:transition-transform {
+    transition-property: "transform";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:transition-transform {
+    transition-property: "transform";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:transition-transform {
+    transition-property: "transform";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:transition-transform {
+    transition-property: "transform";
+    transition-timing-function: "cubic-bezier(0.4, 0, 0.2, 1)";
+    transition-duration: "150ms";
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
