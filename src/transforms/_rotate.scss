@@ -1,0 +1,19 @@
+@use '../core';
+
+$_rotate: (
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "6": 6,
+    "12": 12,
+    "45": 45,
+    "90": 90,
+    "180": 180,
+);
+
+@each $name, $value in $_rotate {
+    @include core.variations('rotate-#{$name}') {
+        transform: rotate('#{$value}deg');
+    }
+}

@@ -188495,5 +188495,266 @@ border-l
     transform: scaleY(1.5);
   }
 }
+.rotate-0 {
+  transform: rotate("0deg");
+}
+
+@media (min-width: 640px) {
+  .sm:rotate-0 {
+    transform: rotate("0deg");
+  }
+}
+@media (min-width: 768px) {
+  .md:rotate-0 {
+    transform: rotate("0deg");
+  }
+}
+@media (min-width: 1024px) {
+  .lg:rotate-0 {
+    transform: rotate("0deg");
+  }
+}
+@media (min-width: 1280px) {
+  .xl:rotate-0 {
+    transform: rotate("0deg");
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:rotate-0 {
+    transform: rotate("0deg");
+  }
+}
+.rotate-1 {
+  transform: rotate("1deg");
+}
+
+@media (min-width: 640px) {
+  .sm:rotate-1 {
+    transform: rotate("1deg");
+  }
+}
+@media (min-width: 768px) {
+  .md:rotate-1 {
+    transform: rotate("1deg");
+  }
+}
+@media (min-width: 1024px) {
+  .lg:rotate-1 {
+    transform: rotate("1deg");
+  }
+}
+@media (min-width: 1280px) {
+  .xl:rotate-1 {
+    transform: rotate("1deg");
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:rotate-1 {
+    transform: rotate("1deg");
+  }
+}
+.rotate-2 {
+  transform: rotate("2deg");
+}
+
+@media (min-width: 640px) {
+  .sm:rotate-2 {
+    transform: rotate("2deg");
+  }
+}
+@media (min-width: 768px) {
+  .md:rotate-2 {
+    transform: rotate("2deg");
+  }
+}
+@media (min-width: 1024px) {
+  .lg:rotate-2 {
+    transform: rotate("2deg");
+  }
+}
+@media (min-width: 1280px) {
+  .xl:rotate-2 {
+    transform: rotate("2deg");
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:rotate-2 {
+    transform: rotate("2deg");
+  }
+}
+.rotate-3 {
+  transform: rotate("3deg");
+}
+
+@media (min-width: 640px) {
+  .sm:rotate-3 {
+    transform: rotate("3deg");
+  }
+}
+@media (min-width: 768px) {
+  .md:rotate-3 {
+    transform: rotate("3deg");
+  }
+}
+@media (min-width: 1024px) {
+  .lg:rotate-3 {
+    transform: rotate("3deg");
+  }
+}
+@media (min-width: 1280px) {
+  .xl:rotate-3 {
+    transform: rotate("3deg");
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:rotate-3 {
+    transform: rotate("3deg");
+  }
+}
+.rotate-6 {
+  transform: rotate("6deg");
+}
+
+@media (min-width: 640px) {
+  .sm:rotate-6 {
+    transform: rotate("6deg");
+  }
+}
+@media (min-width: 768px) {
+  .md:rotate-6 {
+    transform: rotate("6deg");
+  }
+}
+@media (min-width: 1024px) {
+  .lg:rotate-6 {
+    transform: rotate("6deg");
+  }
+}
+@media (min-width: 1280px) {
+  .xl:rotate-6 {
+    transform: rotate("6deg");
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:rotate-6 {
+    transform: rotate("6deg");
+  }
+}
+.rotate-12 {
+  transform: rotate("12deg");
+}
+
+@media (min-width: 640px) {
+  .sm:rotate-12 {
+    transform: rotate("12deg");
+  }
+}
+@media (min-width: 768px) {
+  .md:rotate-12 {
+    transform: rotate("12deg");
+  }
+}
+@media (min-width: 1024px) {
+  .lg:rotate-12 {
+    transform: rotate("12deg");
+  }
+}
+@media (min-width: 1280px) {
+  .xl:rotate-12 {
+    transform: rotate("12deg");
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:rotate-12 {
+    transform: rotate("12deg");
+  }
+}
+.rotate-45 {
+  transform: rotate("45deg");
+}
+
+@media (min-width: 640px) {
+  .sm:rotate-45 {
+    transform: rotate("45deg");
+  }
+}
+@media (min-width: 768px) {
+  .md:rotate-45 {
+    transform: rotate("45deg");
+  }
+}
+@media (min-width: 1024px) {
+  .lg:rotate-45 {
+    transform: rotate("45deg");
+  }
+}
+@media (min-width: 1280px) {
+  .xl:rotate-45 {
+    transform: rotate("45deg");
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:rotate-45 {
+    transform: rotate("45deg");
+  }
+}
+.rotate-90 {
+  transform: rotate("90deg");
+}
+
+@media (min-width: 640px) {
+  .sm:rotate-90 {
+    transform: rotate("90deg");
+  }
+}
+@media (min-width: 768px) {
+  .md:rotate-90 {
+    transform: rotate("90deg");
+  }
+}
+@media (min-width: 1024px) {
+  .lg:rotate-90 {
+    transform: rotate("90deg");
+  }
+}
+@media (min-width: 1280px) {
+  .xl:rotate-90 {
+    transform: rotate("90deg");
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:rotate-90 {
+    transform: rotate("90deg");
+  }
+}
+.rotate-180 {
+  transform: rotate("180deg");
+}
+
+@media (min-width: 640px) {
+  .sm:rotate-180 {
+    transform: rotate("180deg");
+  }
+}
+@media (min-width: 768px) {
+  .md:rotate-180 {
+    transform: rotate("180deg");
+  }
+}
+@media (min-width: 1024px) {
+  .lg:rotate-180 {
+    transform: rotate("180deg");
+  }
+}
+@media (min-width: 1280px) {
+  .xl:rotate-180 {
+    transform: rotate("180deg");
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:rotate-180 {
+    transform: rotate("180deg");
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
