@@ -1,0 +1,9 @@
+@use '../core';
+
+@include core.variations('invert') {
+    filter: invert(100%);
+}
+
+@include core.variations('invert-0') {
+    filter: invert(0);
+}
