@@ -1,0 +1,18 @@
+@use '../core';
+
+$_blur: (
+    "blur-none": "none",
+    "blur-sm": "4px",
+    "blur": "8px",
+    "blur-md": "12px",
+    "blur-lg": "16px",
+    "blur-xl": "24px",
+    "blur-2xl": "40px",
+    "blur-3xl": "64px",
+);
+
+@each $name, $value in $_blur {
+    @include core.variations($name) {
+        filter: blur($value);
+    }
+}
