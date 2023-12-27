@@ -1,0 +1,19 @@
+@use '../core';
+
+$_saturate: (
+    "0": 0,
+    "25": .25,
+    "50": .5,
+    "75": .75,
+    "100": 1,
+    "125": 1.25,
+    "150": 1.5,
+    "175": 1.75,
+    "200": 2
+);
+
+@each $name, $value in $_saturate {
+    @include core.variations('backdrop-saturate-#{$name}') {
+        filter: saturate($value);
+    }
+}

@@ -186042,5 +186042,266 @@ border-l
     backdrop-filter: opacity(1);
   }
 }
+.backdrop-saturate-0 {
+  filter: saturate(0);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-saturate-0 {
+    filter: saturate(0);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-saturate-0 {
+    filter: saturate(0);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-saturate-0 {
+    filter: saturate(0);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-saturate-0 {
+    filter: saturate(0);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-saturate-0 {
+    filter: saturate(0);
+  }
+}
+.backdrop-saturate-25 {
+  filter: saturate(0.25);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-saturate-25 {
+    filter: saturate(0.25);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-saturate-25 {
+    filter: saturate(0.25);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-saturate-25 {
+    filter: saturate(0.25);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-saturate-25 {
+    filter: saturate(0.25);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-saturate-25 {
+    filter: saturate(0.25);
+  }
+}
+.backdrop-saturate-50 {
+  filter: saturate(0.5);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-saturate-50 {
+    filter: saturate(0.5);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-saturate-50 {
+    filter: saturate(0.5);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-saturate-50 {
+    filter: saturate(0.5);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-saturate-50 {
+    filter: saturate(0.5);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-saturate-50 {
+    filter: saturate(0.5);
+  }
+}
+.backdrop-saturate-75 {
+  filter: saturate(0.75);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-saturate-75 {
+    filter: saturate(0.75);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-saturate-75 {
+    filter: saturate(0.75);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-saturate-75 {
+    filter: saturate(0.75);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-saturate-75 {
+    filter: saturate(0.75);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-saturate-75 {
+    filter: saturate(0.75);
+  }
+}
+.backdrop-saturate-100 {
+  filter: saturate(1);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-saturate-100 {
+    filter: saturate(1);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-saturate-100 {
+    filter: saturate(1);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-saturate-100 {
+    filter: saturate(1);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-saturate-100 {
+    filter: saturate(1);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-saturate-100 {
+    filter: saturate(1);
+  }
+}
+.backdrop-saturate-125 {
+  filter: saturate(1.25);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-saturate-125 {
+    filter: saturate(1.25);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-saturate-125 {
+    filter: saturate(1.25);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-saturate-125 {
+    filter: saturate(1.25);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-saturate-125 {
+    filter: saturate(1.25);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-saturate-125 {
+    filter: saturate(1.25);
+  }
+}
+.backdrop-saturate-150 {
+  filter: saturate(1.5);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-saturate-150 {
+    filter: saturate(1.5);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-saturate-150 {
+    filter: saturate(1.5);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-saturate-150 {
+    filter: saturate(1.5);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-saturate-150 {
+    filter: saturate(1.5);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-saturate-150 {
+    filter: saturate(1.5);
+  }
+}
+.backdrop-saturate-175 {
+  filter: saturate(1.75);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-saturate-175 {
+    filter: saturate(1.75);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-saturate-175 {
+    filter: saturate(1.75);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-saturate-175 {
+    filter: saturate(1.75);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-saturate-175 {
+    filter: saturate(1.75);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-saturate-175 {
+    filter: saturate(1.75);
+  }
+}
+.backdrop-saturate-200 {
+  filter: saturate(2);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-saturate-200 {
+    filter: saturate(2);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-saturate-200 {
+    filter: saturate(2);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-saturate-200 {
+    filter: saturate(2);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-saturate-200 {
+    filter: saturate(2);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-saturate-200 {
+    filter: saturate(2);
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
