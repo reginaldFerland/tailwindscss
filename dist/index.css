@@ -182910,5 +182910,237 @@ border-l
     filter: brightness(2);
   }
 }
+.contrast-0 {
+  filter: contrast(0);
+}
+
+@media (min-width: 640px) {
+  .sm:contrast-0 {
+    filter: contrast(0);
+  }
+}
+@media (min-width: 768px) {
+  .md:contrast-0 {
+    filter: contrast(0);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:contrast-0 {
+    filter: contrast(0);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:contrast-0 {
+    filter: contrast(0);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:contrast-0 {
+    filter: contrast(0);
+  }
+}
+.contrast-25 {
+  filter: contrast(0.25);
+}
+
+@media (min-width: 640px) {
+  .sm:contrast-25 {
+    filter: contrast(0.25);
+  }
+}
+@media (min-width: 768px) {
+  .md:contrast-25 {
+    filter: contrast(0.25);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:contrast-25 {
+    filter: contrast(0.25);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:contrast-25 {
+    filter: contrast(0.25);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:contrast-25 {
+    filter: contrast(0.25);
+  }
+}
+.contrast-50 {
+  filter: contrast(0.5);
+}
+
+@media (min-width: 640px) {
+  .sm:contrast-50 {
+    filter: contrast(0.5);
+  }
+}
+@media (min-width: 768px) {
+  .md:contrast-50 {
+    filter: contrast(0.5);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:contrast-50 {
+    filter: contrast(0.5);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:contrast-50 {
+    filter: contrast(0.5);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:contrast-50 {
+    filter: contrast(0.5);
+  }
+}
+.contrast-75 {
+  filter: contrast(0.75);
+}
+
+@media (min-width: 640px) {
+  .sm:contrast-75 {
+    filter: contrast(0.75);
+  }
+}
+@media (min-width: 768px) {
+  .md:contrast-75 {
+    filter: contrast(0.75);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:contrast-75 {
+    filter: contrast(0.75);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:contrast-75 {
+    filter: contrast(0.75);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:contrast-75 {
+    filter: contrast(0.75);
+  }
+}
+.contrast-100 {
+  filter: contrast(1);
+}
+
+@media (min-width: 640px) {
+  .sm:contrast-100 {
+    filter: contrast(1);
+  }
+}
+@media (min-width: 768px) {
+  .md:contrast-100 {
+    filter: contrast(1);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:contrast-100 {
+    filter: contrast(1);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:contrast-100 {
+    filter: contrast(1);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:contrast-100 {
+    filter: contrast(1);
+  }
+}
+.contrast-125 {
+  filter: contrast(1.25);
+}
+
+@media (min-width: 640px) {
+  .sm:contrast-125 {
+    filter: contrast(1.25);
+  }
+}
+@media (min-width: 768px) {
+  .md:contrast-125 {
+    filter: contrast(1.25);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:contrast-125 {
+    filter: contrast(1.25);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:contrast-125 {
+    filter: contrast(1.25);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:contrast-125 {
+    filter: contrast(1.25);
+  }
+}
+.contrast-150 {
+  filter: contrast(1.5);
+}
+
+@media (min-width: 640px) {
+  .sm:contrast-150 {
+    filter: contrast(1.5);
+  }
+}
+@media (min-width: 768px) {
+  .md:contrast-150 {
+    filter: contrast(1.5);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:contrast-150 {
+    filter: contrast(1.5);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:contrast-150 {
+    filter: contrast(1.5);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:contrast-150 {
+    filter: contrast(1.5);
+  }
+}
+.contrast-200 {
+  filter: contrast(2);
+}
+
+@media (min-width: 640px) {
+  .sm:contrast-200 {
+    filter: contrast(2);
+  }
+}
+@media (min-width: 768px) {
+  .md:contrast-200 {
+    filter: contrast(2);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:contrast-200 {
+    filter: contrast(2);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:contrast-200 {
+    filter: contrast(2);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:contrast-200 {
+    filter: contrast(2);
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
