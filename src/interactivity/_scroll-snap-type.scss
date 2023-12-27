@@ -1,0 +1,25 @@
+@use '../core';
+
+$_snap-vars: (
+    "mandatory": mandatory,
+    "proximity": proximity,
+);
+
+@each $name, $value in $_snap-vars {
+    @include core.variations('snap-#{$name}') {
+    	--tw-scroll-snap-strictness: $value;
+    }
+}
+
+$_snaps: (
+    'none': 'none',
+    'x': 'x var(--tw-scroll-snap-strictness)',
+    'y': 'y var(--tw-scroll-snap-strictness)',
+    'both': 'both var(--tw-scroll-snap-strictness)',
+);
+
+@each $name, $value in $_snaps {
+    @include core.variations('snap-#{$name}') {
+        scroll-snap-type: $value;
+    }
+}
