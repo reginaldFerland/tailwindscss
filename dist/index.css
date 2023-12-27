@@ -182562,5 +182562,353 @@ border-l
     filter: blur("64px");
   }
 }
+.brightness-0 {
+  filter: brightness(0);
+}
+
+@media (min-width: 640px) {
+  .sm:brightness-0 {
+    filter: brightness(0);
+  }
+}
+@media (min-width: 768px) {
+  .md:brightness-0 {
+    filter: brightness(0);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:brightness-0 {
+    filter: brightness(0);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:brightness-0 {
+    filter: brightness(0);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:brightness-0 {
+    filter: brightness(0);
+  }
+}
+.brightness-25 {
+  filter: brightness(0.25);
+}
+
+@media (min-width: 640px) {
+  .sm:brightness-25 {
+    filter: brightness(0.25);
+  }
+}
+@media (min-width: 768px) {
+  .md:brightness-25 {
+    filter: brightness(0.25);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:brightness-25 {
+    filter: brightness(0.25);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:brightness-25 {
+    filter: brightness(0.25);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:brightness-25 {
+    filter: brightness(0.25);
+  }
+}
+.brightness-50 {
+  filter: brightness(0.5);
+}
+
+@media (min-width: 640px) {
+  .sm:brightness-50 {
+    filter: brightness(0.5);
+  }
+}
+@media (min-width: 768px) {
+  .md:brightness-50 {
+    filter: brightness(0.5);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:brightness-50 {
+    filter: brightness(0.5);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:brightness-50 {
+    filter: brightness(0.5);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:brightness-50 {
+    filter: brightness(0.5);
+  }
+}
+.brightness-75 {
+  filter: brightness(0.75);
+}
+
+@media (min-width: 640px) {
+  .sm:brightness-75 {
+    filter: brightness(0.75);
+  }
+}
+@media (min-width: 768px) {
+  .md:brightness-75 {
+    filter: brightness(0.75);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:brightness-75 {
+    filter: brightness(0.75);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:brightness-75 {
+    filter: brightness(0.75);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:brightness-75 {
+    filter: brightness(0.75);
+  }
+}
+.brightness-90 {
+  filter: brightness(0.9);
+}
+
+@media (min-width: 640px) {
+  .sm:brightness-90 {
+    filter: brightness(0.9);
+  }
+}
+@media (min-width: 768px) {
+  .md:brightness-90 {
+    filter: brightness(0.9);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:brightness-90 {
+    filter: brightness(0.9);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:brightness-90 {
+    filter: brightness(0.9);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:brightness-90 {
+    filter: brightness(0.9);
+  }
+}
+.brightness-95 {
+  filter: brightness(0.95);
+}
+
+@media (min-width: 640px) {
+  .sm:brightness-95 {
+    filter: brightness(0.95);
+  }
+}
+@media (min-width: 768px) {
+  .md:brightness-95 {
+    filter: brightness(0.95);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:brightness-95 {
+    filter: brightness(0.95);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:brightness-95 {
+    filter: brightness(0.95);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:brightness-95 {
+    filter: brightness(0.95);
+  }
+}
+.brightness-100 {
+  filter: brightness(1);
+}
+
+@media (min-width: 640px) {
+  .sm:brightness-100 {
+    filter: brightness(1);
+  }
+}
+@media (min-width: 768px) {
+  .md:brightness-100 {
+    filter: brightness(1);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:brightness-100 {
+    filter: brightness(1);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:brightness-100 {
+    filter: brightness(1);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:brightness-100 {
+    filter: brightness(1);
+  }
+}
+.brightness-105 {
+  filter: brightness(1.05);
+}
+
+@media (min-width: 640px) {
+  .sm:brightness-105 {
+    filter: brightness(1.05);
+  }
+}
+@media (min-width: 768px) {
+  .md:brightness-105 {
+    filter: brightness(1.05);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:brightness-105 {
+    filter: brightness(1.05);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:brightness-105 {
+    filter: brightness(1.05);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:brightness-105 {
+    filter: brightness(1.05);
+  }
+}
+.brightness-110 {
+  filter: brightness(1.1);
+}
+
+@media (min-width: 640px) {
+  .sm:brightness-110 {
+    filter: brightness(1.1);
+  }
+}
+@media (min-width: 768px) {
+  .md:brightness-110 {
+    filter: brightness(1.1);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:brightness-110 {
+    filter: brightness(1.1);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:brightness-110 {
+    filter: brightness(1.1);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:brightness-110 {
+    filter: brightness(1.1);
+  }
+}
+.brightness-125 {
+  filter: brightness(1.25);
+}
+
+@media (min-width: 640px) {
+  .sm:brightness-125 {
+    filter: brightness(1.25);
+  }
+}
+@media (min-width: 768px) {
+  .md:brightness-125 {
+    filter: brightness(1.25);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:brightness-125 {
+    filter: brightness(1.25);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:brightness-125 {
+    filter: brightness(1.25);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:brightness-125 {
+    filter: brightness(1.25);
+  }
+}
+.brightness-150 {
+  filter: brightness(1.5);
+}
+
+@media (min-width: 640px) {
+  .sm:brightness-150 {
+    filter: brightness(1.5);
+  }
+}
+@media (min-width: 768px) {
+  .md:brightness-150 {
+    filter: brightness(1.5);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:brightness-150 {
+    filter: brightness(1.5);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:brightness-150 {
+    filter: brightness(1.5);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:brightness-150 {
+    filter: brightness(1.5);
+  }
+}
+.brightness-200 {
+  filter: brightness(2);
+}
+
+@media (min-width: 640px) {
+  .sm:brightness-200 {
+    filter: brightness(2);
+  }
+}
+@media (min-width: 768px) {
+  .md:brightness-200 {
+    filter: brightness(2);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:brightness-200 {
+    filter: brightness(2);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:brightness-200 {
+    filter: brightness(2);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:brightness-200 {
+    filter: brightness(2);
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
