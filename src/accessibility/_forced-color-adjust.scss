@@ -1,0 +1,12 @@
+@use '../core';
+
+$_adjust: (
+    "auto": auto,
+    "none": none,
+);
+
+@each $name, $value in $_adjust {
+    @include core.variations('forced-color-adjust-#{$name}') {
+        forced-color-adjust: $value;
+    }
+}
