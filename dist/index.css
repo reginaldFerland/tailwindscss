@@ -183867,5 +183867,266 @@ border-l
     filter: invert(0);
   }
 }
+.saturate-0 {
+  filter: saturate(0);
+}
+
+@media (min-width: 640px) {
+  .sm:saturate-0 {
+    filter: saturate(0);
+  }
+}
+@media (min-width: 768px) {
+  .md:saturate-0 {
+    filter: saturate(0);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:saturate-0 {
+    filter: saturate(0);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:saturate-0 {
+    filter: saturate(0);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:saturate-0 {
+    filter: saturate(0);
+  }
+}
+.saturate-25 {
+  filter: saturate(0.25);
+}
+
+@media (min-width: 640px) {
+  .sm:saturate-25 {
+    filter: saturate(0.25);
+  }
+}
+@media (min-width: 768px) {
+  .md:saturate-25 {
+    filter: saturate(0.25);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:saturate-25 {
+    filter: saturate(0.25);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:saturate-25 {
+    filter: saturate(0.25);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:saturate-25 {
+    filter: saturate(0.25);
+  }
+}
+.saturate-50 {
+  filter: saturate(0.5);
+}
+
+@media (min-width: 640px) {
+  .sm:saturate-50 {
+    filter: saturate(0.5);
+  }
+}
+@media (min-width: 768px) {
+  .md:saturate-50 {
+    filter: saturate(0.5);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:saturate-50 {
+    filter: saturate(0.5);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:saturate-50 {
+    filter: saturate(0.5);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:saturate-50 {
+    filter: saturate(0.5);
+  }
+}
+.saturate-75 {
+  filter: saturate(0.75);
+}
+
+@media (min-width: 640px) {
+  .sm:saturate-75 {
+    filter: saturate(0.75);
+  }
+}
+@media (min-width: 768px) {
+  .md:saturate-75 {
+    filter: saturate(0.75);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:saturate-75 {
+    filter: saturate(0.75);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:saturate-75 {
+    filter: saturate(0.75);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:saturate-75 {
+    filter: saturate(0.75);
+  }
+}
+.saturate-100 {
+  filter: saturate(1);
+}
+
+@media (min-width: 640px) {
+  .sm:saturate-100 {
+    filter: saturate(1);
+  }
+}
+@media (min-width: 768px) {
+  .md:saturate-100 {
+    filter: saturate(1);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:saturate-100 {
+    filter: saturate(1);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:saturate-100 {
+    filter: saturate(1);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:saturate-100 {
+    filter: saturate(1);
+  }
+}
+.saturate-125 {
+  filter: saturate(1.25);
+}
+
+@media (min-width: 640px) {
+  .sm:saturate-125 {
+    filter: saturate(1.25);
+  }
+}
+@media (min-width: 768px) {
+  .md:saturate-125 {
+    filter: saturate(1.25);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:saturate-125 {
+    filter: saturate(1.25);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:saturate-125 {
+    filter: saturate(1.25);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:saturate-125 {
+    filter: saturate(1.25);
+  }
+}
+.saturate-150 {
+  filter: saturate(1.5);
+}
+
+@media (min-width: 640px) {
+  .sm:saturate-150 {
+    filter: saturate(1.5);
+  }
+}
+@media (min-width: 768px) {
+  .md:saturate-150 {
+    filter: saturate(1.5);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:saturate-150 {
+    filter: saturate(1.5);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:saturate-150 {
+    filter: saturate(1.5);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:saturate-150 {
+    filter: saturate(1.5);
+  }
+}
+.saturate-175 {
+  filter: saturate(1.75);
+}
+
+@media (min-width: 640px) {
+  .sm:saturate-175 {
+    filter: saturate(1.75);
+  }
+}
+@media (min-width: 768px) {
+  .md:saturate-175 {
+    filter: saturate(1.75);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:saturate-175 {
+    filter: saturate(1.75);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:saturate-175 {
+    filter: saturate(1.75);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:saturate-175 {
+    filter: saturate(1.75);
+  }
+}
+.saturate-200 {
+  filter: saturate(2);
+}
+
+@media (min-width: 640px) {
+  .sm:saturate-200 {
+    filter: saturate(2);
+  }
+}
+@media (min-width: 768px) {
+  .md:saturate-200 {
+    filter: saturate(2);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:saturate-200 {
+    filter: saturate(2);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:saturate-200 {
+    filter: saturate(2);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:saturate-200 {
+    filter: saturate(2);
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
