@@ -1,0 +1,13 @@
+@use '../core';
+
+$_width: (
+    "0": 0,
+    "1": 1,
+    "2": 2,
+);
+
+@each $name, $value in $_width {
+    @include core.variations('stroke-#{$name}') {
+        stroke-width: $value;
+    }
+}
