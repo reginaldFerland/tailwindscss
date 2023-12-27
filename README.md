@@ -12,3 +12,9 @@ sass src/index.scss dist/index.css
 * Content class, need to determine the configuration approach
 * Ring Width / Ring color / Ring offset width / ring offset color, need to determine css variable management approach
 
+## TODO:
+* pick a minimizer
+* pick a tree shaker
+* refactor color variations
+* add state variations
+* add methods to extend size & color options
