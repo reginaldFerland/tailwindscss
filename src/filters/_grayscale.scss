@@ -1,0 +1,9 @@
+@use '../core';
+
+@include core.variations('grayscale') {
+    filter: grayscale(100%);
+}
+
+@include core.variations('grayscale-0') {
+    filter: grayscale(0);
+}

@@ -183345,5 +183345,63 @@ border-l
     filter: drop-shadow("0 0 #0000");
   }
 }
+.grayscale {
+  filter: grayscale(100%);
+}
+
+@media (min-width: 640px) {
+  .sm:grayscale {
+    filter: grayscale(100%);
+  }
+}
+@media (min-width: 768px) {
+  .md:grayscale {
+    filter: grayscale(100%);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:grayscale {
+    filter: grayscale(100%);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:grayscale {
+    filter: grayscale(100%);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:grayscale {
+    filter: grayscale(100%);
+  }
+}
+.grayscale-0 {
+  filter: grayscale(0);
+}
+
+@media (min-width: 640px) {
+  .sm:grayscale-0 {
+    filter: grayscale(0);
+  }
+}
+@media (min-width: 768px) {
+  .md:grayscale-0 {
+    filter: grayscale(0);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:grayscale-0 {
+    filter: grayscale(0);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:grayscale-0 {
+    filter: grayscale(0);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:grayscale-0 {
+    filter: grayscale(0);
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
