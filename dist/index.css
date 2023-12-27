@@ -186810,5 +186810,266 @@ border-l
     transition-duration: "150ms";
   }
 }
+.duration-0 {
+  transition-duration: 0s;
+}
+
+@media (min-width: 640px) {
+  .sm:duration-0 {
+    transition-duration: 0s;
+  }
+}
+@media (min-width: 768px) {
+  .md:duration-0 {
+    transition-duration: 0s;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:duration-0 {
+    transition-duration: 0s;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:duration-0 {
+    transition-duration: 0s;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:duration-0 {
+    transition-duration: 0s;
+  }
+}
+.duration-75 {
+  transition-duration: 75ms;
+}
+
+@media (min-width: 640px) {
+  .sm:duration-75 {
+    transition-duration: 75ms;
+  }
+}
+@media (min-width: 768px) {
+  .md:duration-75 {
+    transition-duration: 75ms;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:duration-75 {
+    transition-duration: 75ms;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:duration-75 {
+    transition-duration: 75ms;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:duration-75 {
+    transition-duration: 75ms;
+  }
+}
+.duration-100 {
+  transition-duration: 100ms;
+}
+
+@media (min-width: 640px) {
+  .sm:duration-100 {
+    transition-duration: 100ms;
+  }
+}
+@media (min-width: 768px) {
+  .md:duration-100 {
+    transition-duration: 100ms;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:duration-100 {
+    transition-duration: 100ms;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:duration-100 {
+    transition-duration: 100ms;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:duration-100 {
+    transition-duration: 100ms;
+  }
+}
+.duration-150 {
+  transition-duration: 150ms;
+}
+
+@media (min-width: 640px) {
+  .sm:duration-150 {
+    transition-duration: 150ms;
+  }
+}
+@media (min-width: 768px) {
+  .md:duration-150 {
+    transition-duration: 150ms;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:duration-150 {
+    transition-duration: 150ms;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:duration-150 {
+    transition-duration: 150ms;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:duration-150 {
+    transition-duration: 150ms;
+  }
+}
+.duration-200 {
+  transition-duration: 200ms;
+}
+
+@media (min-width: 640px) {
+  .sm:duration-200 {
+    transition-duration: 200ms;
+  }
+}
+@media (min-width: 768px) {
+  .md:duration-200 {
+    transition-duration: 200ms;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:duration-200 {
+    transition-duration: 200ms;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:duration-200 {
+    transition-duration: 200ms;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:duration-200 {
+    transition-duration: 200ms;
+  }
+}
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+@media (min-width: 640px) {
+  .sm:duration-300 {
+    transition-duration: 300ms;
+  }
+}
+@media (min-width: 768px) {
+  .md:duration-300 {
+    transition-duration: 300ms;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:duration-300 {
+    transition-duration: 300ms;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:duration-300 {
+    transition-duration: 300ms;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:duration-300 {
+    transition-duration: 300ms;
+  }
+}
+.duration-500 {
+  transition-duration: 500ms;
+}
+
+@media (min-width: 640px) {
+  .sm:duration-500 {
+    transition-duration: 500ms;
+  }
+}
+@media (min-width: 768px) {
+  .md:duration-500 {
+    transition-duration: 500ms;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:duration-500 {
+    transition-duration: 500ms;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:duration-500 {
+    transition-duration: 500ms;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:duration-500 {
+    transition-duration: 500ms;
+  }
+}
+.duration-700 {
+  transition-duration: 700ms;
+}
+
+@media (min-width: 640px) {
+  .sm:duration-700 {
+    transition-duration: 700ms;
+  }
+}
+@media (min-width: 768px) {
+  .md:duration-700 {
+    transition-duration: 700ms;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:duration-700 {
+    transition-duration: 700ms;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:duration-700 {
+    transition-duration: 700ms;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:duration-700 {
+    transition-duration: 700ms;
+  }
+}
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+
+@media (min-width: 640px) {
+  .sm:duration-1000 {
+    transition-duration: 1000ms;
+  }
+}
+@media (min-width: 768px) {
+  .md:duration-1000 {
+    transition-duration: 1000ms;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:duration-1000 {
+    transition-duration: 1000ms;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:duration-1000 {
+    transition-duration: 1000ms;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:duration-1000 {
+    transition-duration: 1000ms;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
