@@ -1,0 +1,9 @@
+@use '../core';
+
+@include core.variations('sepia') {
+    filter: sepia(100%);
+}
+
+@include core.variations('sepia-0') {
+    filter: sepia(0);
+}

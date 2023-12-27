@@ -184128,5 +184128,63 @@ border-l
     filter: saturate(2);
   }
 }
+.sepia {
+  filter: sepia(100%);
+}
+
+@media (min-width: 640px) {
+  .sm:sepia {
+    filter: sepia(100%);
+  }
+}
+@media (min-width: 768px) {
+  .md:sepia {
+    filter: sepia(100%);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:sepia {
+    filter: sepia(100%);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:sepia {
+    filter: sepia(100%);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:sepia {
+    filter: sepia(100%);
+  }
+}
+.sepia-0 {
+  filter: sepia(0);
+}
+
+@media (min-width: 640px) {
+  .sm:sepia-0 {
+    filter: sepia(0);
+  }
+}
+@media (min-width: 768px) {
+  .md:sepia-0 {
+    filter: sepia(0);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:sepia-0 {
+    filter: sepia(0);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:sepia-0 {
+    filter: sepia(0);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:sepia-0 {
+    filter: sepia(0);
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
