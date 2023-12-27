@@ -1,0 +1,20 @@
+
+$_aria: (
+    "checked": "checked",
+    "disabled": "disabled",
+    "expanded": "expanded",
+    "hidden": "hidden",
+    "pressed": "pressed",
+    "readonly": "readonly",
+    "required": "required",
+    "selected": "selected",
+);
+
+
+@mixin aria($className) {
+    @each $aria, $value in $_aria {
+        [aria-#{$value}="true"] #{$aria}:#{$className} {
+            @content;
+        }
+    }
+}

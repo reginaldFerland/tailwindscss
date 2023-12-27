@@ -5,6 +5,7 @@
 @use 'pseudo-elements';
 @use 'prefers';
 @use 'viewport';
+@use 'aria-states';
 
 @mixin variations($className, $createBaseClass: true) {
     @if $createBaseClass {
@@ -33,6 +34,9 @@
         @content;
     }
 
+    @include aria-states.aria($className) {
+        @content;
+    }
 }
 
 @mixin color-variations($className, $element: "color", $createBaseClass: true) {
