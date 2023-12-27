@@ -1,0 +1,20 @@
+@use '../core';
+
+$_skew: (
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "6": 6,
+    "12": 12,
+);
+
+@each $name, $value in $_skew {
+    @include core.variations('skew-x-#{$name}') {
+        transform: skewX('#{$value}deg');
+    }
+
+    @include core.variations('skew-y-#{$name}') {
+        transform: skewY('#{$value}deg');
+    }
+}
