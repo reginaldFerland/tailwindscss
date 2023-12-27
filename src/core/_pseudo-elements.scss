@@ -1,0 +1,15 @@
+
+$_pseduo: (
+    "before": "::before",
+    "after": "::after",
+    "placeholder": "::placeholder",
+    "file": "::file-selector-button",
+);
+
+@mixin pseudo($className) {
+    @each $class, $value in $_pseduo {
+        #{$value} .#{$class}:#{$className} {
+            @content;
+        }
+    }
+}

@@ -2,21 +2,26 @@
 @use 'color';
 @use "size";
 @use 'pseudo-classes';
+@use 'pseudo-elements';
 
 @mixin variations($className, $createBaseClass: true) {
-  @if $createBaseClass {
-    .#{$className} {
-      @content;
+    @if $createBaseClass {
+        .#{$className} {
+        @content;
+        }
     }
-  }
 
-  @include breakpoints.bp($className, false) {
-    @content;
-  }
+    @include breakpoints.bp($className, false) {
+        @content;
+    }
 
-  @include pseudo-classes.pseudo($className) {
-    @content;
-  }
+    @include pseudo-classes.pseudo($className) {
+        @content;
+    }
+
+    @include pseudo-elements.pseudo($className) {
+        @content;
+    }
 
 }
 
