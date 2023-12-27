@@ -207323,5 +207323,121 @@ border-l
     pointer-events: auto;
   }
 }
+.resize-none {
+  resize: none;
+}
+
+@media (min-width: 640px) {
+  .sm:resize-none {
+    resize: none;
+  }
+}
+@media (min-width: 768px) {
+  .md:resize-none {
+    resize: none;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:resize-none {
+    resize: none;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:resize-none {
+    resize: none;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:resize-none {
+    resize: none;
+  }
+}
+.resize {
+  resize: both;
+}
+
+@media (min-width: 640px) {
+  .sm:resize {
+    resize: both;
+  }
+}
+@media (min-width: 768px) {
+  .md:resize {
+    resize: both;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:resize {
+    resize: both;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:resize {
+    resize: both;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:resize {
+    resize: both;
+  }
+}
+.resize-x {
+  resize: horizontal;
+}
+
+@media (min-width: 640px) {
+  .sm:resize-x {
+    resize: horizontal;
+  }
+}
+@media (min-width: 768px) {
+  .md:resize-x {
+    resize: horizontal;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:resize-x {
+    resize: horizontal;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:resize-x {
+    resize: horizontal;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:resize-x {
+    resize: horizontal;
+  }
+}
+.resize-y {
+  resize: vertical;
+}
+
+@media (min-width: 640px) {
+  .sm:resize-y {
+    resize: vertical;
+  }
+}
+@media (min-width: 768px) {
+  .md:resize-y {
+    resize: vertical;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:resize-y {
+    resize: vertical;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:resize-y {
+    resize: vertical;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:resize-y {
+    resize: vertical;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

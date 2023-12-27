@@ -1,0 +1,14 @@
+@use '../core';
+
+$_resize: (
+    'resize-none': none,
+    'resize': both,
+    'resize-x': horizontal,
+    'resize-y': vertical,
+);
+
+@each $name, $value in $_resize {
+    @include core.variations('#{$name}') {
+        resize: $value;
+    }
+}
