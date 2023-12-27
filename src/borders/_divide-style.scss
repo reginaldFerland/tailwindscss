@@ -9,9 +9,7 @@ $_styles: (
 );
 
 @each $name, $style in $_styles {
-    .divide-#{$name} {
-        @include core.variations($style) {
-            border-style: $style;
-        }
+    @include core.variations('divide-#{$name}') {
+        border-style: $style;
     }
 }
