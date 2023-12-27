@@ -207439,5 +207439,63 @@ border-l
     resize: vertical;
   }
 }
+.scroll-smooth {
+  scroll-behavior: "smooth";
+}
+
+@media (min-width: 640px) {
+  .sm:scroll-smooth {
+    scroll-behavior: "smooth";
+  }
+}
+@media (min-width: 768px) {
+  .md:scroll-smooth {
+    scroll-behavior: "smooth";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:scroll-smooth {
+    scroll-behavior: "smooth";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:scroll-smooth {
+    scroll-behavior: "smooth";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:scroll-smooth {
+    scroll-behavior: "smooth";
+  }
+}
+.scroll-auto {
+  scroll-behavior: "auto";
+}
+
+@media (min-width: 640px) {
+  .sm:scroll-auto {
+    scroll-behavior: "auto";
+  }
+}
+@media (min-width: 768px) {
+  .md:scroll-auto {
+    scroll-behavior: "auto";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:scroll-auto {
+    scroll-behavior: "auto";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:scroll-auto {
+    scroll-behavior: "auto";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:scroll-auto {
+    scroll-behavior: "auto";
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

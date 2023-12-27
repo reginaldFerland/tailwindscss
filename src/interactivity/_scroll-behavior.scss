@@ -1,0 +1,12 @@
+@use '../core';
+
+$_scroll-behavior: (
+    'smooth': 'smooth',
+    'auto': 'auto',
+);
+
+@each $name, $value in $_scroll-behavior {
+    @include core.variations('scroll-#{$name}') {
+        scroll-behavior: $value;
+    }
+}
