@@ -17,5 +17,4 @@ sass src/index.scss dist/index.css
 * pick a minimizer
 * pick a tree shaker
 * refactor color variations
-* add state variations
 * add methods to extend size & color options
