@@ -1,0 +1,24 @@
+@use '../core';
+
+$_hue: (
+    "hue-rotate-0": 0,
+    "hue-rotate-15": 15,
+    "hue-rotate-30": 30,
+    "hue-rotate-60": 60,
+    "hue-rotate-90": 90,
+    "hue-rotate-120": 120,
+    "hue-rotate-150": 150,
+    "hue-rotate-180": 180,
+    "hue-rotate-210": 210,
+    "hue-rotate-240": 240,
+    "hue-rotate-270": 270,
+    "hue-rotate-300": 300,
+    "hue-rotate-330": 330,
+    "hue-rotate-360": 360,
+);
+
+@each $name, $value in $_hue {
+    @include core.variations($name) {
+        filter: hue-rotate($value);
+    }
+}
