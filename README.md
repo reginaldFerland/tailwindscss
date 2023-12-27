@@ -11,6 +11,7 @@ sass src/index.scss dist/index.css
 * Background gradent classes, need to investigate design approach
 * Content class, need to determine the configuration approach
 * Ring Width / Ring color / Ring offset width / ring offset color, need to determine css variable management approach
+* Border spacing, skipping until tw-border-spacing variable approach is determined
 
 ## TODO:
 * pick a minimizer

@@ -1,0 +1,9 @@
+@use '../core';
+
+@include core.variations('table-auto') {
+    table-layout: auto;
+}
+
+@include core.variations('table-fixed') {
+    table-layout: fixed;
+}
