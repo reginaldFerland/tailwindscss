@@ -237956,5 +237956,121 @@ border-l
     -ms-user-select: "auto";
   }
 }
+.will-change-auto {
+  will-change: "auto";
+}
+
+@media (min-width: 640px) {
+  .sm:will-change-auto {
+    will-change: "auto";
+  }
+}
+@media (min-width: 768px) {
+  .md:will-change-auto {
+    will-change: "auto";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:will-change-auto {
+    will-change: "auto";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:will-change-auto {
+    will-change: "auto";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:will-change-auto {
+    will-change: "auto";
+  }
+}
+.will-change-scroll {
+  will-change: "scroll-position";
+}
+
+@media (min-width: 640px) {
+  .sm:will-change-scroll {
+    will-change: "scroll-position";
+  }
+}
+@media (min-width: 768px) {
+  .md:will-change-scroll {
+    will-change: "scroll-position";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:will-change-scroll {
+    will-change: "scroll-position";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:will-change-scroll {
+    will-change: "scroll-position";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:will-change-scroll {
+    will-change: "scroll-position";
+  }
+}
+.will-change-contents {
+  will-change: "contents";
+}
+
+@media (min-width: 640px) {
+  .sm:will-change-contents {
+    will-change: "contents";
+  }
+}
+@media (min-width: 768px) {
+  .md:will-change-contents {
+    will-change: "contents";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:will-change-contents {
+    will-change: "contents";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:will-change-contents {
+    will-change: "contents";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:will-change-contents {
+    will-change: "contents";
+  }
+}
+.will-change-transform {
+  will-change: "transform";
+}
+
+@media (min-width: 640px) {
+  .sm:will-change-transform {
+    will-change: "transform";
+  }
+}
+@media (min-width: 768px) {
+  .md:will-change-transform {
+    will-change: "transform";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:will-change-transform {
+    will-change: "transform";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:will-change-transform {
+    will-change: "transform";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:will-change-transform {
+    will-change: "transform";
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
