@@ -186303,5 +186303,63 @@ border-l
     filter: saturate(2);
   }
 }
+.backdrop-sepia {
+  backdrop-filter: sepia(100%);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-sepia {
+    backdrop-filter: sepia(100%);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-sepia {
+    backdrop-filter: sepia(100%);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-sepia {
+    backdrop-filter: sepia(100%);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-sepia {
+    backdrop-filter: sepia(100%);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-sepia {
+    backdrop-filter: sepia(100%);
+  }
+}
+.backdrop-sepia-0 {
+  backdrop-filter: sepia(0);
+}
+
+@media (min-width: 640px) {
+  .sm:backdrop-sepia-0 {
+    backdrop-filter: sepia(0);
+  }
+}
+@media (min-width: 768px) {
+  .md:backdrop-sepia-0 {
+    backdrop-filter: sepia(0);
+  }
+}
+@media (min-width: 1024px) {
+  .lg:backdrop-sepia-0 {
+    backdrop-filter: sepia(0);
+  }
+}
+@media (min-width: 1280px) {
+  .xl:backdrop-sepia-0 {
+    backdrop-filter: sepia(0);
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:backdrop-sepia-0 {
+    backdrop-filter: sepia(0);
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
