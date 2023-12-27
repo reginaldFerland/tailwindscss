@@ -1,6 +1,7 @@
 @use "breakpoints";
 @use 'color';
 @use "size";
+@use 'pseudo-classes';
 
 @mixin variations($className, $createBaseClass: true) {
   @if $createBaseClass {
@@ -10,6 +11,10 @@
   }
 
   @include breakpoints.bp($className, false) {
+    @content;
+  }
+
+  @include pseudo-classes.pseudo($className) {
     @content;
   }
 
