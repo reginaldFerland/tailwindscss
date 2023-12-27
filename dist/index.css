@@ -173224,5 +173224,150 @@ border-l
     outline-style: double;
   }
 }
+.outline-offset-0 {
+  outline-offset: 0px;
+}
+
+@media (min-width: 640px) {
+  .sm:outline-offset-0 {
+    outline-offset: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .md:outline-offset-0 {
+    outline-offset: 0px;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:outline-offset-0 {
+    outline-offset: 0px;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:outline-offset-0 {
+    outline-offset: 0px;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:outline-offset-0 {
+    outline-offset: 0px;
+  }
+}
+.outline-offset-1 {
+  outline-offset: 1px;
+}
+
+@media (min-width: 640px) {
+  .sm:outline-offset-1 {
+    outline-offset: 1px;
+  }
+}
+@media (min-width: 768px) {
+  .md:outline-offset-1 {
+    outline-offset: 1px;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:outline-offset-1 {
+    outline-offset: 1px;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:outline-offset-1 {
+    outline-offset: 1px;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:outline-offset-1 {
+    outline-offset: 1px;
+  }
+}
+.outline-offset-2 {
+  outline-offset: 2px;
+}
+
+@media (min-width: 640px) {
+  .sm:outline-offset-2 {
+    outline-offset: 2px;
+  }
+}
+@media (min-width: 768px) {
+  .md:outline-offset-2 {
+    outline-offset: 2px;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:outline-offset-2 {
+    outline-offset: 2px;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:outline-offset-2 {
+    outline-offset: 2px;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:outline-offset-2 {
+    outline-offset: 2px;
+  }
+}
+.outline-offset-4 {
+  outline-offset: 4px;
+}
+
+@media (min-width: 640px) {
+  .sm:outline-offset-4 {
+    outline-offset: 4px;
+  }
+}
+@media (min-width: 768px) {
+  .md:outline-offset-4 {
+    outline-offset: 4px;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:outline-offset-4 {
+    outline-offset: 4px;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:outline-offset-4 {
+    outline-offset: 4px;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:outline-offset-4 {
+    outline-offset: 4px;
+  }
+}
+.outline-offset-8 {
+  outline-offset: 8px;
+}
+
+@media (min-width: 640px) {
+  .sm:outline-offset-8 {
+    outline-offset: 8px;
+  }
+}
+@media (min-width: 768px) {
+  .md:outline-offset-8 {
+    outline-offset: 8px;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:outline-offset-8 {
+    outline-offset: 8px;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:outline-offset-8 {
+    outline-offset: 8px;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:outline-offset-8 {
+    outline-offset: 8px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,15 @@
+@use '../core';
+
+$_offsets: (
+    "0": 0px,
+    "1": 1px,
+    "2": 2px,
+    "4": 4px,
+    "8": 8px,
+);
+
+@each $name, $offset in $_offsets {
+    @include core.variations('outline-offset-#{$name}') {
+        outline-offset: $offset;
+    }
+}
