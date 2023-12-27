@@ -1,11 +1,11 @@
-@use 'border-radius';
-@use 'border-width';
 @use 'border-color';
+@use 'border-radius';
 @use 'border-style';
-@use 'divide-width';
+@use 'border-width';
 @use 'divide-color';
 @use 'divide-style';
-@use 'outline-width';
+@use 'divide-width';
 @use 'outline-color';
-@use 'outline-style';
 @use 'outline-offset';
+@use 'outline-style';
+@use 'outline-width';
