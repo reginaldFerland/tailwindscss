@@ -1,0 +1,9 @@
+@use '../core';
+
+@include core.variations('backdrop-grayscale') {
+    backdrop-filter: grayscale(100%);
+}
+
+@include core.variations('backdrop-grayscale-0') {
+    backdrop-filter: grayscale(0);
+}
