@@ -181866,5 +181866,469 @@ border-l
     mix-blend-mode: "plus-lighter";
   }
 }
+.bg-blend-normal {
+  background-blend-mode: "normal";
+}
+
+@media (min-width: 640px) {
+  .sm:bg-blend-normal {
+    background-blend-mode: "normal";
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-blend-normal {
+    background-blend-mode: "normal";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-blend-normal {
+    background-blend-mode: "normal";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-blend-normal {
+    background-blend-mode: "normal";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-blend-normal {
+    background-blend-mode: "normal";
+  }
+}
+.bg-blend-multiply {
+  background-blend-mode: "multiply";
+}
+
+@media (min-width: 640px) {
+  .sm:bg-blend-multiply {
+    background-blend-mode: "multiply";
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-blend-multiply {
+    background-blend-mode: "multiply";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-blend-multiply {
+    background-blend-mode: "multiply";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-blend-multiply {
+    background-blend-mode: "multiply";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-blend-multiply {
+    background-blend-mode: "multiply";
+  }
+}
+.bg-blend-screen {
+  background-blend-mode: "screen";
+}
+
+@media (min-width: 640px) {
+  .sm:bg-blend-screen {
+    background-blend-mode: "screen";
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-blend-screen {
+    background-blend-mode: "screen";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-blend-screen {
+    background-blend-mode: "screen";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-blend-screen {
+    background-blend-mode: "screen";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-blend-screen {
+    background-blend-mode: "screen";
+  }
+}
+.bg-blend-overlay {
+  background-blend-mode: "overlay";
+}
+
+@media (min-width: 640px) {
+  .sm:bg-blend-overlay {
+    background-blend-mode: "overlay";
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-blend-overlay {
+    background-blend-mode: "overlay";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-blend-overlay {
+    background-blend-mode: "overlay";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-blend-overlay {
+    background-blend-mode: "overlay";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-blend-overlay {
+    background-blend-mode: "overlay";
+  }
+}
+.bg-blend-darken {
+  background-blend-mode: "darken";
+}
+
+@media (min-width: 640px) {
+  .sm:bg-blend-darken {
+    background-blend-mode: "darken";
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-blend-darken {
+    background-blend-mode: "darken";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-blend-darken {
+    background-blend-mode: "darken";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-blend-darken {
+    background-blend-mode: "darken";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-blend-darken {
+    background-blend-mode: "darken";
+  }
+}
+.bg-blend-lighten {
+  background-blend-mode: "lighten";
+}
+
+@media (min-width: 640px) {
+  .sm:bg-blend-lighten {
+    background-blend-mode: "lighten";
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-blend-lighten {
+    background-blend-mode: "lighten";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-blend-lighten {
+    background-blend-mode: "lighten";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-blend-lighten {
+    background-blend-mode: "lighten";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-blend-lighten {
+    background-blend-mode: "lighten";
+  }
+}
+.bg-blend-color-dodge {
+  background-blend-mode: "color-dodge";
+}
+
+@media (min-width: 640px) {
+  .sm:bg-blend-color-dodge {
+    background-blend-mode: "color-dodge";
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-blend-color-dodge {
+    background-blend-mode: "color-dodge";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-blend-color-dodge {
+    background-blend-mode: "color-dodge";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-blend-color-dodge {
+    background-blend-mode: "color-dodge";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-blend-color-dodge {
+    background-blend-mode: "color-dodge";
+  }
+}
+.bg-blend-color-burn {
+  background-blend-mode: "color-burn";
+}
+
+@media (min-width: 640px) {
+  .sm:bg-blend-color-burn {
+    background-blend-mode: "color-burn";
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-blend-color-burn {
+    background-blend-mode: "color-burn";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-blend-color-burn {
+    background-blend-mode: "color-burn";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-blend-color-burn {
+    background-blend-mode: "color-burn";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-blend-color-burn {
+    background-blend-mode: "color-burn";
+  }
+}
+.bg-blend-hard-light {
+  background-blend-mode: "hard-light";
+}
+
+@media (min-width: 640px) {
+  .sm:bg-blend-hard-light {
+    background-blend-mode: "hard-light";
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-blend-hard-light {
+    background-blend-mode: "hard-light";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-blend-hard-light {
+    background-blend-mode: "hard-light";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-blend-hard-light {
+    background-blend-mode: "hard-light";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-blend-hard-light {
+    background-blend-mode: "hard-light";
+  }
+}
+.bg-blend-soft-light {
+  background-blend-mode: "soft-light";
+}
+
+@media (min-width: 640px) {
+  .sm:bg-blend-soft-light {
+    background-blend-mode: "soft-light";
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-blend-soft-light {
+    background-blend-mode: "soft-light";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-blend-soft-light {
+    background-blend-mode: "soft-light";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-blend-soft-light {
+    background-blend-mode: "soft-light";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-blend-soft-light {
+    background-blend-mode: "soft-light";
+  }
+}
+.bg-blend-difference {
+  background-blend-mode: "difference";
+}
+
+@media (min-width: 640px) {
+  .sm:bg-blend-difference {
+    background-blend-mode: "difference";
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-blend-difference {
+    background-blend-mode: "difference";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-blend-difference {
+    background-blend-mode: "difference";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-blend-difference {
+    background-blend-mode: "difference";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-blend-difference {
+    background-blend-mode: "difference";
+  }
+}
+.bg-blend-exclusion {
+  background-blend-mode: "exclusion";
+}
+
+@media (min-width: 640px) {
+  .sm:bg-blend-exclusion {
+    background-blend-mode: "exclusion";
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-blend-exclusion {
+    background-blend-mode: "exclusion";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-blend-exclusion {
+    background-blend-mode: "exclusion";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-blend-exclusion {
+    background-blend-mode: "exclusion";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-blend-exclusion {
+    background-blend-mode: "exclusion";
+  }
+}
+.bg-blend-hue {
+  background-blend-mode: "hue";
+}
+
+@media (min-width: 640px) {
+  .sm:bg-blend-hue {
+    background-blend-mode: "hue";
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-blend-hue {
+    background-blend-mode: "hue";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-blend-hue {
+    background-blend-mode: "hue";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-blend-hue {
+    background-blend-mode: "hue";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-blend-hue {
+    background-blend-mode: "hue";
+  }
+}
+.bg-blend-saturation {
+  background-blend-mode: "saturation";
+}
+
+@media (min-width: 640px) {
+  .sm:bg-blend-saturation {
+    background-blend-mode: "saturation";
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-blend-saturation {
+    background-blend-mode: "saturation";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-blend-saturation {
+    background-blend-mode: "saturation";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-blend-saturation {
+    background-blend-mode: "saturation";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-blend-saturation {
+    background-blend-mode: "saturation";
+  }
+}
+.bg-blend-color {
+  background-blend-mode: "color";
+}
+
+@media (min-width: 640px) {
+  .sm:bg-blend-color {
+    background-blend-mode: "color";
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-blend-color {
+    background-blend-mode: "color";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-blend-color {
+    background-blend-mode: "color";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-blend-color {
+    background-blend-mode: "color";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-blend-color {
+    background-blend-mode: "color";
+  }
+}
+.bg-blend-luminosity {
+  background-blend-mode: "luminosity";
+}
+
+@media (min-width: 640px) {
+  .sm:bg-blend-luminosity {
+    background-blend-mode: "luminosity";
+  }
+}
+@media (min-width: 768px) {
+  .md:bg-blend-luminosity {
+    background-blend-mode: "luminosity";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:bg-blend-luminosity {
+    background-blend-mode: "luminosity";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:bg-blend-luminosity {
+    background-blend-mode: "luminosity";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:bg-blend-luminosity {
+    background-blend-mode: "luminosity";
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
