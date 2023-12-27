@@ -186477,5 +186477,63 @@ border-l
     table-layout: fixed;
   }
 }
+.caption-top {
+  caption-side: top;
+}
+
+@media (min-width: 640px) {
+  .sm:caption-top {
+    caption-side: top;
+  }
+}
+@media (min-width: 768px) {
+  .md:caption-top {
+    caption-side: top;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:caption-top {
+    caption-side: top;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:caption-top {
+    caption-side: top;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:caption-top {
+    caption-side: top;
+  }
+}
+.caption-bottom {
+  caption-side: bottom;
+}
+
+@media (min-width: 640px) {
+  .sm:caption-bottom {
+    caption-side: bottom;
+  }
+}
+@media (min-width: 768px) {
+  .md:caption-bottom {
+    caption-side: bottom;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:caption-bottom {
+    caption-side: bottom;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:caption-bottom {
+    caption-side: bottom;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:caption-bottom {
+    caption-side: bottom;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

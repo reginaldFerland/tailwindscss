@@ -1,0 +1,9 @@
+@use '../core';
+
+@include core.variations('caption-top') {
+    caption-side: top;
+}
+
+@include core.variations('caption-bottom') {
+    caption-side: bottom;
+}
