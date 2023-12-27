@@ -237246,5 +237246,63 @@ border-l
     scroll-snap-align: none;
   }
 }
+.snap-normal {
+  scroll-snap-stop: normal;
+}
+
+@media (min-width: 640px) {
+  .sm:snap-normal {
+    scroll-snap-stop: normal;
+  }
+}
+@media (min-width: 768px) {
+  .md:snap-normal {
+    scroll-snap-stop: normal;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:snap-normal {
+    scroll-snap-stop: normal;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:snap-normal {
+    scroll-snap-stop: normal;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:snap-normal {
+    scroll-snap-stop: normal;
+  }
+}
+.snap-always {
+  scroll-snap-stop: always;
+}
+
+@media (min-width: 640px) {
+  .sm:snap-always {
+    scroll-snap-stop: always;
+  }
+}
+@media (min-width: 768px) {
+  .md:snap-always {
+    scroll-snap-stop: always;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:snap-always {
+    scroll-snap-stop: always;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:snap-always {
+    scroll-snap-stop: always;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:snap-always {
+    scroll-snap-stop: always;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

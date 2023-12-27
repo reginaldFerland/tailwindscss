@@ -1,0 +1,12 @@
+@use '../core';
+
+$_scroll: (
+    "normal": normal,
+    "always": always,
+);
+
+@each $name, $value in $_scroll {
+    @include core.variations('snap-#{$name}') {
+        scroll-snap-stop: $value;
+    }
+}
