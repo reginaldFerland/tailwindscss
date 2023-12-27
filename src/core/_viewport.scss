@@ -1,0 +1,22 @@
+
+
+@mixin screens($className) {
+    @media (orientation: portrait) {
+        portrait:#{$className} {
+            @content;
+        }
+    }
+
+    @media (orientation: landscape) {
+        landscape:#{$className} {
+            @content;
+        }
+    }
+
+    @media print {
+        print:#{$className} {
+            @content;
+        }
+    }
+
+}

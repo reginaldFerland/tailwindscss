@@ -4,6 +4,7 @@
 @use 'pseudo-classes';
 @use 'pseudo-elements';
 @use 'prefers';
+@use 'viewport';
 
 @mixin variations($className, $createBaseClass: true) {
     @if $createBaseClass {
@@ -25,6 +26,10 @@
     }
 
     @include prefers.prefers($className) {
+        @content;
+    }
+
+    @include viewport.screens($className) {
         @content;
     }
 
