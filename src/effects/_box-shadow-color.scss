@@ -1,0 +1,3 @@
+@use '../core';
+
+@include core.color-variations2('shadow', '--tw-shadow-color');
