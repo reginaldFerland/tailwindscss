@@ -1,0 +1,9 @@
+@use '../core';
+
+@include core.variations('pointer-events-none') {
+    pointer-events: none;
+}
+
+@include core.variations('pointer-events-auto') {
+    pointer-events: auto;
+}
