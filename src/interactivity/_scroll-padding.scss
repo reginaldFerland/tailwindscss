@@ -1,0 +1,42 @@
+@use '../core';
+@use '../core/size';
+
+@each $name, $value in size.$size {
+    @include core.variations('scroll-p-#{$name}') {
+        scroll-padding: $value;
+    }
+
+    @include core.variations('scroll-px-#{$name}') {
+        scroll-padding-left: $value;
+        scroll-padding-right: $value;
+    }
+
+    @include core.variations('scroll-py-#{$name}') {
+        scroll-padding-top: $value;
+        scroll-padding-bottom: $value;
+    }
+
+    @include core.variations('scroll-ps-#{$name}') {
+        scroll-padding-inline-start: $value;
+    }
+
+    @include core.variations('scroll-pe-#{$name}') {
+        scroll-padding-inline-end: $value;
+    }
+
+    @include core.variations('scroll-pb-#{$name}') {
+        scroll-padding-bottom: $value;
+    }
+
+    @include core.variations('scroll-pl-#{$name}') {
+        scroll-padding-left: $value;
+    }
+
+    @include core.variations('scroll-pr-#{$name}') {
+        scroll-padding-right: $value;
+    }
+
+    @include core.variations('scroll-pt-#{$name}') {
+        scroll-padding-top: $value;
+    }
+}
