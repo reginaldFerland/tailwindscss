@@ -3,6 +3,7 @@
 @use "size";
 @use 'pseudo-classes';
 @use 'pseudo-elements';
+@use 'prefers-color';
 
 @mixin variations($className, $createBaseClass: true) {
     @if $createBaseClass {
@@ -20,6 +21,10 @@
     }
 
     @include pseudo-elements.pseudo($className) {
+        @content;
+    }
+
+    @include prefers-color.prefers-color-scheme($className) {
         @content;
     }
 
