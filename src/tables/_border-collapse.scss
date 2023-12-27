@@ -1,0 +1,9 @@
+@use '../core';
+
+@include core.variations('border-collapse') {
+    border-collapse: collapse;
+}
+
+@include core.variations('border-separate') {
+    border-collapse: separate;
+}
