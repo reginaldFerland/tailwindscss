@@ -1,0 +1,14 @@
+@use '../core';
+
+$_snaps: (
+    'start': start,
+    'end': end,
+    'center': center,
+    'align-none': none,
+);
+
+@each $name, $value in $_snaps {
+    @include core.variations('scroll-#{$name}') {
+        scroll-snap-align: $value;
+    }
+}

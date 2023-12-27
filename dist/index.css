@@ -237130,5 +237130,121 @@ border-l
     scroll-padding-top: 100%;
   }
 }
+.scroll-start {
+  scroll-snap-align: start;
+}
+
+@media (min-width: 640px) {
+  .sm:scroll-start {
+    scroll-snap-align: start;
+  }
+}
+@media (min-width: 768px) {
+  .md:scroll-start {
+    scroll-snap-align: start;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:scroll-start {
+    scroll-snap-align: start;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:scroll-start {
+    scroll-snap-align: start;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:scroll-start {
+    scroll-snap-align: start;
+  }
+}
+.scroll-end {
+  scroll-snap-align: end;
+}
+
+@media (min-width: 640px) {
+  .sm:scroll-end {
+    scroll-snap-align: end;
+  }
+}
+@media (min-width: 768px) {
+  .md:scroll-end {
+    scroll-snap-align: end;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:scroll-end {
+    scroll-snap-align: end;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:scroll-end {
+    scroll-snap-align: end;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:scroll-end {
+    scroll-snap-align: end;
+  }
+}
+.scroll-center {
+  scroll-snap-align: center;
+}
+
+@media (min-width: 640px) {
+  .sm:scroll-center {
+    scroll-snap-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .md:scroll-center {
+    scroll-snap-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:scroll-center {
+    scroll-snap-align: center;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:scroll-center {
+    scroll-snap-align: center;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:scroll-center {
+    scroll-snap-align: center;
+  }
+}
+.scroll-align-none {
+  scroll-snap-align: none;
+}
+
+@media (min-width: 640px) {
+  .sm:scroll-align-none {
+    scroll-snap-align: none;
+  }
+}
+@media (min-width: 768px) {
+  .md:scroll-align-none {
+    scroll-snap-align: none;
+  }
+}
+@media (min-width: 1024px) {
+  .lg:scroll-align-none {
+    scroll-snap-align: none;
+  }
+}
+@media (min-width: 1280px) {
+  .xl:scroll-align-none {
+    scroll-snap-align: none;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:scroll-align-none {
+    scroll-snap-align: none;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
