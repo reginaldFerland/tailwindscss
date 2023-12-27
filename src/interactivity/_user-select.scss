@@ -1,0 +1,17 @@
+@use '../core';
+
+$_selects: (
+    'none': 'none',
+    'text': 'text',
+    'all': 'all',
+    'auto': 'auto',
+);
+
+@each $name, $value in $_selects {
+    @include core.variations('select-#{$name}') {
+        user-select: $value;
+        -webkit-user-select: $value;
+        -moz-user-select: $value;
+        -ms-user-select: $value;
+    }
+}

@@ -237768,5 +237768,193 @@ border-l
     touch-action: "manipulation";
   }
 }
+.select-none {
+  user-select: "none";
+  -webkit-user-select: "none";
+  -moz-user-select: "none";
+  -ms-user-select: "none";
+}
+
+@media (min-width: 640px) {
+  .sm:select-none {
+    user-select: "none";
+    -webkit-user-select: "none";
+    -moz-user-select: "none";
+    -ms-user-select: "none";
+  }
+}
+@media (min-width: 768px) {
+  .md:select-none {
+    user-select: "none";
+    -webkit-user-select: "none";
+    -moz-user-select: "none";
+    -ms-user-select: "none";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:select-none {
+    user-select: "none";
+    -webkit-user-select: "none";
+    -moz-user-select: "none";
+    -ms-user-select: "none";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:select-none {
+    user-select: "none";
+    -webkit-user-select: "none";
+    -moz-user-select: "none";
+    -ms-user-select: "none";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:select-none {
+    user-select: "none";
+    -webkit-user-select: "none";
+    -moz-user-select: "none";
+    -ms-user-select: "none";
+  }
+}
+.select-text {
+  user-select: "text";
+  -webkit-user-select: "text";
+  -moz-user-select: "text";
+  -ms-user-select: "text";
+}
+
+@media (min-width: 640px) {
+  .sm:select-text {
+    user-select: "text";
+    -webkit-user-select: "text";
+    -moz-user-select: "text";
+    -ms-user-select: "text";
+  }
+}
+@media (min-width: 768px) {
+  .md:select-text {
+    user-select: "text";
+    -webkit-user-select: "text";
+    -moz-user-select: "text";
+    -ms-user-select: "text";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:select-text {
+    user-select: "text";
+    -webkit-user-select: "text";
+    -moz-user-select: "text";
+    -ms-user-select: "text";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:select-text {
+    user-select: "text";
+    -webkit-user-select: "text";
+    -moz-user-select: "text";
+    -ms-user-select: "text";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:select-text {
+    user-select: "text";
+    -webkit-user-select: "text";
+    -moz-user-select: "text";
+    -ms-user-select: "text";
+  }
+}
+.select-all {
+  user-select: "all";
+  -webkit-user-select: "all";
+  -moz-user-select: "all";
+  -ms-user-select: "all";
+}
+
+@media (min-width: 640px) {
+  .sm:select-all {
+    user-select: "all";
+    -webkit-user-select: "all";
+    -moz-user-select: "all";
+    -ms-user-select: "all";
+  }
+}
+@media (min-width: 768px) {
+  .md:select-all {
+    user-select: "all";
+    -webkit-user-select: "all";
+    -moz-user-select: "all";
+    -ms-user-select: "all";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:select-all {
+    user-select: "all";
+    -webkit-user-select: "all";
+    -moz-user-select: "all";
+    -ms-user-select: "all";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:select-all {
+    user-select: "all";
+    -webkit-user-select: "all";
+    -moz-user-select: "all";
+    -ms-user-select: "all";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:select-all {
+    user-select: "all";
+    -webkit-user-select: "all";
+    -moz-user-select: "all";
+    -ms-user-select: "all";
+  }
+}
+.select-auto {
+  user-select: "auto";
+  -webkit-user-select: "auto";
+  -moz-user-select: "auto";
+  -ms-user-select: "auto";
+}
+
+@media (min-width: 640px) {
+  .sm:select-auto {
+    user-select: "auto";
+    -webkit-user-select: "auto";
+    -moz-user-select: "auto";
+    -ms-user-select: "auto";
+  }
+}
+@media (min-width: 768px) {
+  .md:select-auto {
+    user-select: "auto";
+    -webkit-user-select: "auto";
+    -moz-user-select: "auto";
+    -ms-user-select: "auto";
+  }
+}
+@media (min-width: 1024px) {
+  .lg:select-auto {
+    user-select: "auto";
+    -webkit-user-select: "auto";
+    -moz-user-select: "auto";
+    -ms-user-select: "auto";
+  }
+}
+@media (min-width: 1280px) {
+  .xl:select-auto {
+    user-select: "auto";
+    -webkit-user-select: "auto";
+    -moz-user-select: "auto";
+    -ms-user-select: "auto";
+  }
+}
+@media (min-width: 1536px) {
+  .xxl:select-auto {
+    user-select: "auto";
+    -webkit-user-select: "auto";
+    -moz-user-select: "auto";
+    -ms-user-select: "auto";
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
