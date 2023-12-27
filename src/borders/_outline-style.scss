@@ -1,0 +1,23 @@
+@use '../core';
+
+$_styles: (
+    "solid": solid,
+    "dashed": dashed,
+    "dotted": dotted,
+    "double": double,
+);
+
+@include core.variations('outline') {
+    outline-style: solid;
+}
+
+@include core.variations('outline-none') {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+@each $name, $style in $_styles {
+    @include core.variations('outline-#{$name}') {
+        outline-style: $style;
+    }
+}
