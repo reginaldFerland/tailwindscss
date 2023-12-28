@@ -1,7 +1,6 @@
 @use '../core';
-@use '../core/size';
 
-@each $size, $value in size.$size {
+@each $size, $value in core.$size-size {
     @include core.variations('basis-#{$size}') {
         flex-basis: #{$value};
     }

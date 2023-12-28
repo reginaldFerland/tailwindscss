@@ -1,7 +1,6 @@
 @use '../core';
-@use '../core/size';
 
-@each $key, $value in size.$size {
+@each $key, $value in core.$size-size {
     @include core.variations('p-#{$key}') {
         padding: $value;
     }

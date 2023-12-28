@@ -1,7 +1,6 @@
 @use '../core';
-@use '../core/size';
 
-@each $name, $value in size.$size {
+@each $name, $value in core.$size-size {
     @include core.variations('scroll-p-#{$name}') {
         scroll-padding: $value;
     }

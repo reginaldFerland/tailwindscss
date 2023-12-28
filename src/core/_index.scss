@@ -1,6 +1,6 @@
 @use "breakpoints";
 @use 'color';
-@use "size";
+@forward "size" as size-*;
 @use 'pseudo-classes';
 @use 'pseudo-elements';
 @use 'prefers';

@@ -1,5 +1,4 @@
 @use '../core';
-@use '../core/size';
 
 $_positions: (
     'static': 'static',
@@ -24,7 +23,7 @@ $_directions: (
 );
 
 @each $name, $dir in $_directions {
-    @each $size, $value in size.$size {
+    @each $size, $value in core.$size-size {
         @include core.variations('#{$name}-#{$size}') {
             #{$dir}: #{$value};
         }
@@ -37,14 +36,14 @@ $_inset-directions: (
 );
 
 @each $name, $dir in $_inset-directions {
-    @each $size, $value in size.$size {
+    @each $size, $value in core.$size-size {
         @include core.variations('#{$name}-#{$size}') {
             inset-inline-#{$dir}: #{$value};
         }
     }
 }
 
-@each $size, $value in size.$size {
+@each $size, $value in core.$size-size {
     @include core.variations('inset-x-#{$size}') {
         left: #{$value};
         right: #{$value};

@@ -1,13 +1,12 @@
 @use '../core';
-@use '../core/size';
 
-@each $key, $value in size.$size {
+@each $key, $value in core.$size-size {
     @include core.variations('max-w-#{$key}') {
         max-width: $value;
     }
 }
 
-$sizes: (
+$_sizes: (
     'full': 100%,
     'screen': 100vw,
     'min': min-content,
@@ -19,7 +18,7 @@ $sizes: (
     'dvw': 100dvw,
 );
 
-@each $key, $value in $sizes {
+@each $key, $value in $_sizes {
     @include core.variations('max-w-#{$key}') {
         max-width: $value;
     }
