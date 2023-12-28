@@ -6,6 +6,9 @@ You can build the css file to import with the sass command line tool.
 Simply run the following command and the file will be put into the dist folder:
 sass src/index.scss dist/index.css
 
+To minimize run
+sass src/index.scss dist/index.min.css -s=compresssed
+
 ## Classes being skipped / deprioritized
 * Background image classes, need to investigate design approach
 * Background gradent classes, need to investigate design approach
